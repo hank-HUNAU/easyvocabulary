@@ -984,14 +984,6 @@ function renderCard(){
   backTag.textContent = `Unit ${word.unit}`;
   back.appendChild(backTag);
 
-  const backAudio = document.createElement('div');
-  backAudio.className = 'card-audio-top';
-  backAudio.innerHTML = `
-    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">英式</span></button>
-    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">美式</span></button>
-  `;
-  back.appendChild(backAudio);
-
   State.settings.backFields.forEach(f => {
     if(word[f]){
       const el = document.createElement('div');
