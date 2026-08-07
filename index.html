@@ -202,7 +202,7 @@ body{
   backface-visibility:hidden;-webkit-backface-visibility:hidden;
   border-radius:var(--radius-lg);padding:48px 24px 24px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
-  box-shadow:var(--shadow-card);
+  box-shadow:var(--shadow-card);overflow:hidden;
 }
 .card-front{background:var(--card)}
 .card-back{background:var(--card);transform:rotateY(180deg)}
@@ -235,6 +235,7 @@ body{
 .rating-area{
   flex-shrink:0;padding:12px 16px;display:none;
   flex-direction:column;gap:8px;
+  position:relative;z-index:2;
 }
 .rating-area.show{display:flex}
 .rating-row{display:flex;gap:8px}
@@ -242,6 +243,7 @@ body{
   flex:1;padding:14px 8px;text-align:center;border:none;border-radius:var(--radius);
   font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s;font-family:inherit;
   display:flex;flex-direction:column;align-items:center;gap:2px;
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;
 }
 .rate-btn:active{opacity:.7}
 .rate-btn .rate-label{font-size:15px}
@@ -254,6 +256,7 @@ body{
 /* Flip prompt */
 .flip-prompt{
   flex-shrink:0;padding:12px 16px;text-align:center;
+  position:relative;z-index:2;
 }
 .flip-prompt .flip-btn{
   padding:14px 48px;background:var(--bg2);color:var(--text);
@@ -941,6 +944,8 @@ function renderCard(){
   State.isFlipped = false;
   const inner = document.getElementById('card-inner');
   inner.classList.remove('flipped');
+  document.getElementById('card-front').style.pointerEvents = 'auto';
+  document.getElementById('card-back').style.pointerEvents = 'none';
 
   // Build front
   const front = document.getElementById('card-front');
@@ -1032,6 +1037,8 @@ function flipCard(){
   if(State.isFlipped) return;
   State.isFlipped = true;
   document.getElementById('card-inner').classList.add('flipped');
+  document.getElementById('card-front').style.pointerEvents = 'none';
+  document.getElementById('card-back').style.pointerEvents = 'auto';
   document.getElementById('flip-prompt').style.display = 'none';
   document.getElementById('rating-area').classList.add('show');
   document.getElementById('card-hint').textContent = '';
