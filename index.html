@@ -531,8 +531,8 @@ const SPEAKER_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" 
 
 const State = {
   settings: {
-    frontFields: ['word'],
-    backFields: ['uk_pron','us_pron','part','definition'],
+    frontFields: ['uk_pron','word'],
+    backFields: ['part','definition'],
     mode: 'count',
     dailyCount: 20,
     selectedUnits: [],
@@ -960,8 +960,8 @@ function renderCard(){
   const frontAudio = document.createElement('div');
   frontAudio.className = 'card-audio-top';
   frontAudio.innerHTML = `
-    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">UK</span></button>
-    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">US</span></button>
+    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">英式</span></button>
+    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">美式</span></button>
   `;
   front.appendChild(frontAudio);
 
@@ -987,8 +987,8 @@ function renderCard(){
   const backAudio = document.createElement('div');
   backAudio.className = 'card-audio-top';
   backAudio.innerHTML = `
-    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">UK</span></button>
-    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">US</span></button>
+    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">英式</span></button>
+    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">美式</span></button>
   `;
   back.appendChild(backAudio);
 
