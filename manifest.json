@@ -1,0 +1,15 @@
+{
+  "name": "4000 EEW Book 1 - Anki Flashcards",
+  "short_name": "4000EEW",
+  "description": "4000 Essential English Words Book 1 间隔重复记忆卡片",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2F2F7",
+  "theme_color": "#007AFF",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

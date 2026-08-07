@@ -6,6 +6,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#F2F2F7">
+<meta name="apple-mobile-web-app-title" content="4000EEW">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
 <title>4000 EEW Book 1 - Anki Flashcards</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -213,7 +216,21 @@ body{
 .card-def{font-size:17px;color:var(--text);text-align:center;line-height:1.5;margin-top:8px;max-width:100%}
 .card-unit-tag{position:absolute;top:14px;left:16px;font-size:12px;color:var(--text2);font-weight:500}
 
-/* Audio buttons - top right corner */
+/* Audio buttons - back card bottom */
+.card-audio-bottom{
+  display:flex;gap:12px;margin-top:20px;justify-content:center;
+}
+.audio-btn-lg{
+  height:36px;border-radius:18px;border:none;
+  background:var(--bg3);color:var(--primary);
+  font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  gap:5px;padding:0 16px;transition:all .15s;font-weight:600;font-family:inherit;
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+}
+.audio-btn-lg svg{width:16px;height:16px;flex-shrink:0}
+.audio-btn-lg:active{transform:scale(.92);opacity:.7}
+
+/* Audio buttons - top right corner (legacy, unused on front) */
 .card-audio-top{
   position:absolute;top:10px;right:12px;
   display:flex;gap:6px;z-index:5;
@@ -355,6 +372,35 @@ body{
 }
 .toast.show{transform:translateX(-50%) translateY(0)}
 
+/* ===== Study Mini Stats ===== */
+.study-mini-stats{
+  display:flex;justify-content:center;gap:16px;
+  padding:6px 16px;background:var(--bg);flex-shrink:0;
+}
+.mini-stat{display:flex;align-items:center;gap:4px;font-size:12px;color:var(--text2)}
+.mini-stat .mini-num{font-size:14px;font-weight:700}
+.mini-stat .mini-num.new-c{color:var(--primary)}
+.mini-stat .mini-num.rev-c{color:var(--orange)}
+.mini-stat .mini-num.again-c{color:var(--red)}
+
+/* ===== Global Theme Toggle (study/stats) ===== */
+.topbar-theme-btn,.stats-theme-btn{
+  width:34px;height:34px;display:flex;align-items:center;justify-content:center;
+  background:transparent;border:none;color:var(--primary);border-radius:8px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.topbar-theme-btn:active,.stats-theme-btn:active{opacity:.5}
+.topbar-theme-btn svg,.stats-theme-btn svg{width:18px;height:18px}
+.stats-theme-btn{margin-left:auto}
+
+/* ===== Audio Error Toast ===== */
+.audio-error-toast{
+  position:fixed;bottom:140px;left:50%;transform:translateX(-50%) translateY(100px);
+  background:rgba(255,59,48,.9);color:#fff;padding:8px 16px;border-radius:16px;
+  font-size:13px;z-index:101;transition:transform .3s ease;pointer-events:none;
+}
+.audio-error-toast.show{transform:translateX(-50%) translateY(0)}
+
 /* ===== Responsive ===== */
 @media(min-width:768px){
   #home-screen,#stats-screen{max-width:600px;margin:0 auto;width:100%}
@@ -429,10 +475,11 @@ body{
       <div class="ios-toggle" id="toggle-autoplay"></div>
     </div>
     <div class="toggle-row">
-      <span class="toggle-label">默认口音</span>
-      <div class="seg-control" id="accent-control">
-        <button class="seg-btn" data-accent="us">美音</button>
-        <button class="seg-btn active" data-accent="uk">英音</button>
+      <span class="toggle-label">音频按钮显示</span>
+      <div class="seg-control" id="audio-display-control">
+        <button class="seg-btn" data-display="uk">英音</button>
+        <button class="seg-btn" data-display="us">美音</button>
+        <button class="seg-btn active" data-display="both">全部</button>
       </div>
     </div>
   </div>
@@ -449,7 +496,13 @@ body{
       <span class="cur" id="prog-current">0</span>/<span id="prog-total">0</span>
       <div style="font-size:11px;margin-top:2px" id="prog-phase">新学</div>
     </div>
-    <button class="topbar-btn" id="study-stats"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="11" width="3" height="7" rx="0.5"/><rect x="10.5" y="6" width="3" height="12" rx="0.5"/><rect x="16" y="14" width="3" height="4" rx="0.5"/></svg></button>
+    <button class="topbar-theme-btn" id="study-theme-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button>
+  </div>
+
+  <div class="study-mini-stats" id="study-mini-stats">
+    <div class="mini-stat"><span class="mini-num new-c" id="ms-new">0</span>新学</div>
+    <div class="mini-stat"><span class="mini-num rev-c" id="ms-review">0</span>复习</div>
+    <div class="mini-stat"><span class="mini-num again-c" id="ms-again">0</span>重学</div>
   </div>
 
   <div class="card-area" id="card-area">
@@ -492,6 +545,7 @@ body{
   <div class="stats-header">
     <button class="stats-back" id="stats-back"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
     <div class="stats-title">学习统计</div>
+    <button class="stats-theme-btn" id="stats-theme-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button>
   </div>
   <div class="stats-grid">
     <div class="stat-card"><div class="num" id="st-total">0</div><div class="lbl">总单词数</div></div>
@@ -531,6 +585,7 @@ body{
 </div>
 
 <div class="toast" id="toast"></div>
+<div class="audio-error-toast" id="audio-error-toast"></div>
 
 <script src="data.js"></script>
 <script>
@@ -564,7 +619,7 @@ const State = {
     dailyCount: 20,
     selectedUnits: [],
     autoPlay: false,
-    accent: 'uk'
+    audioDisplay: 'both'
   },
   cards: {},
   studyQueue: [],
@@ -915,13 +970,13 @@ function initHomeScreen(){
     saveState();
   });
 
-  document.querySelectorAll('#accent-control .seg-btn').forEach(btn => {
-    if(btn.dataset.accent === State.settings.accent) btn.classList.add('active');
+  document.querySelectorAll('#audio-display-control .seg-btn').forEach(btn => {
+    if(btn.dataset.display === State.settings.audioDisplay) btn.classList.add('active');
     else btn.classList.remove('active');
     btn.addEventListener('click', () => {
-      document.querySelectorAll('#accent-control .seg-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('#audio-display-control .seg-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      State.settings.accent = btn.dataset.accent;
+      State.settings.audioDisplay = btn.dataset.display;
       saveState();
     });
   });
@@ -1007,7 +1062,7 @@ function renderCard(){
   document.getElementById('card-front').style.pointerEvents = 'auto';
   document.getElementById('card-back').style.pointerEvents = 'none';
 
-  // Build front
+  // Build front (no audio buttons)
   const front = document.getElementById('card-front');
   front.innerHTML = '';
 
@@ -1015,15 +1070,6 @@ function renderCard(){
   frontTag.className = 'card-unit-tag';
   frontTag.textContent = `Unit ${word.unit}`;
   front.appendChild(frontTag);
-
-  // Audio buttons in top-right
-  const frontAudio = document.createElement('div');
-  frontAudio.className = 'card-audio-top';
-  frontAudio.innerHTML = `
-    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">英式</span></button>
-    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">美式</span></button>
-  `;
-  front.appendChild(frontAudio);
 
   State.settings.frontFields.forEach(f => {
     if(word[f]){
@@ -1035,7 +1081,7 @@ function renderCard(){
     }
   });
 
-  // Build back
+  // Build back (with audio buttons below content)
   const back = document.getElementById('card-back');
   back.innerHTML = '';
 
@@ -1054,8 +1100,24 @@ function renderCard(){
     }
   });
 
+  // Audio buttons on back (below content, larger)
+  const display = State.settings.audioDisplay;
+  let audioHTML = '';
+  if(display === 'uk' || display === 'both'){
+    audioHTML += `<button class="audio-btn-lg" data-audio="uk">${SPEAKER_SVG}<span>英式</span></button>`;
+  }
+  if(display === 'us' || display === 'both'){
+    audioHTML += `<button class="audio-btn-lg" data-audio="us">${SPEAKER_SVG}<span>美式</span></button>`;
+  }
+  if(audioHTML){
+    const backAudio = document.createElement('div');
+    backAudio.className = 'card-audio-bottom';
+    backAudio.innerHTML = audioHTML;
+    back.appendChild(backAudio);
+  }
+
   // Audio button handlers
-  document.querySelectorAll('.audio-btn').forEach(btn => {
+  document.querySelectorAll('.audio-btn-lg').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       playAudio(word, btn.dataset.audio);
@@ -1069,13 +1131,25 @@ function renderCard(){
 
   document.getElementById('flip-prompt').style.display = '';
   document.getElementById('rating-area').classList.remove('show');
-  document.getElementById('card-hint').textContent = '点击卡片查看释义';
+  document.getElementById('card-hint').textContent = '尝试读出这个词，翻面验证';
 
   if(State.settings.autoPlay){
-    setTimeout(() => playAudio(word, State.settings.accent), 300);
+    const apAccent = State.settings.audioDisplay === 'us' ? 'us' : 'uk';
+    setTimeout(() => playAudio(word, apAccent), 300);
   }
 
   updateRatingPreviews(item.id);
+  updateMiniStats();
+}
+
+function updateMiniStats(){
+  const s = State.sessionStats;
+  const elNew = document.getElementById('ms-new');
+  const elRev = document.getElementById('ms-review');
+  const elAgain = document.getElementById('ms-again');
+  if(elNew) elNew.textContent = s.new;
+  if(elRev) elRev.textContent = s.review;
+  if(elAgain) elAgain.textContent = s.again;
 }
 
 function updateRatingPreviews(wordId){
@@ -1098,7 +1172,7 @@ function flipCard(){
   if(State.settings.autoPlay){
     const item = State.studyQueue[State.studyIndex];
     const word = VOCAB_DATA[item.id];
-    if(word) setTimeout(() => playAudio(word, State.settings.accent), 400);
+    if(word) setTimeout(() => { const a = State.settings.audioDisplay === 'us' ? 'us' : 'uk'; playAudio(word, a); }, 400);
   }
 }
 
@@ -1200,12 +1274,23 @@ function showComplete(){
 
 // ===== Audio =====
 let currentAudio = null;
+let audioErrorTimer = null;
 function playAudio(word, accent){
   if(currentAudio){ currentAudio.pause(); currentAudio = null; }
   const path = accent === 'uk' ? word.uk_audio : word.us_audio;
-  if(!path) return;
+  if(!path){ showAudioError('音频路径缺失'); return; }
   currentAudio = new Audio(path);
-  currentAudio.play().catch(() => {});
+  currentAudio.addEventListener('error', () => showAudioError('音频加载失败'));
+  currentAudio.play().catch(() => showAudioError('音频播放失败'));
+}
+
+function showAudioError(msg){
+  const toast = document.getElementById('audio-error-toast');
+  if(!toast) return;
+  toast.textContent = msg;
+  toast.classList.add('show');
+  if(audioErrorTimer) clearTimeout(audioErrorTimer);
+  audioErrorTimer = setTimeout(() => toast.classList.remove('show'), 2000);
 }
 
 // ===== UI: Stats Screen =====
@@ -1294,11 +1379,12 @@ function showToast(msg){
 // ===== Touch Gestures =====
 function initGestures(){
   const cardArea = document.getElementById('card-area');
-  let touchStartX = 0, touchStartY = 0;
+  let touchStartX = 0, touchStartY = 0, touchStartTime = 0;
 
   cardArea.addEventListener('touchstart', (e) => {
     touchStartX = e.changedTouches[0].screenX;
     touchStartY = e.changedTouches[0].screenY;
+    touchStartTime = Date.now();
   }, {passive:true});
 
   cardArea.addEventListener('touchend', (e) => {
@@ -1306,14 +1392,24 @@ function initGestures(){
     const touchEndY = e.changedTouches[0].screenY;
     const dx = touchEndX - touchStartX;
     const dy = touchEndY - touchStartY;
+    const dt = Date.now() - touchStartTime;
+    if(dt > 600) return; // ignore slow swipes
 
-    if(Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)*2){
-      if(dx < 0 && State.isFlipped) nextCard('good');
+    // Horizontal swipes (left=good when flipped, right=again when flipped)
+    if(Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)*1.5){
+      if(State.isFlipped){
+        if(dx < 0) nextCard('good');
+        else nextCard('again');
+      }
+    }
+    // Upward swipe = easy when flipped
+    else if(dy < -60 && Math.abs(dy) > Math.abs(dx)*1.5){
+      if(State.isFlipped) nextCard('easy');
     }
   }, {passive:true});
 
   document.getElementById('card-container').addEventListener('click', (e) => {
-    if(e.target.closest('.audio-btn')) return;
+    if(e.target.closest('.audio-btn-lg')) return;
     if(e.target.closest('.rate-btn')) return;
     if(!State.isFlipped) flipCard();
   });
@@ -1330,11 +1426,39 @@ function init(){
   initGestures();
 
   document.getElementById('study-back').addEventListener('click', () => { showScreen('home'); updateHomeStats(); });
-  document.getElementById('study-stats').addEventListener('click', () => showScreen('stats'));
   document.getElementById('btn-home-back').addEventListener('click', () => {
     document.getElementById('complete-overlay').classList.remove('show');
     showScreen('home');
     updateHomeStats();
+  });
+
+  // Global theme toggle (study & stats screens)
+  function toggleGlobalTheme(){
+    const dark = document.documentElement.classList.toggle('dark');
+    const homeToggle = document.getElementById('theme-toggle');
+    if(homeToggle) homeToggle.classList.toggle('on', dark);
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+    const meta = document.querySelector('meta[name="theme-color"]');
+    meta.setAttribute('content', dark ? '#000000' : '#F2F2F7');
+  }
+  const studyThemeBtn = document.getElementById('study-theme-btn');
+  if(studyThemeBtn) studyThemeBtn.addEventListener('click', toggleGlobalTheme);
+  const statsThemeBtn = document.getElementById('stats-theme-btn');
+  if(statsThemeBtn) statsThemeBtn.addEventListener('click', toggleGlobalTheme);
+
+  // Keyboard shortcuts (desktop)
+  document.addEventListener('keydown', (e) => {
+    if(document.getElementById('study-screen').classList.contains('active')){
+      if(e.key === ' ' || e.key === 'Enter'){
+        e.preventDefault();
+        if(!State.isFlipped) flipCard();
+      } else if(State.isFlipped){
+        if(e.key === '1') nextCard('again');
+        else if(e.key === '2') nextCard('hard');
+        else if(e.key === '3') nextCard('good');
+        else if(e.key === '4') nextCard('easy');
+      }
+    }
   });
 
   document.querySelectorAll('.rate-btn').forEach(btn => {
@@ -1428,6 +1552,11 @@ function init(){
       else if(screen === 'stats') showScreen('stats');
     });
   });
+
+  // PWA Service Worker
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init);
