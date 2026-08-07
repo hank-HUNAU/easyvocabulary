@@ -253,6 +253,20 @@ body{
 .rate-good{background:rgba(52,199,89,.12);color:var(--green)}
 .rate-easy{background:rgba(0,122,255,.12);color:var(--blue)}
 
+/* Undo bar */
+.undo-bar{
+  flex-shrink:0;display:none;justify-content:center;padding:4px 16px;
+  position:relative;z-index:2;
+}
+.undo-bar.show{display:flex}
+.undo-btn{
+  padding:6px 20px;background:var(--bg3);color:var(--text);
+  border:none;border-radius:16px;font-size:13px;cursor:pointer;
+  font-family:inherit;font-weight:500;transition:opacity .15s;
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+}
+.undo-btn:active{opacity:.7}
+
 /* Flip prompt */
 .flip-prompt{
   flex-shrink:0;padding:12px 16px;text-align:center;
@@ -423,6 +437,7 @@ body{
     </div>
   </div>
 
+  <button class="btn-start" id="btn-resume" style="display:none">继续学习</button>
   <button class="btn-start" id="btn-start">开始学习</button>
 </div>
 
@@ -452,6 +467,10 @@ body{
       <div class="complete-stats" id="complete-stats"></div>
       <button class="btn-start" style="max-width:200px" id="btn-home-back">返回首页</button>
     </div>
+  </div>
+
+  <div class="undo-bar" id="undo-bar">
+    <button class="undo-btn" id="undo-btn">撤销上一张</button>
   </div>
 
   <div class="flip-prompt" id="flip-prompt">
@@ -492,6 +511,14 @@ body{
     <h3>连续学习</h3>
     <div style="font-size:28px;font-weight:700;color:var(--primary)" id="streak-display">0 天</div>
     <div style="font-size:13px;color:var(--text2);margin-top:4px" id="streak-detail">尚未开始学习</div>
+  </div>
+  <div class="stats-section">
+    <h3>数据备份</h3>
+    <div style="display:flex;gap:8px">
+      <button class="reset-btn" id="btn-export" style="color:var(--primary);flex:1">导出进度</button>
+      <button class="reset-btn" id="btn-import" style="color:var(--primary);flex:1">导入进度</button>
+    </div>
+    <input type="file" id="import-file" accept=".json" style="display:none">
   </div>
   <button class="reset-btn" id="btn-reset">重置所有进度</button>
 </div>
@@ -567,7 +594,10 @@ function saveState(){
     todayStats: State.todayStats,
     streak: State.streak || 0,
     lastStudyDate: State.lastStudyDate || '',
-    reviewHistory: State.reviewHistory || {}
+    reviewHistory: State.reviewHistory || {},
+    studyQueue: State.studyQueue,
+    studyIndex: State.studyIndex,
+    sessionStats: State.sessionStats
   };
   try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); }catch(e){}
 }
@@ -584,7 +614,21 @@ function loadState(){
     State.streak = data.streak||0;
     State.lastStudyDate = data.lastStudyDate||'';
     State.reviewHistory = data.reviewHistory||{};
+    State.studyQueue = data.studyQueue||[];
+    State.studyIndex = data.studyIndex||0;
+    State.sessionStats = data.sessionStats||{new:0,review:0,again:0,total:0};
   }catch(e){}
+}
+
+function hasPendingSession(){
+  return State.studyQueue.length > 0 && State.studyIndex < State.studyQueue.length;
+}
+
+function clearSession(){
+  State.studyQueue = [];
+  State.studyIndex = 0;
+  State.sessionStats = {new:0,review:0,again:0,total:0};
+  saveState();
 }
 
 function todayStr(){ return new Date().toISOString().slice(0,10); }
@@ -740,14 +784,6 @@ function buildStudyQueue(){
       const card = State.cards[w.id];
       if(!card || card.state === 'new') queue.push({id: w.id, type:'new'});
     }
-    if(settings.selectedUnits.length > 0){
-      const unitQueue = [];
-      for(const item of queue){
-        const word = VOCAB_DATA[item.id];
-        if(word && settings.selectedUnits.includes(word.unit)) unitQueue.push(item);
-      }
-      return unitQueue;
-    }
   }
 
   if(settings.mode === 'count' && newLimit > 0){
@@ -890,7 +926,13 @@ function initHomeScreen(){
     });
   });
 
-  document.getElementById('btn-start').addEventListener('click', startStudy);
+  document.getElementById('btn-start').addEventListener('click', () => {
+    if(hasPendingSession()){
+      if(!confirm('开始新的学习会覆盖未完成的学习进度，确定吗？')) return;
+    }
+    startStudy();
+  });
+  document.getElementById('btn-resume').addEventListener('click', resumeStudy);
   updateHomeStats();
 }
 
@@ -907,11 +949,20 @@ function updateHomeStats(){
   document.getElementById('hm-new').textContent = learned;
   document.getElementById('hm-due').textContent = due;
   document.getElementById('hm-streak').textContent = State.streak || 0;
+
+  const resumeBtn = document.getElementById('btn-resume');
+  if(hasPendingSession()){
+    resumeBtn.style.display = 'block';
+    resumeBtn.textContent = `继续学习 (${State.studyIndex + 1}/${State.studyQueue.length})`;
+  } else {
+    resumeBtn.style.display = 'none';
+  }
 }
 
 // ===== UI: Study Screen =====
 function startStudy(){
   checkNewDay();
+  undoSnapshot = null;
   State.studyQueue = buildStudyQueue();
   State.studyIndex = 0;
   State.sessionStats = {new:0,review:0,again:0,total:0};
@@ -921,6 +972,15 @@ function startStudy(){
     return;
   }
 
+  saveState();
+  showScreen('study');
+  document.getElementById('bottom-nav').style.display = '';
+  document.getElementById('bottom-nav').querySelector('.nav-btn[data-screen="study"]').click();
+  renderCard();
+}
+
+function resumeStudy(){
+  if(!hasPendingSession()) return;
   showScreen('study');
   document.getElementById('bottom-nav').style.display = '';
   document.getElementById('bottom-nav').querySelector('.nav-btn[data-screen="study"]').click();
@@ -1042,9 +1102,26 @@ function flipCard(){
   }
 }
 
+let undoSnapshot = null;
+
 function nextCard(rating){
   const item = State.studyQueue[State.studyIndex];
   if(!item) return;
+
+  // Save snapshot for undo
+  const card = getCard(item.id);
+  undoSnapshot = {
+    wordId: item.id,
+    cardState: JSON.parse(JSON.stringify(card)),
+    studyIndex: State.studyIndex,
+    todayStats: JSON.parse(JSON.stringify(State.todayStats)),
+    reviewHistory: JSON.parse(JSON.stringify(State.reviewHistory)),
+    streak: State.streak,
+    lastStudyDate: State.lastStudyDate,
+    sessionStats: JSON.parse(JSON.stringify(State.sessionStats)),
+    queueLength: State.studyQueue.length,
+    itemType: item.type
+  };
 
   rateCard(item.id, rating);
   State.sessionStats.total++;
@@ -1057,18 +1134,60 @@ function nextCard(rating){
   if(rating === 'again') State.sessionStats.again++;
 
   if(rating === 'again' || rating === 'hard'){
-    const card = getCard(item.id);
-    if(card.state === 'learning' || card.state === 'relearning'){
+    const ratedCard = getCard(item.id);
+    if(ratedCard.state === 'learning' || ratedCard.state === 'relearning'){
       const reinsertIdx = Math.min(State.studyIndex + 3, State.studyQueue.length);
       State.studyQueue.splice(reinsertIdx, 0, {id: item.id, type: item.type});
     }
   }
 
   State.studyIndex++;
+  saveState();
   renderCard();
+  updateUndoBar();
+}
+
+function undoLastCard(){
+  if(!undoSnapshot) return;
+
+  // Restore card SRS state
+  State.cards[undoSnapshot.wordId] = undoSnapshot.cardState;
+
+  // Restore stats
+  State.todayStats = undoSnapshot.todayStats;
+  State.reviewHistory = undoSnapshot.reviewHistory;
+  State.streak = undoSnapshot.streak;
+  State.lastStudyDate = undoSnapshot.lastStudyDate;
+  State.sessionStats = undoSnapshot.sessionStats;
+
+  // Remove reinserted card if queue grew
+  if(State.studyQueue.length > undoSnapshot.queueLength){
+    const removeIdx = Math.min(undoSnapshot.studyIndex + 3, State.studyQueue.length - 1);
+    State.studyQueue.splice(removeIdx, 1);
+  }
+
+  // Restore studyIndex
+  State.studyIndex = undoSnapshot.studyIndex;
+  undoSnapshot = null;
+
+  saveState();
+  renderCard();
+  updateUndoBar();
+}
+
+function updateUndoBar(){
+  const bar = document.getElementById('undo-bar');
+  if(undoSnapshot){
+    bar.classList.add('show');
+  } else {
+    bar.classList.remove('show');
+  }
 }
 
 function showComplete(){
+  clearSession();
+  undoSnapshot = null;
+  updateUndoBar();
   document.getElementById('complete-overlay').classList.add('show');
   const stats = State.sessionStats;
   document.getElementById('complete-stats').innerHTML = `
@@ -1210,16 +1329,19 @@ function init(){
   initHomeScreen();
   initGestures();
 
-  document.getElementById('study-back').addEventListener('click', () => showScreen('home'));
+  document.getElementById('study-back').addEventListener('click', () => { showScreen('home'); updateHomeStats(); });
   document.getElementById('study-stats').addEventListener('click', () => showScreen('stats'));
   document.getElementById('btn-home-back').addEventListener('click', () => {
     document.getElementById('complete-overlay').classList.remove('show');
     showScreen('home');
+    updateHomeStats();
   });
 
   document.querySelectorAll('.rate-btn').forEach(btn => {
     btn.addEventListener('click', () => nextCard(btn.dataset.rate));
   });
+
+  document.getElementById('undo-btn').addEventListener('click', undoLastCard);
 
   document.getElementById('stats-back').addEventListener('click', () => showScreen('home'));
 
@@ -1230,11 +1352,67 @@ function init(){
       State.streak = 0;
       State.lastStudyDate = '';
       State.reviewHistory = {};
+      clearSession();
       saveState();
       updateHomeStats();
       renderStats();
       showToast('进度已重置');
     }
+  });
+
+  document.getElementById('btn-export').addEventListener('click', () => {
+    const data = {
+      version: 1,
+      exportDate: new Date().toISOString(),
+      settings: State.settings,
+      cards: State.cards,
+      studyDate: State.studyDate,
+      todayStats: State.todayStats,
+      streak: State.streak,
+      lastStudyDate: State.lastStudyDate,
+      reviewHistory: State.reviewHistory
+    };
+    const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `anki-backup-${todayStr()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('进度已导出');
+  });
+
+  document.getElementById('btn-import').addEventListener('click', () => {
+    document.getElementById('import-file').click();
+  });
+
+  document.getElementById('import-file').addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if(!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      try{
+        const data = JSON.parse(ev.target.result);
+        if(!data.cards || !data.settings) throw new Error('Invalid format');
+        if(!confirm('导入将覆盖当前所有进度，确定吗？')) return;
+        Object.assign(State.settings, data.settings||{});
+        State.cards = data.cards||{};
+        State.studyDate = data.studyDate||'';
+        State.todayStats = data.todayStats||{new:0,review:0,again:0};
+        State.streak = data.streak||0;
+        State.lastStudyDate = data.lastStudyDate||'';
+        State.reviewHistory = data.reviewHistory||{};
+        clearSession();
+        saveState();
+        updateHomeStats();
+        renderStats();
+        showToast('进度已导入');
+      }catch(err){
+        showToast('文件格式错误');
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
   });
 
   document.querySelectorAll('.nav-btn').forEach(btn => {
