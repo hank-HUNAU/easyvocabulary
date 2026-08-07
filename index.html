@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#F2F2F7">
+<title>4000 EEW Book 1 - Anki Flashcards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== Reset & Base ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== Light Theme (Default) ===== */
+:root{
+  --bg:#F2F2F7;--bg2:#FFFFFF;--bg3:#E5E5EA;--card:#FFFFFF;
+  --text:#000000;--text2:#8E8E93;--text3:#C7C7CC;
+  --primary:#007AFF;--accent:#007AFF;
+  --green:#34C759;--orange:#FF9500;--red:#FF3B30;--blue:#007AFF;--purple:#AF52DE;
+  --separator:#C6C6C8;
+  --radius:12px;--radius-lg:16px;
+  --shadow:0 2px 12px rgba(0,0,0,.08);
+  --shadow-card:0 2px 20px rgba(0,0,0,.06);
+  --blur-bg:rgba(249,249,249,.8);
+  --nav-bg:rgba(255,255,255,.72);
+  --phonetic:'Doulos SIL','Noto Sans SC',serif;
+  --font:-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Helvetica Neue','Noto Sans SC',sans-serif;
+}
+
+/* ===== Dark Theme ===== */
+html.dark{
+  --bg:#000000;--bg2:#1C1C1E;--bg3:#2C2C2E;--card:#1C1C1E;
+  --text:#FFFFFF;--text2:#8E8E93;--text3:#48484A;
+  --primary:#0A84FF;--accent:#0A84FF;
+  --green:#30D158;--orange:#FF9F0A;--red:#FF453A;--blue:#0A84FF;--purple:#BF5AF2;
+  --separator:#38383A;
+  --shadow:0 2px 12px rgba(0,0,0,.3);
+  --shadow-card:0 2px 20px rgba(0,0,0,.4);
+  --blur-bg:rgba(28,28,30,.8);
+  --nav-bg:rgba(28,28,30,.72);
+}
+
+html,body{height:100%;overflow:hidden}
+body{
+  font-family:var(--font);
+  background:var(--bg);color:var(--text);
+  -webkit-font-smoothing:antialiased;user-select:none;
+  -webkit-tap-highlight-color:transparent;
+  transition:background .25s ease,color .25s ease;
+}
+
+/* ===== Screens ===== */
+.screen{display:none;height:100%;flex-direction:column;animation:fadeIn .3s ease}
+.screen.active{display:flex}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+/* ===== Home Screen ===== */
+#home-screen{padding:0 16px;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:100px}
+.home-header{text-align:center;padding:24px 0 20px}
+.home-logo{font-size:24px;font-weight:700;color:var(--text);margin-bottom:4px}
+.home-sub{font-size:13px;color:var(--text2)}
+
+/* Stats mini */
+.stats-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.stat-mini{background:var(--bg2);border-radius:var(--radius);padding:14px 8px;text-align:center}
+.stat-mini .num{font-size:28px;font-weight:700;color:var(--primary)}
+.stat-mini .lbl{font-size:11px;color:var(--text2);margin-top:2px}
+
+/* Section card */
+.section-card{
+  background:var(--bg2);border-radius:var(--radius-lg);padding:16px;margin-bottom:12px;
+}
+.section-title{font-size:15px;font-weight:600;color:var(--text);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.section-title .icon{font-size:18px;display:inline-flex;align-items:center}
+
+/* Field selector */
+.field-group{display:flex;flex-direction:column;gap:0}
+.field-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 0;border-bottom:0.5px solid var(--separator);
+}
+.field-row:last-child{border-bottom:none}
+.field-label{font-size:16px;display:flex;align-items:center;gap:6px}
+.field-label .phonetic{font-family:var(--phonetic)}
+
+/* iOS Segmented Control */
+.seg-control{
+  display:flex;background:var(--bg3);border-radius:8px;padding:2px;gap:2px;
+}
+.seg-btn{
+  padding:4px 12px;font-size:12px;border:none;background:transparent;
+  color:var(--text2);border-radius:6px;cursor:pointer;
+  transition:all .2s;font-family:inherit;font-weight:500;
+}
+.seg-btn.active{background:var(--bg2);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.1)}
+
+/* Mode selector */
+.mode-tabs{display:flex;background:var(--bg3);border-radius:9px;padding:2px;gap:2px;margin-bottom:14px}
+.mode-tab{
+  flex:1;padding:8px 12px;text-align:center;background:transparent;border:none;
+  border-radius:7px;font-size:14px;color:var(--text2);cursor:pointer;
+  transition:all .2s;font-family:inherit;font-weight:500;
+}
+.mode-tab.active{background:var(--bg2);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.1)}
+
+/* Unit grid */
+.unit-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(60px,1fr));gap:8px}
+.unit-chip{
+  padding:10px 4px;text-align:center;background:var(--bg);border:1px solid var(--separator);
+  border-radius:10px;font-size:13px;cursor:pointer;transition:all .15s;color:var(--text);
+}
+.unit-chip.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+.unit-chip .cnt{display:block;font-size:10px;color:var(--text2);margin-top:2px}
+.unit-chip.active .cnt{color:rgba(255,255,255,.7)}
+
+/* Count presets */
+.count-presets{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.count-chip{
+  padding:10px 18px;text-align:center;background:var(--bg);border:1px solid var(--separator);
+  border-radius:10px;font-size:16px;font-weight:600;color:var(--text2);cursor:pointer;
+  transition:all .15s;font-family:inherit;min-width:52px;
+}
+.count-chip.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+.count-chip:active{transform:scale(.96)}
+.count-custom{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--text2)}
+.count-input{
+  width:70px;padding:8px 10px;background:var(--bg);border:1px solid var(--separator);
+  border-radius:8px;color:var(--text);font-size:16px;font-weight:600;font-family:inherit;
+  outline:none;text-align:center;
+}
+.count-input:focus{border-color:var(--primary)}
+
+/* iOS Toggle Switch */
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
+.toggle-label{font-size:16px;color:var(--text)}
+.ios-toggle{
+  position:relative;width:51px;height:31px;background:var(--bg3);
+  border-radius:15.5px;cursor:pointer;transition:background .25s ease;
+}
+.ios-toggle.on{background:var(--green)}
+.ios-toggle::after{
+  content:'';position:absolute;top:2px;left:2px;width:27px;height:27px;
+  background:#fff;border-radius:50%;transition:transform .25s ease;
+  box-shadow:0 2px 4px rgba(0,0,0,.2);
+}
+.ios-toggle.on::after{transform:translateX(20px)}
+
+/* Start button */
+.btn-start{
+  display:block;width:100%;padding:16px;text-align:center;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;
+  border:none;border-radius:var(--radius);cursor:pointer;
+  transition:opacity .15s;box-shadow:none;margin-top:8px;font-family:inherit;
+}
+.btn-start:active{opacity:.85}
+
+/* ===== Theme Toggle in Header ===== */
+.theme-toggle-wrap{
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  margin-top:8px;
+}
+.theme-toggle-wrap .toggle-icon{font-size:16px;display:flex;align-items:center}
+.theme-toggle-wrap .toggle-icon svg{width:16px;height:16px}
+.ios-toggle.theme-toggle{transform:scale(.75);transform-origin:center}
+
+/* ===== Study Screen ===== */
+#study-screen{position:relative}
+.study-topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:8px 16px;background:var(--nav-bg);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-bottom:0.5px solid var(--separator);
+  flex-shrink:0;
+}
+.topbar-btn{
+  width:34px;height:34px;display:flex;align-items:center;justify-content:center;
+  background:transparent;border:none;color:var(--primary);font-size:22px;
+  cursor:pointer;border-radius:8px;
+}
+.topbar-btn:active{opacity:.5}
+.study-progress{flex:1;text-align:center;font-size:13px;color:var(--text2)}
+.study-progress .cur{color:var(--text);font-weight:600;font-size:15px}
+
+/* Card area */
+.card-area{
+  flex:1;display:flex;align-items:center;justify-content:center;
+  padding:20px;perspective:1200px;position:relative;
+}
+.card-container{
+  width:100%;max-width:500px;height:min(60vh,400px);
+  position:relative;cursor:pointer;
+}
+.card-inner{
+  width:100%;height:100%;position:relative;
+  transform-style:preserve-3d;transition:transform .5s cubic-bezier(.4,.0,.2,1);
+}
+.card-inner.flipped{transform:rotateY(180deg)}
+.card-face{
+  position:absolute;width:100%;height:100%;
+  backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  border-radius:var(--radius-lg);padding:48px 24px 24px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  box-shadow:var(--shadow-card);
+}
+.card-front{background:var(--card)}
+.card-back{background:var(--card);transform:rotateY(180deg)}
+
+.card-word{font-size:42px;font-weight:700;text-align:center;margin-bottom:8px;word-break:break-word}
+.card-phonetic{font-family:var(--phonetic);font-size:22px;color:var(--text2);margin:4px 0}
+.card-part{font-size:16px;color:var(--orange);font-style:italic;margin:4px 0}
+.card-def{font-size:17px;color:var(--text);text-align:center;line-height:1.5;margin-top:8px;max-width:100%}
+.card-unit-tag{position:absolute;top:14px;left:16px;font-size:12px;color:var(--text2);font-weight:500}
+
+/* Audio buttons - top right corner */
+.card-audio-top{
+  position:absolute;top:10px;right:12px;
+  display:flex;gap:6px;z-index:5;
+}
+.audio-btn{
+  height:28px;border-radius:14px;border:none;
+  background:var(--bg3);color:var(--primary);
+  font-size:11px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  gap:3px;padding:0 8px;transition:all .15s;font-weight:600;font-family:inherit;
+}
+.audio-btn svg{width:13px;height:13px;flex-shrink:0}
+.audio-btn .audio-label{font-size:10px;font-weight:700;letter-spacing:.3px}
+.audio-btn:active{transform:scale(.92);opacity:.7}
+
+/* Hint text */
+.card-hint{position:absolute;bottom:12px;width:100%;text-align:center;font-size:12px;color:var(--text2)}
+
+/* Rating buttons */
+.rating-area{
+  flex-shrink:0;padding:12px 16px;display:none;
+  flex-direction:column;gap:8px;
+}
+.rating-area.show{display:flex}
+.rating-row{display:flex;gap:8px}
+.rate-btn{
+  flex:1;padding:14px 8px;text-align:center;border:none;border-radius:var(--radius);
+  font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s;font-family:inherit;
+  display:flex;flex-direction:column;align-items:center;gap:2px;
+}
+.rate-btn:active{opacity:.7}
+.rate-btn .rate-label{font-size:15px}
+.rate-btn .rate-time{font-size:11px;opacity:.6}
+.rate-again{background:rgba(255,59,48,.12);color:var(--red)}
+.rate-hard{background:rgba(255,149,0,.12);color:var(--orange)}
+.rate-good{background:rgba(52,199,89,.12);color:var(--green)}
+.rate-easy{background:rgba(0,122,255,.12);color:var(--blue)}
+
+/* Flip prompt */
+.flip-prompt{
+  flex-shrink:0;padding:12px 16px;text-align:center;
+}
+.flip-prompt .flip-btn{
+  padding:14px 48px;background:var(--bg2);color:var(--text);
+  border:none;border-radius:var(--radius);font-size:16px;cursor:pointer;
+  font-family:inherit;transition:opacity .15s;font-weight:500;
+  box-shadow:var(--shadow);
+}
+.flip-prompt .flip-btn:active{opacity:.7}
+
+/* Complete screen */
+.complete-overlay{
+  position:absolute;inset:0;background:var(--bg);
+  display:none;flex-direction:column;align-items:center;justify-content:center;
+  z-index:10;padding:40px;
+}
+.complete-overlay.show{display:flex}
+.complete-icon{margin-bottom:16px;display:flex;align-items:center;justify-content:center}
+.complete-icon svg{width:64px;height:64px}
+.complete-title{font-size:24px;font-weight:700;margin-bottom:8px}
+.complete-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:24px 0;width:100%;max-width:320px}
+.complete-stat{background:var(--bg2);border-radius:var(--radius);padding:16px;text-align:center}
+.complete-stat .num{font-size:28px;font-weight:700;color:var(--primary)}
+.complete-stat .lbl{font-size:12px;color:var(--text2);margin-top:4px}
+
+/* ===== Stats Screen ===== */
+#stats-screen{padding:0 16px;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:100px}
+.stats-header{display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-top:8px}
+.stats-back{
+  width:34px;height:34px;display:flex;align-items:center;justify-content:center;
+  background:transparent;border:none;color:var(--primary);border-radius:8px;font-size:22px;cursor:pointer;
+}
+.stats-back:active{opacity:.5}
+.stats-title{font-size:20px;font-weight:700}
+
+.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px}
+.stat-card{background:var(--bg2);border-radius:var(--radius);padding:16px}
+.stat-card .num{font-size:32px;font-weight:700;color:var(--primary)}
+.stat-card .num.green{color:var(--green)}
+.stat-card .num.orange{color:var(--orange)}
+.stat-card .num.blue{color:var(--blue)}
+.stat-card .lbl{font-size:13px;color:var(--text2);margin-top:4px}
+
+.stats-section{background:var(--bg2);border-radius:var(--radius);padding:16px;margin-bottom:12px}
+.stats-section h3{font-size:14px;color:var(--text2);margin-bottom:12px;font-weight:400}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.bar-label{font-size:13px;width:70px;flex-shrink:0;color:var(--text)}
+.bar-track{flex:1;height:6px;background:var(--bg3);border-radius:3px;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.bar-val{font-size:12px;color:var(--text2);width:36px;text-align:right;flex-shrink:0}
+
+.reset-btn{
+  width:100%;padding:14px;background:var(--bg2);color:var(--red);
+  border:none;border-radius:var(--radius);font-size:16px;
+  cursor:pointer;font-family:inherit;margin-top:8px;font-weight:500;
+}
+.reset-btn:active{opacity:.7}
+
+/* ===== Bottom Nav ===== */
+.bottom-nav{
+  display:flex;background:var(--nav-bg);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-top:0.5px solid var(--separator);
+  flex-shrink:0;
+}
+.nav-btn{
+  flex:1;padding:8px 4px 6px;text-align:center;background:transparent;border:none;
+  color:var(--text2);font-size:10px;cursor:pointer;font-family:inherit;
+  display:flex;flex-direction:column;align-items:center;gap:2px;
+  transition:color .15s;
+}
+.nav-btn.active{color:var(--primary)}
+.nav-btn:active{opacity:.7}
+.nav-btn .nav-icon{font-size:24px;display:flex;align-items:center;justify-content:center}
+.nav-btn .nav-icon svg{width:24px;height:24px}
+
+/* ===== Toast ===== */
+.toast{
+  position:fixed;bottom:100px;left:50%;transform:translateX(-50%) translateY(100px);
+  background:var(--bg3);color:var(--text);padding:10px 20px;border-radius:20px;
+  font-size:14px;z-index:100;transition:transform .3s ease;pointer-events:none;
+  box-shadow:var(--shadow);
+}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+/* ===== Responsive ===== */
+@media(min-width:768px){
+  #home-screen,#stats-screen{max-width:600px;margin:0 auto;width:100%}
+  .card-container{max-width:520px;height:min(58vh,440px)}
+  .card-word{font-size:48px}
+}
+@media(max-width:380px){
+  .card-word{font-size:34px}
+  .card-phonetic{font-size:18px}
+  .card-def{font-size:16px}
+  .unit-grid{grid-template-columns:repeat(auto-fill,minmax(48px,1fr))}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== Home Screen ===== -->
+<div id="home-screen" class="screen active">
+  <div class="home-header">
+    <div class="home-logo">4000 EEW Book 1</div>
+    <div class="home-sub">Anki Flashcards · 576 words · 28 units</div>
+    <div class="theme-toggle-wrap">
+      <span class="toggle-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
+      <div class="ios-toggle theme-toggle" id="theme-toggle"></div>
+      <span class="toggle-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+    </div>
+  </div>
+
+  <div class="stats-mini" id="home-stats-mini">
+    <div class="stat-mini"><div class="num" id="hm-new">0</div><div class="lbl">已学</div></div>
+    <div class="stat-mini"><div class="num" id="hm-due">0</div><div class="lbl">今日待复习</div></div>
+    <div class="stat-mini"><div class="num" id="hm-streak">0</div><div class="lbl">连续天数</div></div>
+  </div>
+
+  <!-- Card Fields -->
+  <div class="section-card">
+    <div class="section-title"><span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/><line x1="8" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="8" y1="18" x2="20" y2="18"/></svg></span>卡片字段配置</div>
+    <div class="field-group" id="field-config"></div>
+  </div>
+
+  <!-- Learning Mode -->
+  <div class="section-card">
+    <div class="section-title"><span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>学习模式</div>
+    <div class="mode-tabs">
+      <div class="mode-tab active" data-mode="count">按个数</div>
+      <div class="mode-tab" data-mode="unit">按单元</div>
+    </div>
+    <div id="mode-count-config">
+      <div class="count-presets" id="count-presets">
+        <button class="count-chip" data-count="20">20</button>
+        <button class="count-chip" data-count="40">40</button>
+        <button class="count-chip" data-count="60">60</button>
+        <button class="count-chip" data-count="80">80</button>
+        <button class="count-chip" data-count="100">100</button>
+      </div>
+      <div class="count-custom">
+        <span>自定义</span>
+        <input type="number" id="count-custom-input" min="1" max="576" value="20" class="count-input">
+        <span>词/天</span>
+      </div>
+    </div>
+    <div id="mode-unit-config" style="display:none">
+      <div class="unit-grid" id="unit-grid"></div>
+    </div>
+  </div>
+
+  <!-- Audio Settings -->
+  <div class="section-card">
+    <div class="section-title"><span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></span>音频设置</div>
+    <div class="toggle-row">
+      <span class="toggle-label">翻牌自动播放音频</span>
+      <div class="ios-toggle" id="toggle-autoplay"></div>
+    </div>
+    <div class="toggle-row">
+      <span class="toggle-label">默认口音</span>
+      <div class="seg-control" id="accent-control">
+        <button class="seg-btn" data-accent="us">美音</button>
+        <button class="seg-btn active" data-accent="uk">英音</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn-start" id="btn-start">开始学习</button>
+</div>
+
+<!-- ===== Study Screen ===== -->
+<div id="study-screen" class="screen">
+  <div class="study-topbar">
+    <button class="topbar-btn" id="study-back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></button>
+    <div class="study-progress">
+      <span class="cur" id="prog-current">0</span>/<span id="prog-total">0</span>
+      <div style="font-size:11px;margin-top:2px" id="prog-phase">新学</div>
+    </div>
+    <button class="topbar-btn" id="study-stats"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="11" width="3" height="7" rx="0.5"/><rect x="10.5" y="6" width="3" height="12" rx="0.5"/><rect x="16" y="14" width="3" height="4" rx="0.5"/></svg></button>
+  </div>
+
+  <div class="card-area" id="card-area">
+    <div class="card-container" id="card-container">
+      <div class="card-inner" id="card-inner">
+        <div class="card-face card-front" id="card-front"></div>
+        <div class="card-face card-back" id="card-back"></div>
+      </div>
+      <div class="card-hint" id="card-hint">点击卡片查看释义</div>
+    </div>
+
+    <div class="complete-overlay" id="complete-overlay">
+      <div class="complete-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5" stroke-width="2"/></svg></div>
+      <div class="complete-title">今日学习完成！</div>
+      <div class="complete-stats" id="complete-stats"></div>
+      <button class="btn-start" style="max-width:200px" id="btn-home-back">返回首页</button>
+    </div>
+  </div>
+
+  <div class="flip-prompt" id="flip-prompt">
+    <button class="flip-btn" id="flip-btn">显示背面</button>
+  </div>
+
+  <div class="rating-area" id="rating-area">
+    <div class="rating-row">
+      <button class="rate-btn rate-again" data-rate="again"><span class="rate-label">不会</span><span class="rate-time" id="rt-again">1分钟</span></button>
+      <button class="rate-btn rate-hard" data-rate="hard"><span class="rate-label">困难</span><span class="rate-time" id="rt-hard">—</span></button>
+      <button class="rate-btn rate-good" data-rate="good"><span class="rate-label">一般</span><span class="rate-time" id="rt-good">—</span></button>
+      <button class="rate-btn rate-easy" data-rate="easy"><span class="rate-label">简单</span><span class="rate-time" id="rt-easy">—</span></button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Stats Screen ===== -->
+<div id="stats-screen" class="screen">
+  <div class="stats-header">
+    <button class="stats-back" id="stats-back"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <div class="stats-title">学习统计</div>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="num" id="st-total">0</div><div class="lbl">总单词数</div></div>
+    <div class="stat-card"><div class="num green" id="st-learned">0</div><div class="lbl">已学习</div></div>
+    <div class="stat-card"><div class="num orange" id="st-due">0</div><div class="lbl">今日待复习</div></div>
+    <div class="stat-card"><div class="num blue" id="st-mastered">0</div><div class="lbl">已掌握</div></div>
+  </div>
+  <div class="stats-section">
+    <h3>各状态分布</h3>
+    <div id="state-bars"></div>
+  </div>
+  <div class="stats-section">
+    <h3>近7天复习量</h3>
+    <div id="review-bars"></div>
+  </div>
+  <div class="stats-section">
+    <h3>连续学习</h3>
+    <div style="font-size:28px;font-weight:700;color:var(--primary)" id="streak-display">0 天</div>
+    <div style="font-size:13px;color:var(--text2);margin-top:4px" id="streak-detail">尚未开始学习</div>
+  </div>
+  <button class="reset-btn" id="btn-reset">重置所有进度</button>
+</div>
+
+<!-- ===== Bottom Nav ===== -->
+<div class="bottom-nav" id="bottom-nav" style="display:none">
+  <button class="nav-btn active" data-screen="home"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg></span>首页</button>
+  <button class="nav-btn" data-screen="study"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>学习</button>
+  <button class="nav-btn" data-screen="stats"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="11" width="3" height="7" rx="0.5"/><rect x="10.5" y="6" width="3" height="12" rx="0.5"/><rect x="16" y="14" width="3" height="4" rx="0.5"/></svg></span>统计</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script>
+'use strict';
+
+// ===== Theme Management =====
+function initTheme(){
+  const saved = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isDark = saved ? saved === 'dark' : prefersDark;
+  if(isDark) document.documentElement.classList.add('dark');
+  const toggle = document.getElementById('theme-toggle');
+  if(isDark) toggle.classList.add('on');
+  toggle.addEventListener('click', () => {
+    const dark = document.documentElement.classList.toggle('dark');
+    toggle.classList.toggle('on', dark);
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+    const meta = document.querySelector('meta[name="theme-color"]');
+    meta.setAttribute('content', dark ? '#000000' : '#F2F2F7');
+  });
+}
+
+// ===== State =====
+const SPEAKER_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+
+const State = {
+  settings: {
+    frontFields: ['word'],
+    backFields: ['uk_pron','us_pron','part','definition'],
+    mode: 'count',
+    dailyCount: 20,
+    selectedUnits: [],
+    autoPlay: false,
+    accent: 'uk'
+  },
+  cards: {},
+  studyQueue: [],
+  studyIndex: 0,
+  isFlipped: false,
+  todayStats: {new:0,review:0,again:0},
+  sessionStats: {new:0,review:0,again:0,total:0},
+  studyDate: ''
+};
+
+const FIELD_LABELS = {
+  word:{label:'词汇',display:v=>v,cls:'card-word'},
+  uk_pron:{label:'英式音标',display:v=>v,cls:'card-phonetic',phonetic:true},
+  us_pron:{label:'美式音标',display:v=>v,cls:'card-phonetic',phonetic:true},
+  part:{label:'词性',display:v=>v,cls:'card-part'},
+  definition:{label:'英文释义',display:v=>v,cls:'card-def'}
+};
+
+const STORAGE_KEY = 'anki_eew1_state';
+
+// ===== Persistence =====
+function saveState(){
+  const data = {
+    settings: State.settings,
+    cards: State.cards,
+    studyDate: State.studyDate,
+    todayStats: State.todayStats,
+    streak: State.streak || 0,
+    lastStudyDate: State.lastStudyDate || '',
+    reviewHistory: State.reviewHistory || {}
+  };
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); }catch(e){}
+}
+
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return;
+    const data = JSON.parse(raw);
+    Object.assign(State.settings, data.settings||{});
+    State.cards = data.cards||{};
+    State.studyDate = data.studyDate||'';
+    State.todayStats = data.todayStats||{new:0,review:0,again:0};
+    State.streak = data.streak||0;
+    State.lastStudyDate = data.lastStudyDate||'';
+    State.reviewHistory = data.reviewHistory||{};
+  }catch(e){}
+}
+
+function todayStr(){ return new Date().toISOString().slice(0,10); }
+
+function checkNewDay(){
+  const today = todayStr();
+  if(State.studyDate !== today){
+    State.studyDate = today;
+    State.todayStats = {new:0,review:0,again:0};
+  }
+  if(State.lastStudyDate){
+    const last = new Date(State.lastStudyDate);
+    const now = new Date(today);
+    const diff = Math.round((now-last)/(86400000));
+    if(diff === 1){
+    } else if(diff > 1){
+      State.streak = 0;
+    }
+  }
+}
+
+// ===== SRS Engine (SM-2) =====
+function getCard(wordId){
+  if(!State.cards[wordId]){
+    State.cards[wordId] = {
+      id: wordId, state: 'new', interval: 0, ease: 2.5, reps: 0, due: 0, lastReview: 0
+    };
+  }
+  return State.cards[wordId];
+}
+
+function rateCard(wordId, rating){
+  const card = getCard(wordId);
+  const now = Date.now();
+  const wasNew = card.state === 'new';
+
+  if(card.state === 'new' || card.state === 'learning' || card.state === 'relearning'){
+    switch(rating){
+      case 'again': card.state='learning'; card.due=now+60000; break;
+      case 'hard': card.state='learning'; card.due=now+300000; break;
+      case 'good': card.state='review'; card.interval=1; card.due=now+86400000; break;
+      case 'easy': card.state='review'; card.interval=4; card.due=now+4*86400000; break;
+    }
+  } else {
+    switch(rating){
+      case 'again':
+        card.state='relearning'; card.ease=Math.max(1.3,card.ease-0.2);
+        card.interval=1; card.due=now+600000; State.todayStats.again++;
+        break;
+      case 'hard':
+        card.ease=Math.max(1.3,card.ease-0.15);
+        card.interval=Math.max(card.interval+1,Math.round(card.interval*1.2));
+        card.due=now+card.interval*86400000;
+        break;
+      case 'good':
+        card.interval=Math.max(1,Math.round(card.interval*card.ease));
+        card.due=now+card.interval*86400000;
+        break;
+      case 'easy':
+        card.ease=Math.min(3.0,card.ease+0.15);
+        card.interval=Math.max(1,Math.round(card.interval*card.ease*1.3));
+        card.due=now+card.interval*86400000;
+        break;
+    }
+  }
+
+  card.reps++;
+  card.lastReview = now;
+
+  if(wasNew && rating !== 'again' && rating !== 'hard'){
+    State.todayStats.new++;
+  } else if(!wasNew && card.state === 'review'){
+    State.todayStats.review++;
+  }
+
+  const today = todayStr();
+  if(!State.reviewHistory[today]) State.reviewHistory[today] = 0;
+  State.reviewHistory[today]++;
+
+  if(State.lastStudyDate !== today){
+    const last = State.lastStudyDate ? new Date(State.lastStudyDate) : null;
+    const now2 = new Date(today);
+    if(last){
+      const diff = Math.round((now2-last)/(86400000));
+      if(diff === 1) State.streak++;
+      else if(diff > 1) State.streak = 1;
+    } else {
+      State.streak = 1;
+    }
+    State.lastStudyDate = today;
+  }
+
+  saveState();
+}
+
+function getDueCards(){
+  const now = Date.now();
+  const due = [];
+  for(const w of VOCAB_DATA){
+    const card = State.cards[w.id];
+    if(card && card.state !== 'new' && card.due <= now) due.push(w.id);
+  }
+  return due;
+}
+
+function getNewCards(limit){
+  const newCards = [];
+  for(const w of VOCAB_DATA){
+    const card = State.cards[w.id];
+    if(!card || card.state === 'new'){
+      newCards.push(w.id);
+      if(newCards.length >= limit) break;
+    }
+  }
+  return newCards;
+}
+
+function getIntervalPreview(wordId, rating){
+  const card = State.cards[wordId] || getCard(wordId);
+  if(card.state === 'new' || card.state === 'learning' || card.state === 'relearning'){
+    switch(rating){
+      case 'again': return '1分钟';
+      case 'hard': return '5分钟';
+      case 'good': return '1天';
+      case 'easy': return '4天';
+    }
+  } else {
+    switch(rating){
+      case 'again': return '10分钟';
+      case 'hard': return Math.max(card.interval+1,Math.round(card.interval*1.2))+'天';
+      case 'good': return Math.max(1,Math.round(card.interval*card.ease))+'天';
+      case 'easy': return Math.max(1,Math.round(card.interval*card.ease*1.3))+'天';
+    }
+  }
+  return '—';
+}
+
+// ===== Study Queue Building =====
+function buildStudyQueue(){
+  const queue = [];
+  const settings = State.settings;
+
+  const dueCards = getDueCards();
+  for(const id of dueCards) queue.push({id, type:'review'});
+
+  let newLimit = 0;
+  if(settings.mode === 'count'){
+    newLimit = settings.dailyCount - State.todayStats.new;
+    if(newLimit < 0) newLimit = 0;
+  } else if(settings.mode === 'unit'){
+    const selectedWords = VOCAB_DATA.filter(w => settings.selectedUnits.includes(w.unit));
+    for(const w of selectedWords){
+      const card = State.cards[w.id];
+      if(!card || card.state === 'new') queue.push({id: w.id, type:'new'});
+    }
+    if(settings.selectedUnits.length > 0){
+      const unitQueue = [];
+      for(const item of queue){
+        const word = VOCAB_DATA[item.id];
+        if(word && settings.selectedUnits.includes(word.unit)) unitQueue.push(item);
+      }
+      return unitQueue;
+    }
+  }
+
+  if(settings.mode === 'count' && newLimit > 0){
+    const newCards = getNewCards(newLimit);
+    for(const id of newCards) queue.push({id, type:'new'});
+  }
+
+  return queue;
+}
+
+// ===== UI: Home Screen =====
+function initFieldConfig(){
+  const container = document.getElementById('field-config');
+  const fields = ['word','uk_pron','us_pron','part','definition'];
+  container.innerHTML = '';
+
+  fields.forEach(f => {
+    const row = document.createElement('div');
+    row.className = 'field-row';
+    const info = FIELD_LABELS[f];
+    const isFront = State.settings.frontFields.includes(f);
+    const isBack = State.settings.backFields.includes(f);
+    const isHidden = !isFront && !isBack;
+
+    row.innerHTML = `
+      <div class="field-label ${info.phonetic?'phonetic':''}">${info.label}</div>
+      <div class="seg-control">
+        <button class="seg-btn ${isFront?'active':''}" data-field="${f}" data-side="front">正面</button>
+        <button class="seg-btn ${isBack?'active':''}" data-field="${f}" data-side="back">背面</button>
+        <button class="seg-btn ${isHidden?'active':''}" data-field="${f}" data-side="hidden">不显示</button>
+      </div>
+    `;
+    container.appendChild(row);
+  });
+
+  container.querySelectorAll('.seg-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const field = btn.dataset.field;
+      const side = btn.dataset.side;
+      if(side === 'front'){
+        if(!State.settings.frontFields.includes(field)) State.settings.frontFields.push(field);
+        State.settings.backFields = State.settings.backFields.filter(f => f !== field);
+      } else if(side === 'back'){
+        if(!State.settings.backFields.includes(field)) State.settings.backFields.push(field);
+        State.settings.frontFields = State.settings.frontFields.filter(f => f !== field);
+      } else {
+        State.settings.frontFields = State.settings.frontFields.filter(f => f !== field);
+        State.settings.backFields = State.settings.backFields.filter(f => f !== field);
+      }
+      if(State.settings.frontFields.length === 0 && State.settings.backFields.length === 0){
+        State.settings.frontFields.push('word');
+      }
+      saveState();
+      initFieldConfig();
+    });
+  });
+}
+
+function initUnitGrid(){
+  const grid = document.getElementById('unit-grid');
+  grid.innerHTML = '';
+  UNIT_INFO.forEach(u => {
+    const chip = document.createElement('div');
+    chip.className = 'unit-chip';
+    if(State.settings.selectedUnits.includes(u.unit)) chip.classList.add('active');
+    chip.innerHTML = `Unit ${u.unit}<span class="cnt">${u.count}词</span>`;
+    chip.addEventListener('click', () => {
+      const idx = State.settings.selectedUnits.indexOf(u.unit);
+      if(idx >= 0) State.settings.selectedUnits.splice(idx, 1);
+      else State.settings.selectedUnits.push(u.unit);
+      chip.classList.toggle('active');
+      saveState();
+    });
+    grid.appendChild(chip);
+  });
+}
+
+function initHomeScreen(){
+  initFieldConfig();
+  initUnitGrid();
+
+  const customInput = document.getElementById('count-custom-input');
+  customInput.value = State.settings.dailyCount;
+
+  function updateCountChips(){
+    document.querySelectorAll('.count-chip').forEach(chip => {
+      const val = parseInt(chip.dataset.count);
+      chip.classList.toggle('active', val === State.settings.dailyCount);
+    });
+  }
+  updateCountChips();
+
+  document.querySelectorAll('.count-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      State.settings.dailyCount = parseInt(chip.dataset.count);
+      customInput.value = State.settings.dailyCount;
+      updateCountChips();
+      saveState();
+    });
+  });
+
+  customInput.addEventListener('change', () => {
+    let val = parseInt(customInput.value);
+    if(isNaN(val) || val < 1) val = 1;
+    if(val > 576) val = 576;
+    customInput.value = val;
+    State.settings.dailyCount = val;
+    updateCountChips();
+    saveState();
+  });
+
+  document.querySelectorAll('.mode-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      State.settings.mode = tab.dataset.mode;
+      document.getElementById('mode-count-config').style.display = State.settings.mode === 'count' ? '' : 'none';
+      document.getElementById('mode-unit-config').style.display = State.settings.mode === 'unit' ? '' : 'none';
+      saveState();
+    });
+  });
+  document.querySelector(`.mode-tab[data-mode="${State.settings.mode}"]`).click();
+
+  const autoToggle = document.getElementById('toggle-autoplay');
+  if(State.settings.autoPlay) autoToggle.classList.add('on');
+  autoToggle.addEventListener('click', () => {
+    State.settings.autoPlay = !State.settings.autoPlay;
+    autoToggle.classList.toggle('on');
+    saveState();
+  });
+
+  document.querySelectorAll('#accent-control .seg-btn').forEach(btn => {
+    if(btn.dataset.accent === State.settings.accent) btn.classList.add('active');
+    else btn.classList.remove('active');
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#accent-control .seg-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      State.settings.accent = btn.dataset.accent;
+      saveState();
+    });
+  });
+
+  document.getElementById('btn-start').addEventListener('click', startStudy);
+  updateHomeStats();
+}
+
+function updateHomeStats(){
+  let learned = 0, due = 0;
+  const now = Date.now();
+  for(const w of VOCAB_DATA){
+    const card = State.cards[w.id];
+    if(card){
+      if(card.state !== 'new') learned++;
+      if(card.state !== 'new' && card.due <= now) due++;
+    }
+  }
+  document.getElementById('hm-new').textContent = learned;
+  document.getElementById('hm-due').textContent = due;
+  document.getElementById('hm-streak').textContent = State.streak || 0;
+}
+
+// ===== UI: Study Screen =====
+function startStudy(){
+  checkNewDay();
+  State.studyQueue = buildStudyQueue();
+  State.studyIndex = 0;
+  State.sessionStats = {new:0,review:0,again:0,total:0};
+
+  if(State.studyQueue.length === 0){
+    showToast('没有待学习的卡片');
+    return;
+  }
+
+  showScreen('study');
+  document.getElementById('bottom-nav').style.display = '';
+  document.getElementById('bottom-nav').querySelector('.nav-btn[data-screen="study"]').click();
+  renderCard();
+}
+
+function renderCard(){
+  if(State.studyIndex >= State.studyQueue.length){
+    showComplete();
+    return;
+  }
+
+  const item = State.studyQueue[State.studyIndex];
+  const word = VOCAB_DATA[item.id];
+  if(!word){
+    State.studyIndex++;
+    renderCard();
+    return;
+  }
+
+  State.isFlipped = false;
+  const inner = document.getElementById('card-inner');
+  inner.classList.remove('flipped');
+
+  // Build front
+  const front = document.getElementById('card-front');
+  front.innerHTML = '';
+
+  const frontTag = document.createElement('div');
+  frontTag.className = 'card-unit-tag';
+  frontTag.textContent = `Unit ${word.unit}`;
+  front.appendChild(frontTag);
+
+  // Audio buttons in top-right
+  const frontAudio = document.createElement('div');
+  frontAudio.className = 'card-audio-top';
+  frontAudio.innerHTML = `
+    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">UK</span></button>
+    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">US</span></button>
+  `;
+  front.appendChild(frontAudio);
+
+  State.settings.frontFields.forEach(f => {
+    if(word[f]){
+      const el = document.createElement('div');
+      el.className = FIELD_LABELS[f].cls;
+      if(FIELD_LABELS[f].phonetic) el.classList.add('phonetic');
+      el.textContent = word[f];
+      front.appendChild(el);
+    }
+  });
+
+  // Build back
+  const back = document.getElementById('card-back');
+  back.innerHTML = '';
+
+  const backTag = document.createElement('div');
+  backTag.className = 'card-unit-tag';
+  backTag.textContent = `Unit ${word.unit}`;
+  back.appendChild(backTag);
+
+  const backAudio = document.createElement('div');
+  backAudio.className = 'card-audio-top';
+  backAudio.innerHTML = `
+    <button class="audio-btn" data-audio="uk">${SPEAKER_SVG}<span class="audio-label">UK</span></button>
+    <button class="audio-btn" data-audio="us">${SPEAKER_SVG}<span class="audio-label">US</span></button>
+  `;
+  back.appendChild(backAudio);
+
+  State.settings.backFields.forEach(f => {
+    if(word[f]){
+      const el = document.createElement('div');
+      el.className = FIELD_LABELS[f].cls;
+      if(FIELD_LABELS[f].phonetic) el.classList.add('phonetic');
+      el.textContent = word[f];
+      back.appendChild(el);
+    }
+  });
+
+  // Audio button handlers
+  document.querySelectorAll('.audio-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      playAudio(word, btn.dataset.audio);
+    });
+  });
+
+  // Update progress
+  document.getElementById('prog-current').textContent = State.studyIndex + 1;
+  document.getElementById('prog-total').textContent = State.studyQueue.length;
+  document.getElementById('prog-phase').textContent = item.type === 'new' ? '新学' : '复习';
+
+  document.getElementById('flip-prompt').style.display = '';
+  document.getElementById('rating-area').classList.remove('show');
+  document.getElementById('card-hint').textContent = '点击卡片查看释义';
+
+  if(State.settings.autoPlay){
+    setTimeout(() => playAudio(word, State.settings.accent), 300);
+  }
+
+  updateRatingPreviews(item.id);
+}
+
+function updateRatingPreviews(wordId){
+  document.getElementById('rt-again').textContent = getIntervalPreview(wordId, 'again');
+  document.getElementById('rt-hard').textContent = getIntervalPreview(wordId, 'hard');
+  document.getElementById('rt-good').textContent = getIntervalPreview(wordId, 'good');
+  document.getElementById('rt-easy').textContent = getIntervalPreview(wordId, 'easy');
+}
+
+function flipCard(){
+  if(State.isFlipped) return;
+  State.isFlipped = true;
+  document.getElementById('card-inner').classList.add('flipped');
+  document.getElementById('flip-prompt').style.display = 'none';
+  document.getElementById('rating-area').classList.add('show');
+  document.getElementById('card-hint').textContent = '';
+
+  if(State.settings.autoPlay){
+    const item = State.studyQueue[State.studyIndex];
+    const word = VOCAB_DATA[item.id];
+    if(word) setTimeout(() => playAudio(word, State.settings.accent), 400);
+  }
+}
+
+function nextCard(rating){
+  const item = State.studyQueue[State.studyIndex];
+  if(!item) return;
+
+  rateCard(item.id, rating);
+  State.sessionStats.total++;
+
+  if(item.type === 'new' && rating !== 'again' && rating !== 'hard'){
+    State.sessionStats.new++;
+  } else if(item.type === 'review'){
+    State.sessionStats.review++;
+  }
+  if(rating === 'again') State.sessionStats.again++;
+
+  if(rating === 'again' || rating === 'hard'){
+    const card = getCard(item.id);
+    if(card.state === 'learning' || card.state === 'relearning'){
+      const reinsertIdx = Math.min(State.studyIndex + 3, State.studyQueue.length);
+      State.studyQueue.splice(reinsertIdx, 0, {id: item.id, type: item.type});
+    }
+  }
+
+  State.studyIndex++;
+  renderCard();
+}
+
+function showComplete(){
+  document.getElementById('complete-overlay').classList.add('show');
+  const stats = State.sessionStats;
+  document.getElementById('complete-stats').innerHTML = `
+    <div class="complete-stat"><div class="num">${stats.total}</div><div class="lbl">总卡片数</div></div>
+    <div class="complete-stat"><div class="num">${stats.new}</div><div class="lbl">新学</div></div>
+    <div class="complete-stat"><div class="num">${stats.review}</div><div class="lbl">复习</div></div>
+    <div class="complete-stat"><div class="num">${stats.again}</div><div class="lbl">重学</div></div>
+  `;
+}
+
+// ===== Audio =====
+let currentAudio = null;
+function playAudio(word, accent){
+  if(currentAudio){ currentAudio.pause(); currentAudio = null; }
+  const path = accent === 'uk' ? word.uk_audio : word.us_audio;
+  if(!path) return;
+  currentAudio = new Audio(path);
+  currentAudio.play().catch(() => {});
+}
+
+// ===== UI: Stats Screen =====
+function renderStats(){
+  let learned=0, due=0, mastered=0, total=VOCAB_DATA.length;
+  const now = Date.now();
+  const states = {new:0, learning:0, review:0, relearning:0};
+
+  for(const w of VOCAB_DATA){
+    const card = State.cards[w.id];
+    if(!card){ states.new++; continue; }
+    states[card.state] = (states[card.state]||0)+1;
+    if(card.state !== 'new') learned++;
+    if(card.state === 'review' && card.due <= now) due++;
+    if(card.state === 'review' && card.interval >= 15) mastered++;
+  }
+
+  document.getElementById('st-total').textContent = total;
+  document.getElementById('st-learned').textContent = learned;
+  document.getElementById('st-due').textContent = due;
+  document.getElementById('st-mastered').textContent = mastered;
+
+  const stateBars = document.getElementById('state-bars');
+  const colors = {new:'#8E8E93', learning:'#FF9500', review:'#34C759', relearning:'#FF3B30'};
+  stateBars.innerHTML = '';
+  Object.entries(states).forEach(([state, count]) => {
+    const pct = total > 0 ? (count/total*100) : 0;
+    stateBars.innerHTML += `
+      <div class="bar-row">
+        <div class="bar-label">${{new:'新卡',learning:'学习中',review:'复习中',relearning:'重学'}[state]}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${colors[state]}"></div></div>
+        <div class="bar-val">${count}</div>
+      </div>
+    `;
+  });
+
+  const reviewBars = document.getElementById('review-bars');
+  reviewBars.innerHTML = '';
+  const today = new Date();
+  let maxReviews = 1;
+  const days = [];
+  for(let i=6;i>=0;i--){
+    const d = new Date(today);
+    d.setDate(d.getDate()-i);
+    const ds = d.toISOString().slice(0,10);
+    const count = State.reviewHistory[ds] || 0;
+    maxReviews = Math.max(maxReviews, count);
+    days.push({date:d, count, ds});
+  }
+  days.forEach(day => {
+    const pct = (day.count/maxReviews*100);
+    const label = day.date.toLocaleDateString('zh-CN',{month:'numeric',day:'numeric'});
+    reviewBars.innerHTML += `
+      <div class="bar-row">
+        <div class="bar-label">${label}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:var(--primary)"></div></div>
+        <div class="bar-val">${day.count}</div>
+      </div>
+    `;
+  });
+
+  document.getElementById('streak-display').textContent = `${State.streak||0} 天`;
+  if(State.streak > 0){
+    document.getElementById('streak-detail').textContent = `上次学习：${State.lastStudyDate}`;
+  }
+}
+
+// ===== Screen Navigation =====
+function showScreen(name){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(name + '-screen').classList.add('active');
+  if(name === 'stats') renderStats();
+  if(name === 'home') updateHomeStats();
+}
+
+// ===== Toast =====
+let toastTimer = null;
+function showToast(msg){
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.classList.add('show');
+  if(toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
+// ===== Touch Gestures =====
+function initGestures(){
+  const cardArea = document.getElementById('card-area');
+  let touchStartX = 0, touchStartY = 0;
+
+  cardArea.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, {passive:true});
+
+  cardArea.addEventListener('touchend', (e) => {
+    const touchEndX = e.changedTouches[0].screenX;
+    const touchEndY = e.changedTouches[0].screenY;
+    const dx = touchEndX - touchStartX;
+    const dy = touchEndY - touchStartY;
+
+    if(Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)*2){
+      if(dx < 0 && State.isFlipped) nextCard('good');
+    }
+  }, {passive:true});
+
+  document.getElementById('card-container').addEventListener('click', (e) => {
+    if(e.target.closest('.audio-btn')) return;
+    if(e.target.closest('.rate-btn')) return;
+    if(!State.isFlipped) flipCard();
+  });
+
+  document.getElementById('flip-btn').addEventListener('click', flipCard);
+}
+
+// ===== Init =====
+function init(){
+  loadState();
+  checkNewDay();
+  initTheme();
+  initHomeScreen();
+  initGestures();
+
+  document.getElementById('study-back').addEventListener('click', () => showScreen('home'));
+  document.getElementById('study-stats').addEventListener('click', () => showScreen('stats'));
+  document.getElementById('btn-home-back').addEventListener('click', () => {
+    document.getElementById('complete-overlay').classList.remove('show');
+    showScreen('home');
+  });
+
+  document.querySelectorAll('.rate-btn').forEach(btn => {
+    btn.addEventListener('click', () => nextCard(btn.dataset.rate));
+  });
+
+  document.getElementById('stats-back').addEventListener('click', () => showScreen('home'));
+
+  document.getElementById('btn-reset').addEventListener('click', () => {
+    if(confirm('确定要重置所有学习进度吗？此操作不可恢复。')){
+      State.cards = {};
+      State.todayStats = {new:0,review:0,again:0};
+      State.streak = 0;
+      State.lastStudyDate = '';
+      State.reviewHistory = {};
+      saveState();
+      updateHomeStats();
+      renderStats();
+      showToast('进度已重置');
+    }
+  });
+
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const screen = btn.dataset.screen;
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      if(screen === 'home') showScreen('home');
+      else if(screen === 'study'){
+        if(State.studyQueue.length === 0 || State.studyIndex >= State.studyQueue.length) startStudy();
+        else showScreen('study');
+      }
+      else if(screen === 'stats') showScreen('stats');
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
