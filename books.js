@@ -15,10 +15,10 @@ const BOOKS = [
   // 词汇4000
   {id:'4000EEW1', series:'词汇4000', title:'Book 1', dataFile:'data/4000EEW1.json', audioDir:'4000EEW1_audio', available:true},
   {id:'4000EEW2', series:'词汇4000', title:'Book 2', dataFile:'data/4000EEW2.json', audioDir:'4000EEW2_audio', available:true},
-  {id:'4000EEW3', series:'词汇4000', title:'Book 3', dataFile:'data/4000EEW3.json', audioDir:'4000EEW3_audio', available:false},
-  {id:'4000EEW4', series:'词汇4000', title:'Book 4', dataFile:'data/4000EEW4.json', audioDir:'4000EEW4_audio', available:false},
-  {id:'4000EEW5', series:'词汇4000', title:'Book 5', dataFile:'data/4000EEW5.json', audioDir:'4000EEW5_audio', available:false},
-  {id:'4000EEW6', series:'词汇4000', title:'Book 6', dataFile:'data/4000EEW6.json', audioDir:'4000EEW6_audio', available:false},
+  {id:'4000EEW3', series:'词汇4000', title:'Book 3', dataFile:'data/4000EEW3.json', audioDir:'4000EEW3_audio', available:true},
+  {id:'4000EEW4', series:'词汇4000', title:'Book 4', dataFile:'data/4000EEW4.json', audioDir:'4000EEW4_audio', available:true},
+  {id:'4000EEW5', series:'词汇4000', title:'Book 5', dataFile:'data/4000EEW5.json', audioDir:'4000EEW5_audio', available:true},
+  {id:'4000EEW6', series:'词汇4000', title:'Book 6', dataFile:'data/4000EEW6.json', audioDir:'4000EEW6_audio', available:true},
 ];
 
 const SERIES_ORDER = ['词汇1000', '词汇2000', '词汇4000'];
