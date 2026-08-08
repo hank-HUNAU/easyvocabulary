@@ -214,6 +214,9 @@ body{
 .card-phonetic{font-family:var(--phonetic);font-size:34px;color:var(--text2);margin:4px 0}
 .card-part{font-size:16px;color:var(--orange);font-style:italic;margin:4px 0}
 .card-def{font-size:17px;color:var(--text);text-align:center;line-height:1.5;margin-top:8px;max-width:100%}
+.card-cn-meaning{font-size:15px;color:var(--text2);text-align:center;line-height:1.5;margin-top:4px}
+.card-example{font-size:15px;font-style:italic;color:var(--text);text-align:center;line-height:1.5;margin-top:12px}
+.card-cn-example{font-size:13px;color:var(--text2);text-align:center;line-height:1.5;margin-top:4px}
 .card-unit-tag{position:absolute;top:14px;left:16px;font-size:12px;color:var(--text2);font-weight:500}
 
 /* Audio buttons - back card bottom */
@@ -436,6 +439,9 @@ body{
   .card-word{font-size:34px}
   .card-phonetic{font-size:28px}
   .card-def{font-size:16px}
+  .card-cn-meaning{font-size:14px}
+  .card-example{font-size:14px}
+  .card-cn-example{font-size:12px}
   .unit-grid{grid-template-columns:repeat(auto-fill,minmax(48px,1fr))}
 }
 </style>
@@ -698,12 +704,33 @@ const FIELD_LABELS = {
   uk_pron:{label:'英式音标',display:v=>v,cls:'card-phonetic',phonetic:true},
   us_pron:{label:'美式音标',display:v=>v,cls:'card-phonetic',phonetic:true},
   part:{label:'词性',display:v=>v,cls:'card-part'},
-  definition:{label:'英文释义',display:v=>v,cls:'card-def'}
+  definition:{label:'英文释义',display:v=>v,cls:'card-def'},
+  cn_meaning:{label:'中文含义',display:v=>v,cls:'card-cn-meaning'},
+  example:{label:'英文例句',display:v=>v,cls:'card-example'},
+  cn_example:{label:'中文例句',display:v=>v,cls:'card-cn-example'}
 };
 
 function storageKey(){ return 'anki_' + App.currentBookId + '_state'; }
 const OLD_STORAGE_KEY = 'anki_eew1_state';
-const GLOBAL_SETTINGS_KEY = 'anki_global_settings';
+const LEGACY_GLOBAL_SETTINGS_KEY = 'anki_global_settings';
+
+function seriesSettingsKey(){
+  const series = App.currentBookInfo ? App.currentBookInfo.series : 'default';
+  return 'anki_' + series + '_settings';
+}
+
+function getDefaultFieldConfig(series){
+  if(series === '词汇1000'){
+    return {
+      frontFields: ['uk_pron','word'],
+      backFields: ['part','definition','cn_meaning','example','cn_example']
+    };
+  }
+  return {
+    frontFields: ['uk_pron','word'],
+    backFields: ['part','definition']
+  };
+}
 
 // ===== Persistence =====
 function saveState(){
@@ -759,23 +786,50 @@ function loadState(){
 }
 
 function saveGlobalSettings(){
-  const global = {
-    theme: localStorage.getItem('theme')||'',
+  if(!App.currentBookInfo) return;
+  const settings = {
     frontFields: State.settings.frontFields,
     backFields: State.settings.backFields,
     audioDisplay: State.settings.audioDisplay,
     autoPlay: State.settings.autoPlay
   };
-  try{ localStorage.setItem(GLOBAL_SETTINGS_KEY, JSON.stringify(global)); }catch(e){}
+  try{ localStorage.setItem(seriesSettingsKey(), JSON.stringify(settings)); }catch(e){}
 }
 
 function loadGlobalSettings(){
+  if(!App.currentBookInfo) return;
+  // Apply series-specific defaults first
+  const defaults = getDefaultFieldConfig(App.currentBookInfo.series);
+  State.settings.frontFields = [...defaults.frontFields];
+  State.settings.backFields = [...defaults.backFields];
+
+  // Determine available fields from loaded vocab
+  const firstWord = App.vocab.length > 0 ? App.vocab[0] : {};
+  const availableFields = Object.keys(FIELD_LABELS).filter(f => firstWord[f] !== undefined);
+
+  // Try to load saved series-specific settings
+  let raw = localStorage.getItem(seriesSettingsKey());
+  // Migration from old global key (one-time)
+  if(!raw){
+    raw = localStorage.getItem(LEGACY_GLOBAL_SETTINGS_KEY);
+    if(raw){
+      try{
+        localStorage.setItem(seriesSettingsKey(), raw);
+        localStorage.removeItem(LEGACY_GLOBAL_SETTINGS_KEY);
+      }catch(e){}
+    }
+  }
+  if(!raw) return;
   try{
-    const raw = localStorage.getItem(GLOBAL_SETTINGS_KEY);
-    if(!raw) return;
     const g = JSON.parse(raw);
-    if(g.frontFields) State.settings.frontFields = g.frontFields;
-    if(g.backFields) State.settings.backFields = g.backFields;
+    if(g.frontFields){
+      const filtered = g.frontFields.filter(f => availableFields.includes(f));
+      if(filtered.length > 0) State.settings.frontFields = filtered;
+    }
+    if(g.backFields){
+      const filtered = g.backFields.filter(f => availableFields.includes(f));
+      if(filtered.length > 0) State.settings.backFields = filtered;
+    }
     if(g.audioDisplay) State.settings.audioDisplay = g.audioDisplay;
     if(g.autoPlay !== undefined) State.settings.autoPlay = g.autoPlay;
   }catch(e){}
@@ -958,7 +1012,9 @@ function buildStudyQueue(){
 // ===== UI: Home Screen =====
 function initFieldConfig(){
   const container = document.getElementById('field-config');
-  const fields = ['word','uk_pron','us_pron','part','definition'];
+  // Dynamically detect available fields from loaded vocab data
+  const firstWord = App.vocab.length > 0 ? App.vocab[0] : {};
+  const fields = Object.keys(FIELD_LABELS).filter(f => firstWord[f] !== undefined);
   container.innerHTML = '';
 
   fields.forEach(f => {
@@ -1615,6 +1671,11 @@ async function selectBook(bookId){
   // Update home screen title
   document.getElementById('home-book-title').textContent = bookInfo.series + ' ' + bookInfo.title;
   document.getElementById('home-book-sub').textContent = `Anki Flashcards · ${data.totalWords} words · ${data.totalUnits} units`;
+
+  // Dynamic document title and PWA title
+  document.title = `${bookInfo.series} ${bookInfo.title} - Anki Flashcards`;
+  const metaTitle = document.querySelector('meta[name="apple-mobile-web-app-title"]');
+  if(metaTitle) metaTitle.content = `${bookInfo.series} ${bookInfo.title}`;
 
   // Initialize home screen
   initHomeScreen();
