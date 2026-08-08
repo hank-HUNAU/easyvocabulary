@@ -13,6 +13,9 @@
       "us_pron": "/bɜːrn/",
       "part": "v.",
       "definition": "to be on fire",
+      "cn_meaning": "燃烧",
+      "example": "The paper is burning.",
+      "cn_example": "纸在燃烧。",
       "uk_audio": "1000BEW3_audio/unit_01/burn_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/burn_us.mp3"
     },
@@ -24,6 +27,9 @@
       "us_pron": "/ɪksˈtʃeɪndʒ/",
       "part": "v.",
       "definition": "to give something and get something at the same time",
+      "cn_meaning": "交换",
+      "example": "The gentlemen exchange phone numbers.",
+      "cn_example": "先生们交换了电话号码。",
       "uk_audio": "1000BEW3_audio/unit_01/exchange_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/exchange_us.mp3"
     },
@@ -35,6 +41,9 @@
       "us_pron": "/ˌɪntrəˈduːs/",
       "part": "v.",
       "definition": "to make a person known to another person",
+      "cn_meaning": "介绍",
+      "example": "Jane’s husband introduces her to his handsome friend.",
+      "cn_example": "简的丈夫把她介绍给他英俊的朋友。",
       "uk_audio": "1000BEW3_audio/unit_01/introduce_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/introduce_us.mp3"
     },
@@ -46,6 +55,9 @@
       "us_pron": "/ˈɔːfər/",
       "part": "v.",
       "definition": "to try to give or do something to help someone",
+      "cn_meaning": "主动提供",
+      "example": "Paul offered the man money, but he was not interested.",
+      "cn_example": "保罗主动给那个男人钱，但他不感兴趣。",
       "uk_audio": "1000BEW3_audio/unit_01/offer_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/offer_us.mp3"
     },
@@ -57,6 +69,9 @@
       "us_pron": "/ˈpɑːrd(ə)n/",
       "part": "v.",
       "definition": "to forgive, often used with me",
+      "cn_meaning": "原谅（常与me连用）",
+      "example": "“Pardon me. Can you tell me how to get to the subway?”",
+      "cn_example": "“打扰一下。你能告诉我怎么去地铁吗？”",
       "uk_audio": "1000BEW3_audio/unit_01/pardon_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/pardon_us.mp3"
     },
@@ -68,6 +83,9 @@
       "us_pron": "/ˈpɑːpjələr/",
       "part": "adj.",
       "definition": "liked by many people",
+      "cn_meaning": "受欢迎的",
+      "example": "This busy street is a popular place to shop.",
+      "cn_example": "这条繁忙的街道是受欢迎的购物地点。",
       "uk_audio": "1000BEW3_audio/unit_01/popular_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/popular_us.mp3"
     },
@@ -79,6 +97,9 @@
       "us_pron": "/prɪˈper/",
       "part": "v.",
       "definition": "to make",
+      "cn_meaning": "准备",
+      "example": "The cooks prepare a delicious meal in the restaurant.",
+      "cn_example": "厨师们在餐厅里准备一顿美味的饭菜。",
       "uk_audio": "1000BEW3_audio/unit_01/prepare_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/prepare_us.mp3"
     },
@@ -90,6 +111,9 @@
       "us_pron": "/ˈriːz(ə)n/",
       "part": "n.",
       "definition": "something that says why something was or was not done",
+      "cn_meaning": "原因",
+      "example": "He did not have a reason for arriving late at the theater.",
+      "cn_example": "他没有理由迟到剧院。",
       "uk_audio": "1000BEW3_audio/unit_01/reason_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/reason_us.mp3"
     },
@@ -101,6 +125,9 @@
       "us_pron": "/ʃeɪk/",
       "part": "v.",
       "definition": "to hold and move up and down",
+      "cn_meaning": "摇动",
+      "example": "The woman shakes Sue’s hand and congratulates her.",
+      "cn_example": "那个女人握住苏的手祝贺她。",
       "uk_audio": "1000BEW3_audio/unit_01/shake_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/shake_us.mp3"
     },
@@ -112,6 +139,9 @@
       "us_pron": "/ʃaɪ/",
       "part": "adj.",
       "definition": "quiet and not wanting to talk to others",
+      "cn_meaning": "害羞的",
+      "example": "The young boy is very shy.",
+      "cn_example": "那个小男孩非常害羞。",
       "uk_audio": "1000BEW3_audio/unit_01/shy_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/shy_us.mp3"
     },
@@ -123,6 +153,9 @@
       "us_pron": "/bel/",
       "part": "n.",
       "definition": "something that makes a ringing sound when hit",
+      "cn_meaning": "铃",
+      "example": "The bell rings when the gate opens.",
+      "cn_example": "大门打开时铃响了。",
       "uk_audio": "1000BEW3_audio/unit_01/bell_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/bell_us.mp3"
     },
@@ -134,6 +167,9 @@
       "us_pron": "/blɑːk/",
       "part": "n.",
       "definition": "a part of a city with streets on all four sides",
+      "cn_meaning": "街区",
+      "example": "There are many houses on each block.",
+      "cn_example": "每个街区都有很多房子。",
       "uk_audio": "1000BEW3_audio/unit_01/block_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/block_us.mp3"
     },
@@ -145,6 +181,9 @@
       "us_pron": "/ˈbɔːroʊ/",
       "part": "v.",
       "definition": "to take and use something belonging to another person",
+      "cn_meaning": "借用",
+      "example": "Thank you for letting me borrow your math book this week.",
+      "cn_example": "谢谢你这周借给我你的数学书。",
       "uk_audio": "1000BEW3_audio/unit_01/borrow_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/borrow_us.mp3"
     },
@@ -156,6 +195,9 @@
       "us_pron": "/boʊl/",
       "part": "n.",
       "definition": "a dish with tall sides",
+      "cn_meaning": "碗",
+      "example": "I had a big bowl of soup for lunch.",
+      "cn_example": "我午餐喝了一大碗汤。",
       "uk_audio": "1000BEW3_audio/unit_01/bowl_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/bowl_us.mp3"
     },
@@ -167,6 +209,9 @@
       "us_pron": "/kənˈfjuːz/",
       "part": "v.",
       "definition": "to make it difficult for someone to understand",
+      "cn_meaning": "使困惑",
+      "example": "Math confuses Scott.",
+      "cn_example": "数学让斯科特感到困惑。",
       "uk_audio": "1000BEW3_audio/unit_01/confuse_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/confuse_us.mp3"
     },
@@ -178,6 +223,9 @@
       "us_pron": "/nɑːk/",
       "part": "v.",
       "definition": "to hit something with part of your hand",
+      "cn_meaning": "敲",
+      "example": "She continued to knock on the door.",
+      "cn_example": "她继续敲门。",
       "uk_audio": "1000BEW3_audio/unit_01/knock_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/knock_us.mp3"
     },
@@ -189,6 +237,9 @@
       "us_pron": "/rɪˈzʌlt/",
       "part": "n.",
       "definition": "an exam grade; something that is caused by another",
+      "cn_meaning": "结果",
+      "example": "John’s doctor was very happy with his test results.",
+      "cn_example": "约翰的医生对他的检查结果非常满意。",
       "uk_audio": "1000BEW3_audio/unit_01/result_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/result_us.mp3"
     },
@@ -200,6 +251,9 @@
       "us_pron": "/siːm/",
       "part": "v.",
       "definition": "to look to be",
+      "cn_meaning": "似乎",
+      "example": "They seem to be enjoying the funny movie tonight.",
+      "cn_example": "他们似乎很享受今晚这部有趣的电影。",
       "uk_audio": "1000BEW3_audio/unit_01/seem_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/seem_us.mp3"
     },
@@ -211,6 +265,9 @@
       "us_pron": "/smɑːrt/",
       "part": "adj.",
       "definition": "good at learning or thinking about things",
+      "cn_meaning": "聪明的",
+      "example": "Chris is a very smart boy.",
+      "cn_example": "克里斯是一个非常聪明的男孩。",
       "uk_audio": "1000BEW3_audio/unit_01/smart_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/smart_us.mp3"
     },
@@ -222,6 +279,9 @@
       "us_pron": "/ˈsʌbdʒekt/",
       "part": "n.",
       "definition": "something you study in school",
+      "cn_meaning": "学科",
+      "example": "English is the most popular subject at my school.",
+      "cn_example": "英语是我们学校最受欢迎的学科。",
       "uk_audio": "1000BEW3_audio/unit_01/subject_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_01/subject_us.mp3"
     },
@@ -233,6 +293,9 @@
       "us_pron": "/ˈæktɪv/",
       "part": "adj.",
       "definition": "doing many things",
+      "cn_meaning": "活跃的",
+      "example": "Children are very active and like to run and jump.",
+      "cn_example": "孩子们非常活跃，喜欢跑和跳。",
       "uk_audio": "1000BEW3_audio/unit_02/active_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/active_us.mp3"
     },
@@ -244,6 +307,9 @@
       "us_pron": "/bɪˈliːv/",
       "part": "v.",
       "definition": "to think that something is true",
+      "cn_meaning": "相信",
+      "example": "He believes he is a smart boy.",
+      "cn_example": "他相信自己是个聪明的男孩。",
       "uk_audio": "1000BEW3_audio/unit_02/believe_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/believe_us.mp3"
     },
@@ -255,6 +321,9 @@
       "us_pron": "/ɪnˈvaɪrənmənt/",
       "part": "n.",
       "definition": "all of the things found in an area, indoors or outdoors",
+      "cn_meaning": "环境",
+      "example": "Fresh air is a good reason to live in a clean environment.",
+      "cn_example": "新鲜空气是住在清洁环境中的一个好理由。",
       "uk_audio": "1000BEW3_audio/unit_02/environment_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/environment_us.mp3"
     },
@@ -266,6 +335,9 @@
       "us_pron": "/ˈfɔːrɪst/",
       "part": "n.",
       "definition": "a big area of trees",
+      "cn_meaning": "森林",
+      "example": "The forest seems to be burning.",
+      "cn_example": "森林似乎在燃烧。",
       "uk_audio": "1000BEW3_audio/unit_02/forest_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/forest_us.mp3"
     },
@@ -277,6 +349,9 @@
       "us_pron": "/ˈhjuːmən/",
       "part": "n.",
       "definition": "a person",
+      "cn_meaning": "人",
+      "example": "The old bridge was built by humans a long time ago.",
+      "cn_example": "这座老桥是很久以前由人类建造的。",
       "uk_audio": "1000BEW3_audio/unit_02/human_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/human_us.mp3"
     },
@@ -288,6 +363,9 @@
       "us_pron": "/hʌnt/",
       "part": "v.",
       "definition": "to look for animals to kill",
+      "cn_meaning": "狩猎",
+      "example": "Some people in North America like to hunt.",
+      "cn_example": "北美的一些人喜欢狩猎。",
       "uk_audio": "1000BEW3_audio/unit_02/hunt_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/hunt_us.mp3"
     },
@@ -299,6 +377,9 @@
       "us_pron": "/pæθ/",
       "part": "n.",
       "definition": "a way to go from one place to another",
+      "cn_meaning": "小路",
+      "example": "Both paths take you to the gate of the park.",
+      "cn_example": "两条小路都能带你到公园的大门。",
       "uk_audio": "1000BEW3_audio/unit_02/path_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/path_us.mp3"
     },
@@ -310,6 +391,9 @@
       "us_pron": "/seɪf/",
       "part": "adj.",
       "definition": "not dangerous",
+      "cn_meaning": "安全的",
+      "example": "The gentleman stands in a safe place away from the subway.",
+      "cn_example": "那位先生站在远离地铁的安全地方。",
       "uk_audio": "1000BEW3_audio/unit_02/safe_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/safe_us.mp3"
     },
@@ -321,6 +405,9 @@
       "us_pron": "/ˈsɜːrvɪs/",
       "part": "n.",
       "definition": "the job of helping visitors at a place like a restaurant",
+      "cn_meaning": "服务",
+      "example": "The new restaurant has delicious food and great service.",
+      "cn_example": "这家新餐厅有美味的食物和优质的服务。",
       "uk_audio": "1000BEW3_audio/unit_02/service_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/service_us.mp3"
     },
@@ -332,6 +419,9 @@
       "us_pron": "/waɪld/",
       "part": "adj.",
       "definition": "living or growing without humans’ help",
+      "cn_meaning": "野生的",
+      "example": "Africa is a popular place to see wild animals.",
+      "cn_example": "非洲是观赏野生动物的热门地方。",
       "uk_audio": "1000BEW3_audio/unit_02/wild_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/wild_us.mp3"
     },
@@ -343,6 +433,9 @@
       "us_pron": "/ˈeriə/",
       "part": "n.",
       "definition": "a part of a larger place",
+      "cn_meaning": "区域",
+      "example": "The people living in this area are very poor.",
+      "cn_example": "住在这个区域的人非常贫穷。",
       "uk_audio": "1000BEW3_audio/unit_02/area_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/area_us.mp3"
     },
@@ -354,6 +447,9 @@
       "us_pron": "/tʃɔɪs/",
       "part": "n.",
       "definition": "something you can choose",
+      "cn_meaning": "选择",
+      "example": "It is your choice. Do you want to go north or south?",
+      "cn_example": "这是你的选择。你想往北还是往南？",
       "uk_audio": "1000BEW3_audio/unit_02/choice_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/choice_us.mp3"
     },
@@ -365,6 +461,9 @@
       "us_pron": "/ˈentər/",
       "part": "v.",
       "definition": "to go in",
+      "cn_meaning": "进入",
+      "example": "She enters through the front gate.",
+      "cn_example": "她从前门进入。",
       "uk_audio": "1000BEW3_audio/unit_02/enter_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/enter_us.mp3"
     },
@@ -376,6 +475,9 @@
       "us_pron": "/ɪmˈpɔːrt(ə)nt/",
       "part": "adj.",
       "definition": "having great meaning",
+      "cn_meaning": "重要的",
+      "example": "The king is the most important piece in the game.",
+      "cn_example": "国王是游戏中最重要的棋子。",
       "uk_audio": "1000BEW3_audio/unit_02/important_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/important_us.mp3"
     },
@@ -387,6 +489,9 @@
       "us_pron": "/laɪ/",
       "part": "v.",
       "definition": "to be on your back on the ground or in a bed",
+      "cn_meaning": "躺",
+      "example": "She lies in the grass and looks up at the sky.",
+      "cn_example": "她躺在草地上仰望天空。",
       "uk_audio": "1000BEW3_audio/unit_02/lie_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/lie_us.mp3"
     },
@@ -398,6 +503,9 @@
       "us_pron": "/mæd/",
       "part": "adj.",
       "definition": "angry",
+      "cn_meaning": "生气的",
+      "example": "The woman is mad because someone hit her car.",
+      "cn_example": "那个女人很生气，因为有人撞了她的车。",
       "uk_audio": "1000BEW3_audio/unit_02/mad_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/mad_us.mp3"
     },
@@ -409,6 +517,9 @@
       "us_pron": "/ˈneɪtʃər/",
       "part": "n.",
       "definition": "everything in the world that is not made by humans",
+      "cn_meaning": "自然",
+      "example": "She likes to take pictures of nature.",
+      "cn_example": "她喜欢拍摄大自然的照片。",
       "uk_audio": "1000BEW3_audio/unit_02/nature_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/nature_us.mp3"
     },
@@ -420,6 +531,9 @@
       "us_pron": "/prəˈtekt/",
       "part": "v.",
       "definition": "to keep safe from harm",
+      "cn_meaning": "保护",
+      "example": "The umbrella protects the people from the hot sun.",
+      "cn_example": "雨伞保护人们免受烈日的伤害。",
       "uk_audio": "1000BEW3_audio/unit_02/protect_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/protect_us.mp3"
     },
@@ -431,6 +545,9 @@
       "us_pron": "/ʃaʊt/",
       "part": "v.",
       "definition": "to say something very loudly",
+      "cn_meaning": "大喊",
+      "example": "The shy boy surprised everyone by shouting.",
+      "cn_example": "那个害羞的男孩大喊一声，让所有人都吃了一惊。",
       "uk_audio": "1000BEW3_audio/unit_02/shout_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/shout_us.mp3"
     },
@@ -442,6 +559,9 @@
       "us_pron": "/ˈjuːʒuəli; ˈjuːʒəli/",
       "part": "adv.",
       "definition": "most of the time",
+      "cn_meaning": "通常",
+      "example": "People usually shake hands when they introduce themselves.",
+      "cn_example": "人们在自我介绍时通常会握手。",
       "uk_audio": "1000BEW3_audio/unit_02/usually_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_02/usually_us.mp3"
     },
@@ -453,6 +573,9 @@
       "us_pron": "/əˈmeɪzɪŋ/",
       "part": "adj.",
       "definition": "causing great surprise or wonder",
+      "cn_meaning": "令人惊奇的",
+      "example": "It is amazing that humans walked on the moon.",
+      "cn_example": "人类登上月球真是令人惊奇。",
       "uk_audio": "1000BEW3_audio/unit_03/amazing_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/amazing_us.mp3"
     },
@@ -464,6 +587,9 @@
       "us_pron": "/əˈtend/",
       "part": "v.",
       "definition": "to go to a class or activity",
+      "cn_meaning": "参加",
+      "example": "Many students attend this class on protecting the environment.",
+      "cn_example": "许多学生参加这门关于保护环境的课。",
       "uk_audio": "1000BEW3_audio/unit_03/attend_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/attend_us.mp3"
     },
@@ -475,6 +601,9 @@
       "us_pron": "/ɪˈvent/",
       "part": "n.",
       "definition": "a special, planned activity",
+      "cn_meaning": "活动",
+      "example": "There is usually a fun event at the park on a holiday.",
+      "cn_example": "假日时公园里通常会有有趣的活动。",
       "uk_audio": "1000BEW3_audio/unit_03/event_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/event_us.mp3"
     },
@@ -486,6 +615,9 @@
       "us_pron": "/ɪkˈspres/",
       "part": "v.",
       "definition": "to say, write, or show thoughts or feelings",
+      "cn_meaning": "表达",
+      "example": "Marcy expresses her feelings with her face.",
+      "cn_example": "玛西用面部表情表达她的感受。",
       "uk_audio": "1000BEW3_audio/unit_03/express_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/express_us.mp3"
     },
@@ -497,6 +629,9 @@
       "us_pron": "/ɡreɪd/",
       "part": "n.",
       "definition": "a level of study in school",
+      "cn_meaning": "年级",
+      "example": "Lesley started first grade today.",
+      "cn_example": "莱斯利今天开始上一年级了。",
       "uk_audio": "1000BEW3_audio/unit_03/grade_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/grade_us.mp3"
     },
@@ -508,6 +643,9 @@
       "us_pron": "/pɑːrt/",
       "part": "n.",
       "definition": "a piece; some but not all",
+      "cn_meaning": "部分",
+      "example": "The cheese was cut into eight parts.",
+      "cn_example": "奶酪被切成了八份。",
       "uk_audio": "1000BEW3_audio/unit_03/part_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/part_us.mp3"
     },
@@ -519,6 +657,9 @@
       "us_pron": "/seɪv/",
       "part": "v.",
       "definition": "to keep something to use later",
+      "cn_meaning": "保存",
+      "example": "She is saving this cake to eat tomorrow.",
+      "cn_example": "她把这块蛋糕留着明天吃。",
       "uk_audio": "1000BEW3_audio/unit_03/save_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/save_us.mp3"
     },
@@ -530,6 +671,9 @@
       "us_pron": "/set/",
       "part": "v.",
       "definition": "to choose something",
+      "cn_meaning": "设定",
+      "example": "We need to set a date for our trip.",
+      "cn_example": "我们需要为旅行设定一个日期。",
       "uk_audio": "1000BEW3_audio/unit_03/set_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/set_us.mp3"
     },
@@ -541,6 +685,9 @@
       "us_pron": "/speɪs/",
       "part": "n.",
       "definition": "an empty area where a person or thing can go",
+      "cn_meaning": "空间",
+      "example": "Their new apartment has a lot of space.",
+      "cn_example": "他们的新公寓有很大的空间。",
       "uk_audio": "1000BEW3_audio/unit_03/space_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/space_us.mp3"
     },
@@ -552,6 +699,9 @@
       "us_pron": "/ˈspeʃ(ə)l/",
       "part": "adj.",
       "definition": "different from the usual",
+      "cn_meaning": "特别的",
+      "example": "The store is offering special, low prices all week.",
+      "cn_example": "这家商店整周都在提供特别的低价。",
       "uk_audio": "1000BEW3_audio/unit_03/special_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/special_us.mp3"
     },
@@ -563,6 +713,9 @@
       "us_pron": "/tʃɪr/",
       "part": "v.",
       "definition": "to shout to show happiness or to make others feel good",
+      "cn_meaning": "欢呼",
+      "example": "The fans are cheering for their favorite baseball team.",
+      "cn_example": "球迷们正在为他们最喜欢的棒球队欢呼。",
       "uk_audio": "1000BEW3_audio/unit_03/cheer_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/cheer_us.mp3"
     },
@@ -574,6 +727,9 @@
       "us_pron": "/ˈkɑːntest/",
       "part": "n.",
       "definition": "an event in which there is a winner",
+      "cn_meaning": "比赛",
+      "example": "Mila and Victor won the dance contest!",
+      "cn_example": "米拉和维克多赢得了舞蹈比赛！",
       "uk_audio": "1000BEW3_audio/unit_03/contest_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/contest_us.mp3"
     },
@@ -585,6 +741,9 @@
       "us_pron": "/ɡɪft/",
       "part": "n.",
       "definition": "something given to someone",
+      "cn_meaning": "礼物",
+      "example": "His gift came in a pretty red box.",
+      "cn_example": "他的礼物装在一个漂亮的红色盒子里。",
       "uk_audio": "1000BEW3_audio/unit_03/gift_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/gift_us.mp3"
     },
@@ -596,6 +755,9 @@
       "us_pron": "/ˈmæɡəziːn/",
       "part": "n.",
       "definition": "a thin book that comes out once a week or month",
+      "cn_meaning": "杂志",
+      "example": "“The Week” is my favorite news magazine.",
+      "cn_example": "《一周》是我最喜欢的新闻杂志。",
       "uk_audio": "1000BEW3_audio/unit_03/magazine_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/magazine_us.mp3"
     },
@@ -607,6 +769,9 @@
       "us_pron": "/pərˈfɔːrm/",
       "part": "v.",
       "definition": "to do something like singing or acting in front of people",
+      "cn_meaning": "表演",
+      "example": "The popular singer performs all over the world.",
+      "cn_example": "这位受欢迎的歌手在世界各地表演。",
       "uk_audio": "1000BEW3_audio/unit_03/perform_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/perform_us.mp3"
     },
@@ -618,6 +783,9 @@
       "us_pron": "/ˈpʌblɪk/",
       "part": "n.",
       "definition": "(after in) a place where many people can see you",
+      "cn_meaning": "公共场合",
+      "example": "Shy people do not like to speak in public.",
+      "cn_example": "害羞的人不喜欢在公共场合说话。",
       "uk_audio": "1000BEW3_audio/unit_03/public_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/public_us.mp3"
     },
@@ -629,6 +797,9 @@
       "us_pron": "/siːn/",
       "part": "n.",
       "definition": "a part of a play or movie",
+      "cn_meaning": "场景",
+      "example": "The scene with the fight is the most exciting part of the play.",
+      "cn_example": "打斗的场景是这部剧中最激动人心的部分。",
       "uk_audio": "1000BEW3_audio/unit_03/scene_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/scene_us.mp3"
     },
@@ -640,6 +811,9 @@
       "us_pron": "/ˈsiːkrət/",
       "part": "n.",
       "definition": "something that is kept hidden from other people",
+      "cn_meaning": "秘密",
+      "example": "Greg is telling Jessica a secret. I wonder what it is!",
+      "cn_example": "格雷格在告诉杰西卡一个秘密。我想知道是什么！",
       "uk_audio": "1000BEW3_audio/unit_03/secret_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/secret_us.mp3"
     },
@@ -651,6 +825,9 @@
       "us_pron": "/steɪdʒ/",
       "part": "n.",
       "definition": "the part of a theater where people perform",
+      "cn_meaning": "舞台",
+      "example": "Many great actors have performed on this stage.",
+      "cn_example": "许多伟大的演员曾在这个舞台上表演过。",
       "uk_audio": "1000BEW3_audio/unit_03/stage_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/stage_us.mp3"
     },
@@ -662,6 +839,9 @@
       "us_pron": "/juˈniːk/",
       "part": "adj.",
       "definition": "not like anyone or anything else",
+      "cn_meaning": "独特的",
+      "example": "That man’s hair is unique.",
+      "cn_example": "那个男人的头发很独特。",
       "uk_audio": "1000BEW3_audio/unit_03/unique_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_03/unique_us.mp3"
     },
@@ -673,6 +853,9 @@
       "us_pron": "/ɪˌlekˈtrɪsəti/",
       "part": "n.",
       "definition": "something used to give light and make things work",
+      "cn_meaning": "电",
+      "example": "Humans use a lot of electricity.",
+      "cn_example": "人类使用大量的电。",
       "uk_audio": "1000BEW3_audio/unit_04/electricity_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/electricity_us.mp3"
     },
@@ -684,6 +867,9 @@
       "us_pron": "/fækt/",
       "part": "n.",
       "definition": "something that is true",
+      "cn_meaning": "事实",
+      "example": "South Korea is a country in Asia. That is a fact.",
+      "cn_example": "韩国是亚洲的一个国家。这是事实。",
       "uk_audio": "1000BEW3_audio/unit_04/fact_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/fact_us.mp3"
     },
@@ -695,6 +881,9 @@
       "us_pron": "/foʊld/",
       "part": "v.",
       "definition": "to bend one part of something over another part",
+      "cn_meaning": "折叠",
+      "example": "She folds her clothes to make more space for them.",
+      "cn_example": "她折叠衣服以便腾出更多空间。",
       "uk_audio": "1000BEW3_audio/unit_04/fold_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/fold_us.mp3"
     },
@@ -706,6 +895,9 @@
       "us_pron": "/kiː/",
       "part": "n.",
       "definition": "an object used to lock or unlock a door or to start a car",
+      "cn_meaning": "钥匙",
+      "example": "I usually keep my house key in a secret place.",
+      "cn_example": "我通常把房子钥匙放在一个秘密的地方。",
       "uk_audio": "1000BEW3_audio/unit_04/key_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/key_us.mp3"
     },
@@ -717,6 +909,9 @@
       "us_pron": "/maɪnd/",
       "part": "v.",
       "definition": "to be unhappy about something, usually used with not",
+      "cn_meaning": "介意（通常与not连用）",
+      "example": "She does not mind if you borrow her car.",
+      "cn_example": "她不介意你借她的车。",
       "uk_audio": "1000BEW3_audio/unit_04/mind_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/mind_us.mp3"
     },
@@ -728,6 +923,9 @@
       "us_pron": "/ˈpaʊər/",
       "part": "n.",
       "definition": "something you cannot see that is used to make things work",
+      "cn_meaning": "动力",
+      "example": "They turned the power off for a special event.",
+      "cn_example": "他们为一个特别的活动关闭了电源。",
       "uk_audio": "1000BEW3_audio/unit_04/power_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/power_us.mp3"
     },
@@ -739,6 +937,9 @@
       "us_pron": "/sɑːk/",
       "part": "n.",
       "definition": "a soft piece of clothing that covers the foot",
+      "cn_meaning": "袜子",
+      "example": "Jessica gave Holly socks for her birthday.",
+      "cn_example": "杰西卡送霍莉袜子作为生日礼物。",
       "uk_audio": "1000BEW3_audio/unit_04/sock_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/sock_us.mp3"
     },
@@ -750,6 +951,9 @@
       "us_pron": "/sɑːlv/",
       "part": "v.",
       "definition": "to find the answer",
+      "cn_meaning": "解决",
+      "example": "He has to choose the correct path to solve the puzzle.",
+      "cn_example": "他必须选择正确的路径来解决谜题。",
       "uk_audio": "1000BEW3_audio/unit_04/solve_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/solve_us.mp3"
     },
@@ -761,6 +965,9 @@
       "us_pron": "/stɪk/",
       "part": "v.",
       "definition": "to attach to something",
+      "cn_meaning": "粘贴",
+      "example": "Marsha sticks special notes on the door for her husband.",
+      "cn_example": "玛莎在门上为丈夫贴了特别的便条。",
       "uk_audio": "1000BEW3_audio/unit_04/stick_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/stick_us.mp3"
     },
@@ -772,6 +979,9 @@
       "us_pron": "/ˈtræfɪk/",
       "part": "n.",
       "definition": "cars on the road",
+      "cn_meaning": "交通",
+      "example": "It is not safe to drive in this area. There is too much traffic.",
+      "cn_example": "在这个区域开车不安全。交通太拥挤了。",
       "uk_audio": "1000BEW3_audio/unit_04/traffic_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/traffic_us.mp3"
     },
@@ -783,6 +993,9 @@
       "us_pron": "/ədˈvaɪs/",
       "part": "n.",
       "definition": "an opinion about what someone should or should not do",
+      "cn_meaning": "建议",
+      "example": "He gives them advice about saving money.",
+      "cn_example": "他给他们关于省钱方面的建议。",
       "uk_audio": "1000BEW3_audio/unit_04/advice_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/advice_us.mp3"
     },
@@ -794,6 +1007,9 @@
       "us_pron": "/keɪs/",
       "part": "n.",
       "definition": "a small box or bag",
+      "cn_meaning": "盒子",
+      "example": "Max will buy a larger pencil case when he is in the sixth grade.",
+      "cn_example": "马克斯上六年级时会买一个更大的铅笔盒。",
       "uk_audio": "1000BEW3_audio/unit_04/case_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/case_us.mp3"
     },
@@ -805,6 +1021,9 @@
       "us_pron": "/ɪɡˈzæm/",
       "part": "n.",
       "definition": "a test",
+      "cn_meaning": "考试",
+      "example": "He takes an exam to attend the new school.",
+      "cn_example": "他参加考试以进入新学校。",
       "uk_audio": "1000BEW3_audio/unit_04/exam_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/exam_us.mp3"
     },
@@ -816,6 +1035,9 @@
       "us_pron": "/ˈhæpən/",
       "part": "v.",
       "definition": "to take place",
+      "cn_meaning": "发生",
+      "example": "The car crash happened in front of the theater.",
+      "cn_example": "车祸发生在剧院前面。",
       "uk_audio": "1000BEW3_audio/unit_04/happen_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/happen_us.mp3"
     },
@@ -827,6 +1049,9 @@
       "us_pron": "/ˈleɪzi/",
       "part": "adj.",
       "definition": "not wanting to work or move",
+      "cn_meaning": "懒惰的",
+      "example": "John is smart, but he is very lazy.",
+      "cn_example": "约翰很聪明，但他非常懒惰。",
       "uk_audio": "1000BEW3_audio/unit_04/lazy_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/lazy_us.mp3"
     },
@@ -838,6 +1063,9 @@
       "us_pron": "/ˈmesɪdʒ/",
       "part": "n.",
       "definition": "information that is sent or given to someone",
+      "cn_meaning": "消息",
+      "example": "Gary received an important message last night.",
+      "cn_example": "加里昨晚收到了一条重要的消息。",
       "uk_audio": "1000BEW3_audio/unit_04/message_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/message_us.mp3"
     },
@@ -849,6 +1077,9 @@
       "us_pron": "/ˈstuːpɪd/",
       "part": "adj.",
       "definition": "dumb; foolish",
+      "cn_meaning": "愚蠢的",
+      "example": "Riding down the rocks in the toy car is a stupid idea.",
+      "cn_example": "坐玩具车从岩石上冲下去是个愚蠢的主意。",
       "uk_audio": "1000BEW3_audio/unit_04/stupid_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/stupid_us.mp3"
     },
@@ -860,6 +1091,9 @@
       "us_pron": "/səkˈsiːd/",
       "part": "v.",
       "definition": "to do well; to do what you tried to do",
+      "cn_meaning": "成功",
+      "example": "Pam’s family is happy that she succeeded in school.",
+      "cn_example": "帕姆的家人为她在学业上取得成功而高兴。",
       "uk_audio": "1000BEW3_audio/unit_04/succeed_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/succeed_us.mp3"
     },
@@ -871,6 +1105,9 @@
       "us_pron": "/ˈterəb(ə)l/",
       "part": "adj.",
       "definition": "very bad",
+      "cn_meaning": "糟糕的",
+      "example": "Dan got a terrible grade on his exam.",
+      "cn_example": "丹考试得了很糟糕的成绩。",
       "uk_audio": "1000BEW3_audio/unit_04/terrible_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/terrible_us.mp3"
     },
@@ -882,6 +1119,9 @@
       "us_pron": "/ˌʌpˈset/",
       "part": "adj.",
       "definition": "worried; not happy",
+      "cn_meaning": "心烦的",
+      "example": "She is upset because she cannot find the book she needs.",
+      "cn_example": "她很心烦，因为她找不到需要的书。",
       "uk_audio": "1000BEW3_audio/unit_04/upset_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_04/upset_us.mp3"
     },
@@ -893,6 +1133,9 @@
       "us_pron": "/ˈerpleɪn/",
       "part": "n.",
       "definition": "a flying machine",
+      "cn_meaning": "飞机",
+      "example": "The airplane flies through the sky.",
+      "cn_example": "飞机在天空中飞行。",
       "uk_audio": "1000BEW3_audio/unit_05/airplane_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/airplane_us.mp3"
     },
@@ -904,6 +1147,9 @@
       "us_pron": "/ˈerpɔːrt/",
       "part": "n.",
       "definition": "a place where airplanes arrive and leave",
+      "cn_meaning": "机场",
+      "example": "The airplane arrived at the airport early.",
+      "cn_example": "飞机早到了机场。",
       "uk_audio": "1000BEW3_audio/unit_05/airport_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/airport_us.mp3"
     },
@@ -915,6 +1161,9 @@
       "us_pron": "/ˈkʌltʃər/",
       "part": "n.",
       "definition": "the way of life of a group of people",
+      "cn_meaning": "文化",
+      "example": "Melissa went to Japan to learn about its unique culture.",
+      "cn_example": "梅丽莎去了日本，了解其独特的文化。",
       "uk_audio": "1000BEW3_audio/unit_05/culture_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/culture_us.mp3"
     },
@@ -926,6 +1175,9 @@
       "us_pron": "/dɪˈsaɪd/",
       "part": "v.",
       "definition": "to make a choice",
+      "cn_meaning": "决定",
+      "example": "She decided to wear the blue shirt to the event.",
+      "cn_example": "她决定穿蓝色衬衫去参加活动。",
       "uk_audio": "1000BEW3_audio/unit_05/decide_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/decide_us.mp3"
     },
@@ -937,6 +1189,9 @@
       "us_pron": "/liːv/",
       "part": "v.",
       "definition": "to go away from",
+      "cn_meaning": "离开",
+      "example": "They are leaving their office to go home.",
+      "cn_example": "他们正离开办公室回家。",
       "uk_audio": "1000BEW3_audio/unit_05/leave_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/leave_us.mp3"
     },
@@ -948,6 +1203,9 @@
       "us_pron": "/ˈmɑːdərn/",
       "part": "adj.",
       "definition": "of the latest kind",
+      "cn_meaning": "现代的",
+      "example": "I saw Jeff’s modern house in a magazine.",
+      "cn_example": "我在一本杂志上看到了杰夫的现代风格房子。",
       "uk_audio": "1000BEW3_audio/unit_05/modern_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/modern_us.mp3"
     },
@@ -959,6 +1217,9 @@
       "us_pron": "/ˈɔːrdər/",
       "part": "v.",
       "definition": "to ask for food or drink at a restaurant",
+      "cn_meaning": "点餐",
+      "example": "They took the waiter’s advice and ordered fish for dinner.",
+      "cn_example": "他们听从了服务员的建议，晚餐点了鱼。",
       "uk_audio": "1000BEW3_audio/unit_05/order_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/order_us.mp3"
     },
@@ -970,6 +1231,9 @@
       "us_pron": "/sænd/",
       "part": "n.",
       "definition": "very tiny pieces of rock",
+      "cn_meaning": "沙子",
+      "example": "Olivia wrote a message in the sand.",
+      "cn_example": "奥利维亚在沙子上写了一条消息。",
       "uk_audio": "1000BEW3_audio/unit_05/sand_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/sand_us.mp3"
     },
@@ -981,6 +1245,9 @@
       "us_pron": "/spɑːt/",
       "part": "n.",
       "definition": "an area, place, or location",
+      "cn_meaning": "地点",
+      "example": "The beach is a popular spot in the summer.",
+      "cn_example": "海滩是夏天热门的地点。",
       "uk_audio": "1000BEW3_audio/unit_05/spot_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/spot_us.mp3"
     },
@@ -992,6 +1259,9 @@
       "us_pron": "/streɪndʒ/",
       "part": "adj.",
       "definition": "different from what is usual",
+      "cn_meaning": "奇怪的",
+      "example": "The strange animal looks like it is dancing.",
+      "cn_example": "那只奇怪的动物看起来像在跳舞。",
       "uk_audio": "1000BEW3_audio/unit_05/strange_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/strange_us.mp3"
     },
@@ -1003,6 +1273,9 @@
       "us_pron": "/bɪl/",
       "part": "n.",
       "definition": "a piece of paper money",
+      "cn_meaning": "纸币",
+      "example": "Josh folds the bills before he puts them in his pocket.",
+      "cn_example": "乔希把纸币折好后再放进口袋。",
       "uk_audio": "1000BEW3_audio/unit_05/bill_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/bill_us.mp3"
     },
@@ -1014,6 +1287,9 @@
       "us_pron": "/bloʊ/",
       "part": "v.",
       "definition": "to move something with air",
+      "cn_meaning": "吹",
+      "example": "Kerri blows the seeds into the air.",
+      "cn_example": "凯丽把种子吹到空中。",
       "uk_audio": "1000BEW3_audio/unit_05/blow_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/blow_us.mp3"
     },
@@ -1025,6 +1301,9 @@
       "us_pron": "/ˈsentʃəri/",
       "part": "n.",
       "definition": "one hundred years",
+      "cn_meaning": "世纪",
+      "example": "Bob was born one century ago.",
+      "cn_example": "鲍勃出生在一个世纪前。",
       "uk_audio": "1000BEW3_audio/unit_05/century_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/century_us.mp3"
     },
@@ -1036,6 +1315,9 @@
       "us_pron": "/ˈkʌstəm/",
       "part": "n.",
       "definition": "the usual way of doing something in a culture",
+      "cn_meaning": "习俗",
+      "example": "It is a custom in many countries to give birthday gifts.",
+      "cn_example": "在许多国家，送生日礼物是一种习俗。",
       "uk_audio": "1000BEW3_audio/unit_05/custom_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/custom_us.mp3"
     },
@@ -1047,6 +1329,9 @@
       "us_pron": "/ɪkˈspɪriəns/",
       "part": "v.",
       "definition": "to see, feel, or do something",
+      "cn_meaning": "体验",
+      "example": "They want to experience sleeping in nature.",
+      "cn_example": "他们想体验在自然中睡觉。",
       "uk_audio": "1000BEW3_audio/unit_05/experience_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/experience_us.mp3"
     },
@@ -1058,6 +1343,9 @@
       "us_pron": "/ˌɪntərˈnæʃ(ə)nəl/",
       "part": "adj.",
       "definition": "happening in or between two or more countries",
+      "cn_meaning": "国际的",
+      "example": "Many people attended the international meeting.",
+      "cn_example": "许多人参加了国际会议。",
       "uk_audio": "1000BEW3_audio/unit_05/international_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/international_us.mp3"
     },
@@ -1069,6 +1357,9 @@
       "us_pron": "/ˈaɪlənd/",
       "part": "n.",
       "definition": "a piece of land in the middle of water",
+      "cn_meaning": "岛屿",
+      "example": "There is no electricity on the island.",
+      "cn_example": "岛上没有电。",
       "uk_audio": "1000BEW3_audio/unit_05/island_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/island_us.mp3"
     },
@@ -1080,6 +1371,9 @@
       "us_pron": "/ˈdʒɜːrni/",
       "part": "n.",
       "definition": "a long trip",
+      "cn_meaning": "旅程",
+      "example": "They are going on a journey through the sand.",
+      "cn_example": "他们正在穿越沙地的旅程中。",
       "uk_audio": "1000BEW3_audio/unit_05/journey_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/journey_us.mp3"
     },
@@ -1091,6 +1385,9 @@
       "us_pron": "/miːl/",
       "part": "n.",
       "definition": "food that is prepared and eaten",
+      "cn_meaning": "一餐",
+      "example": "She made a terrible meal. No one liked it.",
+      "cn_example": "她做了一顿糟糕的饭。没有人喜欢。",
       "uk_audio": "1000BEW3_audio/unit_05/meal_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/meal_us.mp3"
     },
@@ -1102,6 +1399,9 @@
       "us_pron": "/rɪˈtɜːrn/",
       "part": "v.",
       "definition": "to come back after being away",
+      "cn_meaning": "返回",
+      "example": "We are always happy to return home.",
+      "cn_example": "我们总是很高兴回家。",
       "uk_audio": "1000BEW3_audio/unit_05/return_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_05/return_us.mp3"
     },
@@ -1113,6 +1413,9 @@
       "us_pron": "/ˈæktʃuəli/",
       "part": "adv.",
       "definition": "in fact",
+      "cn_meaning": "实际上",
+      "example": "Actually, we do not mind waiting for you at the airport.",
+      "cn_example": "实际上，我们不介意在机场等你。",
       "uk_audio": "1000BEW3_audio/unit_06/actually_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/actually_us.mp3"
     },
@@ -1124,6 +1427,9 @@
       "us_pron": "/kæmp/",
       "part": "v.",
       "definition": "to sleep outside in a tent",
+      "cn_meaning": "露营",
+      "example": "They camped on an island.",
+      "cn_example": "他们在岛上露营。",
       "uk_audio": "1000BEW3_audio/unit_06/camp_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/camp_us.mp3"
     },
@@ -1135,6 +1441,9 @@
       "us_pron": "/kəˈlekt/",
       "part": "v.",
       "definition": "to bring things together into one group",
+      "cn_meaning": "收集",
+      "example": "She collects shells that she finds in the sand.",
+      "cn_example": "她收集在沙子里找到的贝壳。",
       "uk_audio": "1000BEW3_audio/unit_06/collect_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/collect_us.mp3"
     },
@@ -1146,6 +1455,9 @@
       "us_pron": "/fɔːrm/",
       "part": "v.",
       "definition": "to make",
+      "cn_meaning": "形成",
+      "example": "He forms a pot with his hands.",
+      "cn_example": "他用手形成一个罐子。",
       "uk_audio": "1000BEW3_audio/unit_06/form_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/form_us.mp3"
     },
@@ -1157,6 +1469,9 @@
       "us_pron": "/kɪk/",
       "part": "v.",
       "definition": "to hit something with your foot",
+      "cn_meaning": "踢",
+      "example": "Lee kicked the ball to Henry.",
+      "cn_example": "李把球踢给了亨利。",
       "uk_audio": "1000BEW3_audio/unit_06/kick_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/kick_us.mp3"
     },
@@ -1168,6 +1483,9 @@
       "us_pron": "/riːtʃ/",
       "part": "v.",
       "definition": "to stretch out the arm to touch or get with your hand",
+      "cn_meaning": "伸手够",
+      "example": "She reaches for the baby.",
+      "cn_example": "她伸手去够婴儿。",
       "uk_audio": "1000BEW3_audio/unit_06/reach_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/reach_us.mp3"
     },
@@ -1179,6 +1497,9 @@
       "us_pron": "/rɪˈvjuː/",
       "part": "v.",
       "definition": "to look at or study something again",
+      "cn_meaning": "复习",
+      "example": "The students review their notes for the exam.",
+      "cn_example": "学生们复习笔记准备考试。",
       "uk_audio": "1000BEW3_audio/unit_06/review_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/review_us.mp3"
     },
@@ -1190,6 +1511,9 @@
       "us_pron": "/ˈsɪmp(ə)l/",
       "part": "adj.",
       "definition": "easy",
+      "cn_meaning": "简单的",
+      "example": "He solved a simple problem.",
+      "cn_example": "他解决了一个简单的问题。",
       "uk_audio": "1000BEW3_audio/unit_06/simple_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/simple_us.mp3"
     },
@@ -1201,6 +1525,9 @@
       "us_pron": "/ˈsɑːkər/",
       "part": "n.",
       "definition": "a sport in which a ball is kicked into a goal to win a point",
+      "cn_meaning": "足球",
+      "example": "Soccer is a popular sport in many cultures.",
+      "cn_example": "足球在许多文化中是一项受欢迎的运动。",
       "uk_audio": "1000BEW3_audio/unit_06/soccer_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/soccer_us.mp3"
     },
@@ -1212,6 +1539,9 @@
       "us_pron": "/ˈsɪmb(ə)l/",
       "part": "n.",
       "definition": "a shape with a special meaning",
+      "cn_meaning": "符号",
+      "example": "A heart shape is a symbol of love.",
+      "cn_example": "心形是爱的符号。",
       "uk_audio": "1000BEW3_audio/unit_06/symbol_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/symbol_us.mp3"
     },
@@ -1223,6 +1553,9 @@
       "us_pron": "/əˈlaʊ/",
       "part": "v.",
       "definition": "to let someone do something",
+      "cn_meaning": "允许",
+      "example": "Her parents allow her to have a strange hair color.",
+      "cn_example": "她的父母允许她染奇怪的发色。",
       "uk_audio": "1000BEW3_audio/unit_06/allow_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/allow_us.mp3"
     },
@@ -1234,6 +1567,9 @@
       "us_pron": "/bæt/",
       "part": "n.",
       "definition": "a flying animal that hunts at night",
+      "cn_meaning": "蝙蝠",
+      "example": "The bat returns to the forest to hunt for food.",
+      "cn_example": "蝙蝠回到森林中觅食。",
       "uk_audio": "1000BEW3_audio/unit_06/bat_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/bat_us.mp3"
     },
@@ -1245,6 +1581,9 @@
       "us_pron": "/ˈeksərsaɪz/",
       "part": "v.",
       "definition": "to move the body as a way to get healthy",
+      "cn_meaning": "锻炼",
+      "example": "They decided to exercise in the park.",
+      "cn_example": "他们决定在公园里锻炼。",
       "uk_audio": "1000BEW3_audio/unit_06/exercise_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/exercise_us.mp3"
     },
@@ -1256,6 +1595,9 @@
       "us_pron": "/fɔːrs/",
       "part": "v.",
       "definition": "to make people do things they do not want to do",
+      "cn_meaning": "强迫",
+      "example": "Wayne’s mom forced him to eat all of his meal.",
+      "cn_example": "韦恩的妈妈强迫他吃完所有的饭。",
       "uk_audio": "1000BEW3_audio/unit_06/force_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/force_us.mp3"
     },
@@ -1267,6 +1609,9 @@
       "us_pron": "/liːf/",
       "part": "n.",
       "definition": "the flat green part of a plant",
+      "cn_meaning": "叶子",
+      "example": "Each kind of plant has unique leaves.",
+      "cn_example": "每种植物都有独特的叶子。",
       "uk_audio": "1000BEW3_audio/unit_06/leaf_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/leaf_us.mp3"
     },
@@ -1278,6 +1623,9 @@
       "us_pron": "/ˈmembər/",
       "part": "n.",
       "definition": "a person in a group or club",
+      "cn_meaning": "成员",
+      "example": "All of the members wear the same clothing.",
+      "cn_example": "所有成员都穿着相同的衣服。",
       "uk_audio": "1000BEW3_audio/unit_06/member_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/member_us.mp3"
     },
@@ -1289,6 +1637,9 @@
       "us_pron": "/ˈriːəl/",
       "part": "adj.",
       "definition": "actually happening; being what it looks like",
+      "cn_meaning": "真正的",
+      "example": "He looks at the bill to see if it is real.",
+      "cn_example": "他看着纸币辨别是否是真钱。",
       "uk_audio": "1000BEW3_audio/unit_06/real_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/real_us.mp3"
     },
@@ -1300,6 +1651,9 @@
       "us_pron": "/saɪn/",
       "part": "n.",
       "definition": "a flat board or paper with a message on it",
+      "cn_meaning": "标志",
+      "example": "Follow the sign to the international airport.",
+      "cn_example": "跟着标志走到国际机场。",
       "uk_audio": "1000BEW3_audio/unit_06/sign_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/sign_us.mp3"
     },
@@ -1311,6 +1665,9 @@
       "us_pron": "/step/",
       "part": "v.",
       "definition": "to move your foot up and put it down in a different spot",
+      "cn_meaning": "迈步",
+      "example": "Sarah stepped on the stones to cross the river.",
+      "cn_example": "萨拉踩着石头过河。",
       "uk_audio": "1000BEW3_audio/unit_06/step_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/step_us.mp3"
     },
@@ -1322,6 +1679,9 @@
       "us_pron": "/triːt/",
       "part": "n.",
       "definition": "something nice that you do not eat or do often",
+      "cn_meaning": "款待",
+      "example": "They enjoy a treat after school.",
+      "cn_example": "他们放学后享受一份款待。",
       "uk_audio": "1000BEW3_audio/unit_06/treat_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_06/treat_us.mp3"
     },
@@ -1333,6 +1693,9 @@
       "us_pron": "/əˈfreɪd/",
       "part": "adj.",
       "definition": "feeling fear",
+      "cn_meaning": "害怕的",
+      "example": "Marta is afraid of bats.",
+      "cn_example": "玛尔塔害怕蝙蝠。",
       "uk_audio": "1000BEW3_audio/unit_07/afraid_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/afraid_us.mp3"
     },
@@ -1344,6 +1707,9 @@
       "us_pron": "/fer/",
       "part": "adj.",
       "definition": "good for everyone",
+      "cn_meaning": "公平的",
+      "example": "They made a fair exchange.",
+      "cn_example": "他们做了一次公平的交换。",
       "uk_audio": "1000BEW3_audio/unit_07/fair_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/fair_us.mp3"
     },
@@ -1355,6 +1721,9 @@
       "us_pron": "/ˈfoʊkəs/",
       "part": "v.",
       "definition": "to put all of your thoughts on one thing",
+      "cn_meaning": "集中",
+      "example": "He focuses on the yellow spot in the center.",
+      "cn_example": "他集中注意力看中心的黄色斑点。",
       "uk_audio": "1000BEW3_audio/unit_07/focus_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/focus_us.mp3"
     },
@@ -1366,6 +1735,9 @@
       "us_pron": "/ˈfɔːrən/",
       "part": "adj.",
       "definition": "from a different country",
+      "cn_meaning": "外国的",
+      "example": "Kate went on a journey to a foreign country in Africa.",
+      "cn_example": "凯特去非洲的一个外国旅行。",
       "uk_audio": "1000BEW3_audio/unit_07/foreign_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/foreign_us.mp3"
     },
@@ -1377,6 +1749,9 @@
       "us_pron": "/ˈhæbɪt/",
       "part": "n.",
       "definition": "something you do often, usually without thinking about it",
+      "cn_meaning": "习惯",
+      "example": "Drinking soda is a terrible habit.",
+      "cn_example": "喝汽水是一个糟糕的习惯。",
       "uk_audio": "1000BEW3_audio/unit_07/habit_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/habit_us.mp3"
     },
@@ -1388,6 +1763,9 @@
       "us_pron": "/ɪnˈvent/",
       "part": "v.",
       "definition": "to make something for the first time",
+      "cn_meaning": "发明",
+      "example": "Nathan invented a robot that can solve puzzles.",
+      "cn_example": "内森发明了一个能解谜的机器人。",
       "uk_audio": "1000BEW3_audio/unit_07/invent_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/invent_us.mp3"
     },
@@ -1399,6 +1777,9 @@
       "us_pron": "/ˈlæŋɡwɪdʒ/",
       "part": "n.",
       "definition": "the words and symbols used by people of one country or area",
+      "cn_meaning": "语言",
+      "example": "I cannot read the sign. It is in a foreign language.",
+      "cn_example": "我看不懂那个标志。它是用外语写的。",
       "uk_audio": "1000BEW3_audio/unit_07/language_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/language_us.mp3"
     },
@@ -1410,6 +1791,9 @@
       "us_pron": "/ˈneɪʃ(ə)n/",
       "part": "n.",
       "definition": "a country",
+      "cn_meaning": "国家",
+      "example": "Switzerland is a small nation.",
+      "cn_example": "瑞士是一个小国。",
       "uk_audio": "1000BEW3_audio/unit_07/nation_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/nation_us.mp3"
     },
@@ -1421,6 +1805,9 @@
       "us_pron": "/stɪl/",
       "part": "adj.",
       "definition": "not moving",
+      "cn_meaning": "静止的",
+      "example": "The woman is very still.",
+      "cn_example": "那个女人非常安静不动。",
       "uk_audio": "1000BEW3_audio/unit_07/still_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/still_us.mp3"
     },
@@ -1432,6 +1819,9 @@
       "us_pron": "/waɪz/",
       "part": "adj.",
       "definition": "knowing the right things to do",
+      "cn_meaning": "明智的",
+      "example": "My grandfather gives good advice because he is wise.",
+      "cn_example": "我爷爷给出好建议因为他很明智。",
       "uk_audio": "1000BEW3_audio/unit_07/wise_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/wise_us.mp3"
     },
@@ -1443,6 +1833,9 @@
       "us_pron": "/ˈɔːdiəns/",
       "part": "n.",
       "definition": "a group of people watching an event or show",
+      "cn_meaning": "观众",
+      "example": "The audience waits for the movie to begin.",
+      "cn_example": "观众等待电影开始。",
       "uk_audio": "1000BEW3_audio/unit_07/audience_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/audience_us.mp3"
     },
@@ -1454,6 +1847,9 @@
       "us_pron": "/ˈkɑːlɪdʒ/",
       "part": "n.",
       "definition": "a school where students study after high school",
+      "cn_meaning": "大学",
+      "example": "Susan attends a college with many international students.",
+      "cn_example": "苏珊就读于一所有许多国际学生的大学。",
       "uk_audio": "1000BEW3_audio/unit_07/college_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/college_us.mp3"
     },
@@ -1465,6 +1861,9 @@
       "us_pron": "/ˈkʌmftəbl; ˈkʌmfərtəbl/",
       "part": "adj.",
       "definition": "feeling relaxed",
+      "cn_meaning": "舒适的",
+      "example": "She is comfortable on her new sofa.",
+      "cn_example": "她在新沙发上很舒适。",
       "uk_audio": "1000BEW3_audio/unit_07/comfortable_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/comfortable_us.mp3"
     },
@@ -1476,6 +1875,9 @@
       "us_pron": "/ˈɑːnɪst/",
       "part": "adj.",
       "definition": "good and saying things that are true",
+      "cn_meaning": "诚实的",
+      "example": "Nick is very honest. He returned the money he found.",
+      "cn_example": "尼克非常诚实。他归还了捡到的钱。",
       "uk_audio": "1000BEW3_audio/unit_07/honest_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/honest_us.mp3"
     },
@@ -1487,6 +1889,9 @@
       "us_pron": "/ɪˈmædʒɪn/",
       "part": "v.",
       "definition": "to think of things that are not real",
+      "cn_meaning": "想象",
+      "example": "The little girl imagines she is a big person in a small world.",
+      "cn_example": "小女孩想象自己是大世界里的一个大人。",
       "uk_audio": "1000BEW3_audio/unit_07/imagine_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/imagine_us.mp3"
     },
@@ -1498,6 +1903,9 @@
       "us_pron": "/ˈlev(ə)l/",
       "part": "n.",
       "definition": "an amount of something",
+      "cn_meaning": "水平",
+      "example": "They watched as the water level continued to go up.",
+      "cn_example": "他们看着水位持续上升。",
       "uk_audio": "1000BEW3_audio/unit_07/level_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/level_us.mp3"
     },
@@ -1509,6 +1917,9 @@
       "us_pron": "/ˈsentəns/",
       "part": "n.",
       "definition": "a set of words that make a statement or question",
+      "cn_meaning": "句子",
+      "example": "Mrs. Hays was upset with Tom, so she made him write sentences.",
+      "cn_example": "海斯太太对汤姆很生气，所以让他抄写句子。",
       "uk_audio": "1000BEW3_audio/unit_07/sentence_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/sentence_us.mp3"
     },
@@ -1520,6 +1931,9 @@
       "us_pron": "/stres/",
       "part": "n.",
       "definition": "worry caused by problems in your life",
+      "cn_meaning": "压力",
+      "example": "She is under a lot of stress from her job.",
+      "cn_example": "她因工作承受着很大的压力。",
       "uk_audio": "1000BEW3_audio/unit_07/stress_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/stress_us.mp3"
     },
@@ -1531,6 +1945,9 @@
       "us_pron": "/ˈsʌd(ə)nli/",
       "part": "adv.",
       "definition": "very quickly",
+      "cn_meaning": "突然",
+      "example": "Suddenly, a storm blew sand across the road.",
+      "cn_example": "突然，一场暴风雨把沙子吹过了马路。",
       "uk_audio": "1000BEW3_audio/unit_07/suddenly_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/suddenly_us.mp3"
     },
@@ -1542,6 +1959,9 @@
       "us_pron": "/ˈtɑːpɪk/",
       "part": "n.",
       "definition": "a subject people talk or write about",
+      "cn_meaning": "话题",
+      "example": "The teacher wrote the topic on the board.",
+      "cn_example": "老师把话题写在黑板上。",
       "uk_audio": "1000BEW3_audio/unit_07/topic_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_07/topic_us.mp3"
     },
@@ -1553,6 +1973,9 @@
       "us_pron": "/æd/",
       "part": "v.",
       "definition": "to put one thing with another thing or things",
+      "cn_meaning": "添加",
+      "example": "She adds salt to her meal.",
+      "cn_example": "她在饭菜中加了盐。",
       "uk_audio": "1000BEW3_audio/unit_08/add_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/add_us.mp3"
     },
@@ -1564,6 +1987,9 @@
       "us_pron": "/blaɪnd/",
       "part": "adj.",
       "definition": "not able to see",
+      "cn_meaning": "失明的",
+      "example": "The dog helps the blind man.",
+      "cn_example": "狗帮助失明的男人。",
       "uk_audio": "1000BEW3_audio/unit_08/blind_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/blind_us.mp3"
     },
@@ -1575,6 +2001,9 @@
       "us_pron": "/ˈbʌt(ə)n/",
       "part": "n.",
       "definition": "a small round thing used to close an opening in clothing",
+      "cn_meaning": "纽扣",
+      "example": "Casey’s grandmother collects buttons.",
+      "cn_example": "凯西的奶奶收集纽扣。",
       "uk_audio": "1000BEW3_audio/unit_08/button_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/button_us.mp3"
     },
@@ -1586,6 +2015,9 @@
       "us_pron": "/kriˈeɪt/",
       "part": "v.",
       "definition": "to make something",
+      "cn_meaning": "创造",
+      "example": "He creates a unique piece of art with leaves on the top.",
+      "cn_example": "他用顶部的叶子创造了一件独特的艺术品。",
       "uk_audio": "1000BEW3_audio/unit_08/create_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/create_us.mp3"
     },
@@ -1597,6 +2029,9 @@
       "us_pron": "/ˈmeməri/",
       "part": "n.",
       "definition": "something from the past that is remembered",
+      "cn_meaning": "记忆",
+      "example": "They have great memories of their trip to the island.",
+      "cn_example": "他们对岛上的旅行有美好的记忆。",
       "uk_audio": "1000BEW3_audio/unit_08/memory_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/memory_us.mp3"
     },
@@ -1608,6 +2043,9 @@
       "us_pron": "/prɪns/",
       "part": "n.",
       "definition": "the son of a king or queen",
+      "cn_meaning": "王子",
+      "example": "Katherine married a real prince.",
+      "cn_example": "凯瑟琳嫁给了一位真正的王子。",
       "uk_audio": "1000BEW3_audio/unit_08/prince_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/prince_us.mp3"
     },
@@ -1619,6 +2057,9 @@
       "us_pron": "/strɪŋ/",
       "part": "n.",
       "definition": "a long thread used to keep things together",
+      "cn_meaning": "细绳",
+      "example": "The clerk put a string around the gift.",
+      "cn_example": "店员用细绳把礼物绑起来。",
       "uk_audio": "1000BEW3_audio/unit_08/string_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/string_us.mp3"
     },
@@ -1630,6 +2071,9 @@
       "us_pron": "/θɪk/",
       "part": "adj.",
       "definition": "having a large distance from top to bottom",
+      "cn_meaning": "厚的",
+      "example": "She borrowed a lot of thick books at college.",
+      "cn_example": "她在大学借了很多厚书。",
       "uk_audio": "1000BEW3_audio/unit_08/thick_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/thick_us.mp3"
     },
@@ -1641,6 +2085,9 @@
       "us_pron": "/taɪt/",
       "part": "adj.",
       "definition": "fitting close to the body",
+      "cn_meaning": "紧身的",
+      "example": "Max is not comfortable wearing this tight shirt.",
+      "cn_example": "马克斯穿这件紧身衬衫不舒服。",
       "uk_audio": "1000BEW3_audio/unit_08/tight_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/tight_us.mp3"
     },
@@ -1652,6 +2099,9 @@
       "us_pron": "/trəˈdɪʃ(ə)n/",
       "part": "n.",
       "definition": "a custom that has been around for a long time",
+      "cn_meaning": "传统",
+      "example": "In some cultures, it is a tradition to paint eggs.",
+      "cn_example": "在一些文化中，画彩蛋是一种传统。",
       "uk_audio": "1000BEW3_audio/unit_08/tradition_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/tradition_us.mp3"
     },
@@ -1663,6 +2113,9 @@
       "us_pron": "/bɔːrd/",
       "part": "n.",
       "definition": "a flat, wide piece of wood",
+      "cn_meaning": "木板",
+      "example": "They invented a simple, outdoor game using a board.",
+      "cn_example": "他们用木板发明了一个简单的户外游戏。",
       "uk_audio": "1000BEW3_audio/unit_08/board_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/board_us.mp3"
     },
@@ -1674,6 +2127,9 @@
       "us_pron": "/breɪn/",
       "part": "n.",
       "definition": "the part of the body inside your head",
+      "cn_meaning": "大脑",
+      "example": "The picture focuses on the man’s brain.",
+      "cn_example": "图片聚焦在那个人的大脑上。",
       "uk_audio": "1000BEW3_audio/unit_08/brain_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/brain_us.mp3"
     },
@@ -1685,6 +2141,9 @@
       "us_pron": "/ˈselɪbreɪt/",
       "part": "v.",
       "definition": "to do something special for an important event",
+      "cn_meaning": "庆祝",
+      "example": "The members of the soccer team celebrate after the game.",
+      "cn_example": "足球队成员们在比赛后庆祝。",
       "uk_audio": "1000BEW3_audio/unit_08/celebrate_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/celebrate_us.mp3"
     },
@@ -1696,6 +2155,9 @@
       "us_pron": "/ɪˈspeʃəli/",
       "part": "adv.",
       "definition": "in a way that is greater than usual",
+      "cn_meaning": "尤其",
+      "example": "He is especially smart for his age.",
+      "cn_example": "就他的年龄而言，他尤其聪明。",
       "uk_audio": "1000BEW3_audio/unit_08/especially_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/especially_us.mp3"
     },
@@ -1707,6 +2169,9 @@
       "us_pron": "/hoʊl/",
       "part": "n.",
       "definition": "an opening that something can pass through",
+      "cn_meaning": "洞",
+      "example": "There is a hole in the wall.",
+      "cn_example": "墙上有一个洞。",
       "uk_audio": "1000BEW3_audio/unit_08/hole_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/hole_us.mp3"
     },
@@ -1718,6 +2183,9 @@
       "us_pron": "/ˈaɪtəm/",
       "part": "n.",
       "definition": "a thing that is usually part of a group",
+      "cn_meaning": "物品",
+      "example": "There are many items in the box.",
+      "cn_example": "盒子里有很多物品。",
       "uk_audio": "1000BEW3_audio/unit_08/item_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/item_us.mp3"
     },
@@ -1729,6 +2197,9 @@
       "us_pron": "/mætʃ/",
       "part": "v.",
       "definition": "to look similar to something",
+      "cn_meaning": "相配",
+      "example": "Stacy’s boots match her umbrella.",
+      "cn_example": "斯泰西的靴子和她的雨伞很相配。",
       "uk_audio": "1000BEW3_audio/unit_08/match_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/match_us.mp3"
     },
@@ -1740,6 +2211,9 @@
       "us_pron": "/ˈprɪnses/",
       "part": "n.",
       "definition": "the daughter of a king or queen",
+      "cn_meaning": "公主",
+      "example": "She imagines she is a princess.",
+      "cn_example": "她想象自己是一位公主。",
       "uk_audio": "1000BEW3_audio/unit_08/princess_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/princess_us.mp3"
     },
@@ -1751,6 +2225,9 @@
       "us_pron": "/ˈsoʊʃ(ə)l/",
       "part": "adj.",
       "definition": "having a need to be with others",
+      "cn_meaning": "社交的",
+      "example": "Diane is very social. She has many friends.",
+      "cn_example": "黛安非常喜欢社交。她有很多朋友。",
       "uk_audio": "1000BEW3_audio/unit_08/social_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/social_us.mp3"
     },
@@ -1762,6 +2239,9 @@
       "us_pron": "/ter; tɪ(ə)r/",
       "part": "v.",
       "definition": "to pull something into parts",
+      "cn_meaning": "撕",
+      "example": "The angry man tears the paper in half.",
+      "cn_example": "那个愤怒的男人把纸撕成两半。",
       "uk_audio": "1000BEW3_audio/unit_08/tear_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_08/tear_us.mp3"
     },
@@ -1773,6 +2253,9 @@
       "us_pron": "/krɔːs/",
       "part": "v.",
       "definition": "to go from one side to the other",
+      "cn_meaning": "穿过",
+      "example": "They are especially careful when they cross a busy road.",
+      "cn_example": "他们穿过繁忙的马路时格外小心。",
       "uk_audio": "1000BEW3_audio/unit_09/cross_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/cross_us.mp3"
     },
@@ -1784,6 +2267,9 @@
       "us_pron": "/ˈfaɪnəli/",
       "part": "adv.",
       "definition": "after a long time",
+      "cn_meaning": "终于",
+      "example": "The long meeting finally finished.",
+      "cn_example": "漫长的会议终于结束了。",
       "uk_audio": "1000BEW3_audio/unit_09/finally_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/finally_us.mp3"
     },
@@ -1795,6 +2281,9 @@
       "us_pron": "/ˈfɑːloʊ/",
       "part": "v.",
       "definition": "to go after; to do what a person or thing says",
+      "cn_meaning": "跟随",
+      "example": "The baby is following close to its mother.",
+      "cn_example": "婴儿紧紧跟在妈妈身后。",
       "uk_audio": "1000BEW3_audio/unit_09/follow_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/follow_us.mp3"
     },
@@ -1806,6 +2295,9 @@
       "us_pron": "/hiːt/",
       "part": "v.",
       "definition": "to make something hot",
+      "cn_meaning": "加热",
+      "example": "He lighted the fire to heat the cold room.",
+      "cn_example": "他生火来给寒冷的房间加热。",
       "uk_audio": "1000BEW3_audio/unit_09/heat_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/heat_us.mp3"
     },
@@ -1817,6 +2309,9 @@
       "us_pron": "/ˈreɪnboʊ/",
       "part": "n.",
       "definition": "a curved line of colors in the sky",
+      "cn_meaning": "彩虹",
+      "example": "There are two rainbows in the sky.",
+      "cn_example": "天空中有两道彩虹。",
       "uk_audio": "1000BEW3_audio/unit_09/rainbow_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/rainbow_us.mp3"
     },
@@ -1828,6 +2323,9 @@
       "us_pron": "/spred/",
       "part": "v.",
       "definition": "to open or place something so that it covers a large area",
+      "cn_meaning": "铺开",
+      "example": "She is spreading the blanket on the grass.",
+      "cn_example": "她正在草地上铺开毯子。",
       "uk_audio": "1000BEW3_audio/unit_09/spread_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/spread_us.mp3"
     },
@@ -1839,6 +2337,9 @@
       "us_pron": "/ˈtaɪərd/",
       "part": "adj.",
       "definition": "needing rest or sleep",
+      "cn_meaning": "疲倦的",
+      "example": "Nancy was so tired that she fell asleep in English class.",
+      "cn_example": "南希太累了，在英语课上睡着了。",
       "uk_audio": "1000BEW3_audio/unit_09/tired_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/tired_us.mp3"
     },
@@ -1850,6 +2351,9 @@
       "us_pron": "/ˈtaʊər/",
       "part": "n.",
       "definition": "a tall and narrow building",
+      "cn_meaning": "塔",
+      "example": "Seeing the Eiffel Tower is one of the best memories of my trip.",
+      "cn_example": "看到埃菲尔铁塔是我旅行中最美好的记忆之一。",
       "uk_audio": "1000BEW3_audio/unit_09/tower_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/tower_us.mp3"
     },
@@ -1861,6 +2365,9 @@
       "us_pron": "/ˈjuːnɪt/",
       "part": "n.",
       "definition": "one part of something",
+      "cn_meaning": "单元",
+      "example": "The topic of this math unit is difficult.",
+      "cn_example": "这个数学单元的话题很难。",
       "uk_audio": "1000BEW3_audio/unit_09/unit_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/unit_us.mp3"
     },
@@ -1872,6 +2379,9 @@
       "us_pron": "/voʊt/",
       "part": "v.",
       "definition": "to make a choice for or against a person or thing",
+      "cn_meaning": "投票",
+      "example": "The audience voted for the best singer.",
+      "cn_example": "观众投票选出最佳歌手。",
       "uk_audio": "1000BEW3_audio/unit_09/vote_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/vote_us.mp3"
     },
@@ -1883,6 +2393,9 @@
       "us_pron": "/klaɪm/",
       "part": "v.",
       "definition": "to go up or down using your feet and hands",
+      "cn_meaning": "攀爬",
+      "example": "Pam likes to exercise by climbing the wall.",
+      "cn_example": "帕姆喜欢通过攀爬墙壁来锻炼。",
       "uk_audio": "1000BEW3_audio/unit_09/climb_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/climb_us.mp3"
     },
@@ -1894,6 +2407,9 @@
       "us_pron": "/dɪˈskraɪb/",
       "part": "v.",
       "definition": "to talk about what something is like",
+      "cn_meaning": "描述",
+      "example": "She is describing the result on the board.",
+      "cn_example": "她正在黑板上描述结果。",
       "uk_audio": "1000BEW3_audio/unit_09/describe_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/describe_us.mp3"
     },
@@ -1905,6 +2421,9 @@
       "us_pron": "/ˈenərdʒi/",
       "part": "n.",
       "definition": "power; the ability to be active",
+      "cn_meaning": "能量",
+      "example": "The dog has a lot of energy. He plays all day.",
+      "cn_example": "这只狗精力充沛。它整天都在玩。",
       "uk_audio": "1000BEW3_audio/unit_09/energy_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/energy_us.mp3"
     },
@@ -1916,6 +2435,9 @@
       "us_pron": "/ˈendʒɪn/",
       "part": "n.",
       "definition": "the part of a car that makes power for it to move",
+      "cn_meaning": "引擎",
+      "example": "Al reaches into the engine to fix the problem.",
+      "cn_example": "阿尔伸手进引擎修理故障。",
       "uk_audio": "1000BEW3_audio/unit_09/engine_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/engine_us.mp3"
     },
@@ -1927,6 +2449,9 @@
       "us_pron": "/fiːld/",
       "part": "n.",
       "definition": "a grassy area that has no trees or buildings",
+      "cn_meaning": "田野",
+      "example": "Bob’s neighbor allows him to hunt in his field.",
+      "cn_example": "鲍勃的邻居允许他在自己的田野里打猎。",
       "uk_audio": "1000BEW3_audio/unit_09/field_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/field_us.mp3"
     },
@@ -1938,6 +2463,9 @@
       "us_pron": "/ɪnˈkluːd/",
       "part": "v.",
       "definition": "to have a person or thing as part of a group",
+      "cn_meaning": "包含",
+      "example": "Our new team members include Joe, Min, and Brian.",
+      "cn_example": "我们新团队成员包括乔、明和布莱恩。",
       "uk_audio": "1000BEW3_audio/unit_09/include_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/include_us.mp3"
     },
@@ -1949,6 +2477,9 @@
       "us_pron": "/ˈpɜːrfɪkt/",
       "part": "adj.",
       "definition": "not having anything wrong",
+      "cn_meaning": "完美的",
+      "example": "Marvin received a perfect score on his college exam.",
+      "cn_example": "马文在大学考试中获得了满分。",
       "uk_audio": "1000BEW3_audio/unit_09/perfect_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/perfect_us.mp3"
     },
@@ -1960,6 +2491,9 @@
       "us_pron": "/raɪz/",
       "part": "v.",
       "definition": "to move upward",
+      "cn_meaning": "上升",
+      "example": "The airplane rises in the sky.",
+      "cn_example": "飞机在天空中上升。",
       "uk_audio": "1000BEW3_audio/unit_09/rise_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/rise_us.mp3"
     },
@@ -1971,6 +2505,9 @@
       "us_pron": "/ʃeɪp/",
       "part": "n.",
       "definition": "the outline of something",
+      "cn_meaning": "形状",
+      "example": "The cookie is in the shape of a heart.",
+      "cn_example": "饼干是心形的。",
       "uk_audio": "1000BEW3_audio/unit_09/shape_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/shape_us.mp3"
     },
@@ -1982,6 +2519,9 @@
       "us_pron": "/stoʊn/",
       "part": "n.",
       "definition": "a small rock",
+      "cn_meaning": "石头",
+      "example": "Meg added two new stones to her collection.",
+      "cn_example": "梅格在她的收藏中添加了两块新石头。",
       "uk_audio": "1000BEW3_audio/unit_09/stone_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_09/stone_us.mp3"
     },
@@ -1993,6 +2533,9 @@
       "us_pron": "/beɪk/",
       "part": "v.",
       "definition": "to make something and cook it in an oven",
+      "cn_meaning": "烘焙",
+      "example": "Mom is baking some muffins.",
+      "cn_example": "妈妈正在烘焙一些松饼。",
       "uk_audio": "1000BEW3_audio/unit_10/bake_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/bake_us.mp3"
     },
@@ -2004,6 +2547,9 @@
       "us_pron": "/kəˈmjuːnɪkeɪt/",
       "part": "v.",
       "definition": "to share thoughts and feelings with another person",
+      "cn_meaning": "交流",
+      "example": "The man and woman communicate well at work.",
+      "cn_example": "那个男人和女人在工作中交流得很好。",
       "uk_audio": "1000BEW3_audio/unit_10/communicate_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/communicate_us.mp3"
     },
@@ -2015,6 +2561,9 @@
       "us_pron": "/dɪˈlɪvər/",
       "part": "v.",
       "definition": "to take something to a person or place",
+      "cn_meaning": "递送",
+      "example": "He delivers the box to the woman.",
+      "cn_example": "他把盒子递送给那个女人。",
       "uk_audio": "1000BEW3_audio/unit_10/deliver_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/deliver_us.mp3"
     },
@@ -2026,6 +2575,9 @@
       "us_pron": "/dəˈrekt/",
       "part": "v.",
       "definition": "to tell an actor or a group of actors what to do",
+      "cn_meaning": "导演",
+      "example": "The woman in the middle is directing the movie.",
+      "cn_example": "中间的那个女人正在导演这部电影。",
       "uk_audio": "1000BEW3_audio/unit_10/direct_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/direct_us.mp3"
     },
@@ -2037,6 +2589,9 @@
       "us_pron": "/ɡoʊl/",
       "part": "n.",
       "definition": "something you are trying to do",
+      "cn_meaning": "目标",
+      "example": "He reached his goal of climbing to the top of the mountain.",
+      "cn_example": "他实现了攀登到山顶的目标。",
       "uk_audio": "1000BEW3_audio/unit_10/goal_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/goal_us.mp3"
     },
@@ -2048,6 +2603,9 @@
       "us_pron": "/ˈhɪstri; ˈhɪstəri/",
       "part": "n.",
       "definition": "events in the past",
+      "cn_meaning": "历史",
+      "example": "The pyramids in Egypt are an important part of history.",
+      "cn_example": "埃及金字塔是历史的重要组成部分。",
       "uk_audio": "1000BEW3_audio/unit_10/history_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/history_us.mp3"
     },
@@ -2059,6 +2617,9 @@
       "us_pron": "/ɪnˈfɔːrm/",
       "part": "v.",
       "definition": "to let others know about something",
+      "cn_meaning": "通知",
+      "example": "Ed informed the man that he got the job.",
+      "cn_example": "埃德通知那个男人他得到了这份工作。",
       "uk_audio": "1000BEW3_audio/unit_10/inform_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/inform_us.mp3"
     },
@@ -2070,6 +2631,9 @@
       "us_pron": "/meɪl/",
       "part": "n.",
       "definition": "letters or packages sent to others",
+      "cn_meaning": "邮件",
+      "example": "He collects the mail in the afternoon.",
+      "cn_example": "他下午收取邮件。",
       "uk_audio": "1000BEW3_audio/unit_10/mail_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/mail_us.mp3"
     },
@@ -2081,6 +2645,9 @@
       "us_pron": "/mɑːrtʃ/",
       "part": "v.",
       "definition": "to walk as a group in step with each other",
+      "cn_meaning": "行军",
+      "example": "The band is marching down the street.",
+      "cn_example": "乐队正沿街行进。",
       "uk_audio": "1000BEW3_audio/unit_10/march_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/march_us.mp3"
     },
@@ -2092,6 +2659,9 @@
       "us_pron": "/hoʊl/",
       "part": "adj.",
       "definition": "all of something",
+      "cn_meaning": "整个的",
+      "example": "I do not want one piece of pizza. I want to eat the whole thing!",
+      "cn_example": "我不想要一片披萨。我想吃整个！",
       "uk_audio": "1000BEW3_audio/unit_10/whole_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/whole_us.mp3"
     },
@@ -2103,6 +2673,9 @@
       "us_pron": "/əˈpɪr/",
       "part": "v.",
       "definition": "to be seen",
+      "cn_meaning": "出现",
+      "example": "The actress will appear in the play every night this week.",
+      "cn_example": "这位女演员本周每晚都会在剧中出现。",
       "uk_audio": "1000BEW3_audio/unit_10/appear_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/appear_us.mp3"
     },
@@ -2114,6 +2687,9 @@
       "us_pron": "/kəˈmjuːnəti/",
       "part": "n.",
       "definition": "a group of people living in the same area",
+      "cn_meaning": "社区",
+      "example": "Alice lives in a very nice community.",
+      "cn_example": "爱丽丝住在一个非常好的社区。",
       "uk_audio": "1000BEW3_audio/unit_10/community_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/community_us.mp3"
     },
@@ -2125,6 +2701,9 @@
       "us_pron": "/ˈfestɪvl; ˈfestəvəl/",
       "part": "n.",
       "definition": "a special party with events to celebrate something",
+      "cn_meaning": "节日",
+      "example": "People in India throw colors at each other during the Holi festival.",
+      "cn_example": "在胡里节期间，印度人互相投掷颜色。",
       "uk_audio": "1000BEW3_audio/unit_10/festival_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/festival_us.mp3"
     },
@@ -2136,6 +2715,9 @@
       "us_pron": "/ˈɪntərvjuː/",
       "part": "v.",
       "definition": "to ask someone many questions",
+      "cn_meaning": "面试",
+      "example": "Jill was interviewed for an important job at an international airport.",
+      "cn_example": "吉尔参加了一个国际机场重要职位的面试。",
       "uk_audio": "1000BEW3_audio/unit_10/interview_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/interview_us.mp3"
     },
@@ -2147,6 +2729,9 @@
       "us_pron": "/ˈmɪljən/",
       "part": "adj.",
       "definition": "of the number 1,000,000",
+      "cn_meaning": "百万",
+      "example": "The bag is filled with a million dollars.",
+      "cn_example": "包里装满了一百万美元。",
       "uk_audio": "1000BEW3_audio/unit_10/million_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/million_us.mp3"
     },
@@ -2158,6 +2743,9 @@
       "us_pron": "/ˈnuːzpeɪpər/",
       "part": "n.",
       "definition": "a set of large papers with stories about true events",
+      "cn_meaning": "报纸",
+      "example": "The newspaper describes events around the world.",
+      "cn_example": "报纸报道世界各地的事件。",
       "uk_audio": "1000BEW3_audio/unit_10/newspaper_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/newspaper_us.mp3"
     },
@@ -2169,6 +2757,9 @@
       "us_pron": "/rɪˈpɔːrt/",
       "part": "v.",
       "definition": "to give news on television or in a newspaper",
+      "cn_meaning": "报道",
+      "example": "Maria is reporting the event while it is happening.",
+      "cn_example": "玛丽亚正在事件发生时进行报道。",
       "uk_audio": "1000BEW3_audio/unit_10/report_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/report_us.mp3"
     },
@@ -2180,6 +2771,9 @@
       "us_pron": "/spɔːrt/",
       "part": "n.",
       "definition": "an active game with rules that people play",
+      "cn_meaning": "运动",
+      "example": "The three children like different sports.",
+      "cn_example": "三个孩子喜欢不同的运动。",
       "uk_audio": "1000BEW3_audio/unit_10/sport_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/sport_us.mp3"
     },
@@ -2191,6 +2785,9 @@
       "us_pron": "/səˈpɔːrt/",
       "part": "v.",
       "definition": "to show you like and want to help a person or group",
+      "cn_meaning": "支持",
+      "example": "They are supporting William during this difficult time.",
+      "cn_example": "他们在这个困难时期支持威廉。",
       "uk_audio": "1000BEW3_audio/unit_10/support_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/support_us.mp3"
     },
@@ -2202,6 +2799,9 @@
       "us_pron": "/ˈjuːnɪfɔːrm/",
       "part": "n.",
       "definition": "the clothing worn by members of a group",
+      "cn_meaning": "制服",
+      "example": "The workers wear different uniforms for their jobs.",
+      "cn_example": "工人们穿着不同的制服工作。",
       "uk_audio": "1000BEW3_audio/unit_10/uniform_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_10/uniform_us.mp3"
     },
@@ -2213,6 +2813,9 @@
       "us_pron": "/breɪv/",
       "part": "adj.",
       "definition": "not afraid",
+      "cn_meaning": "勇敢的",
+      "example": "The brave man returns to the fire to save more people.",
+      "cn_example": "勇敢的男人回到火场拯救更多的人。",
       "uk_audio": "1000BEW3_audio/unit_11/brave_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/brave_us.mp3"
     },
@@ -2224,6 +2827,9 @@
       "us_pron": "/ɡoʊt/",
       "part": "n.",
       "definition": "a small animal that lives on a farm or in the mountains",
+      "cn_meaning": "山羊",
+      "example": "The goat is crossing the field.",
+      "cn_example": "山羊正在穿过田野。",
       "uk_audio": "1000BEW3_audio/unit_11/goat_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/goat_us.mp3"
     },
@@ -2235,6 +2841,9 @@
       "us_pron": "/hæŋ/",
       "part": "v.",
       "definition": "to place something so that it is held at the top",
+      "cn_meaning": "悬挂",
+      "example": "They hang their clothes on the line to dry.",
+      "cn_example": "他们把衣服挂在绳子上晾干。",
       "uk_audio": "1000BEW3_audio/unit_11/hang_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/hang_us.mp3"
     },
@@ -2246,6 +2855,9 @@
       "us_pron": "/aɪs/",
       "part": "n.",
       "definition": "frozen water",
+      "cn_meaning": "冰",
+      "example": "We put ice in our drinks to cool them.",
+      "cn_example": "我们在饮料中放冰来降温。",
       "uk_audio": "1000BEW3_audio/unit_11/ice_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/ice_us.mp3"
     },
@@ -2257,6 +2869,9 @@
       "us_pron": "/ˈɪnsekt/",
       "part": "n.",
       "definition": "a small animal with six legs",
+      "cn_meaning": "昆虫",
+      "example": "The insect is especially beautiful.",
+      "cn_example": "这只昆虫尤其美丽。",
       "uk_audio": "1000BEW3_audio/unit_11/insect_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/insect_us.mp3"
     },
@@ -2268,6 +2883,9 @@
       "us_pron": "/reɪz/",
       "part": "v.",
       "definition": "to care for an animal or plant as it grows",
+      "cn_meaning": "饲养",
+      "example": "He spreads food on the ground for the chickens he is raising.",
+      "cn_example": "他把食物撒在地上给他养的鸡吃。",
       "uk_audio": "1000BEW3_audio/unit_11/raise_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/raise_us.mp3"
     },
@@ -2279,6 +2897,9 @@
       "us_pron": "/roʊl/",
       "part": "v.",
       "definition": "to turn over and over",
+      "cn_meaning": "滚动",
+      "example": "He rolls the snowball across the yard.",
+      "cn_example": "他把雪球滚过院子。",
       "uk_audio": "1000BEW3_audio/unit_11/roll_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/roll_us.mp3"
     },
@@ -2290,6 +2911,9 @@
       "us_pron": "/sɔːr/",
       "part": "adj.",
       "definition": "hurting",
+      "cn_meaning": "疼痛的",
+      "example": "She is putting something cold on her sore arm.",
+      "cn_example": "她在疼痛的手臂上放了一些冰冷的东西。",
       "uk_audio": "1000BEW3_audio/unit_11/sore_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/sore_us.mp3"
     },
@@ -2301,6 +2925,9 @@
       "us_pron": "/tent/",
       "part": "n.",
       "definition": "a covered place to sleep outside",
+      "cn_meaning": "帐篷",
+      "example": "The children will sleep in tents.",
+      "cn_example": "孩子们将睡在帐篷里。",
       "uk_audio": "1000BEW3_audio/unit_11/tent_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/tent_us.mp3"
     },
@@ -2312,6 +2939,9 @@
       "us_pron": "/ˈvɪlɪdʒ/",
       "part": "n.",
       "definition": "a very small town",
+      "cn_meaning": "村庄",
+      "example": "A story about this village appeared in the newspaper.",
+      "cn_example": "关于这个村庄的故事出现在了报纸上。",
       "uk_audio": "1000BEW3_audio/unit_11/village_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/village_us.mp3"
     },
@@ -2323,6 +2953,9 @@
       "us_pron": "/ˈæksɪdənt/",
       "part": "n.",
       "definition": "a sudden bad event in which someone might be hurt",
+      "cn_meaning": "事故",
+      "example": "Dennis had an accident riding his bicycle. He hurt his leg.",
+      "cn_example": "丹尼斯骑自行车时出了事故。他伤了腿。",
       "uk_audio": "1000BEW3_audio/unit_11/accident_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/accident_us.mp3"
     },
@@ -2334,6 +2967,9 @@
       "us_pron": "/ədˈventʃər/",
       "part": "n.",
       "definition": "an exciting experience",
+      "cn_meaning": "冒险",
+      "example": "They had a fun adventure on their vacation.",
+      "cn_example": "他们在假期中有一次有趣的冒险。",
       "uk_audio": "1000BEW3_audio/unit_11/adventure_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/adventure_us.mp3"
     },
@@ -2345,6 +2981,9 @@
       "us_pron": "/kɔːrn/",
       "part": "n.",
       "definition": "a vegetable with many small yellow seeds",
+      "cn_meaning": "玉米",
+      "example": "The corn looks delicious and fresh. I cannot wait to eat it.",
+      "cn_example": "玉米看起来美味又新鲜。我等不及要吃了。",
       "uk_audio": "1000BEW3_audio/unit_11/corn_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/corn_us.mp3"
     },
@@ -2356,6 +2995,9 @@
       "us_pron": "/dɪˈveləp/",
       "part": "v.",
       "definition": "to create something over time",
+      "cn_meaning": "发展",
+      "example": "They developed a plan to meet their goal.",
+      "cn_example": "他们制定了一个计划来实现目标。",
       "uk_audio": "1000BEW3_audio/unit_11/develop_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/develop_us.mp3"
     },
@@ -2367,6 +3009,9 @@
       "us_pron": "/ˈmedɪs(ə)n/",
       "part": "n.",
       "definition": "something that helps a sick person or animal",
+      "cn_meaning": "药",
+      "example": "This medicine will make your head feel better.",
+      "cn_example": "这种药会让你的头好受些。",
       "uk_audio": "1000BEW3_audio/unit_11/medicine_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/medicine_us.mp3"
     },
@@ -2378,6 +3023,9 @@
       "us_pron": "/oʊn/",
       "part": "v.",
       "definition": "to pay for something so it belongs to you",
+      "cn_meaning": "拥有",
+      "example": "They own a house in a beautiful community.",
+      "cn_example": "他们在美丽的社区拥有一栋房子。",
       "uk_audio": "1000BEW3_audio/unit_11/own_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/own_us.mp3"
     },
@@ -2389,6 +3037,9 @@
       "us_pron": "/ˈprɑːdʌkt/",
       "part": "n.",
       "definition": "something that is made or grown and sold",
+      "cn_meaning": "产品",
+      "example": "She is trying to decide which product to buy.",
+      "cn_example": "她正在决定买哪个产品。",
       "uk_audio": "1000BEW3_audio/unit_11/product_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/product_us.mp3"
     },
@@ -2400,6 +3051,9 @@
       "us_pron": "/kwaɪt/",
       "part": "adv.",
       "definition": "very",
+      "cn_meaning": "相当",
+      "example": "The tower is quite tall.",
+      "cn_example": "这座塔相当高。",
       "uk_audio": "1000BEW3_audio/unit_11/quite_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/quite_us.mp3"
     },
@@ -2411,6 +3065,9 @@
       "us_pron": "/ruːf/",
       "part": "n.",
       "definition": "the top covering on a building",
+      "cn_meaning": "屋顶",
+      "example": "He is fixing a hole in the roof.",
+      "cn_example": "他正在修补屋顶上的洞。",
       "uk_audio": "1000BEW3_audio/unit_11/roof_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/roof_us.mp3"
     },
@@ -2422,6 +3079,9 @@
       "us_pron": "/roʊp/",
       "part": "n.",
       "definition": "a very thick and strong string",
+      "cn_meaning": "绳子",
+      "example": "The children are pulling on the rope.",
+      "cn_example": "孩子们在拉绳子。",
       "uk_audio": "1000BEW3_audio/unit_11/rope_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_11/rope_us.mp3"
     },
@@ -2433,6 +3093,9 @@
       "us_pron": "/ˈkærət/",
       "part": "n.",
       "definition": "an orange vegetable that grows under the ground",
+      "cn_meaning": "胡萝卜",
+      "example": "We raised carrots in our garden.",
+      "cn_example": "我们在花园里种了胡萝卜。",
       "uk_audio": "1000BEW3_audio/unit_12/carrot_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/carrot_us.mp3"
     },
@@ -2444,6 +3107,9 @@
       "us_pron": "/kɔːz/",
       "part": "v.",
       "definition": "to make something happen",
+      "cn_meaning": "导致",
+      "example": "He caused the pieces to fall over.",
+      "cn_example": "他导致棋子倒下了。",
       "uk_audio": "1000BEW3_audio/unit_12/cause_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/cause_us.mp3"
     },
@@ -2455,6 +3121,9 @@
       "us_pron": "/ɪkˈsperɪmənt/",
       "part": "v.",
       "definition": "to try something new",
+      "cn_meaning": "实验",
+      "example": "Kelly enjoys experimenting with colors.",
+      "cn_example": "凯莉喜欢用颜色做实验。",
       "uk_audio": "1000BEW3_audio/unit_12/experiment_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/experiment_us.mp3"
     },
@@ -2466,6 +3135,9 @@
       "us_pron": "/fraɪ/",
       "part": "v.",
       "definition": "to cook in oil",
+      "cn_meaning": "油炸",
+      "example": "He heats the pan and then fries food in it.",
+      "cn_example": "他加热锅，然后在里面炸食物。",
       "uk_audio": "1000BEW3_audio/unit_12/fry_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/fry_us.mp3"
     },
@@ -2477,6 +3149,9 @@
       "us_pron": "/ɡraʊnd/",
       "part": "n.",
       "definition": "the land under your feet",
+      "cn_meaning": "地面",
+      "example": "The newspaper lies on the ground.",
+      "cn_example": "报纸放在地面上。",
       "uk_audio": "1000BEW3_audio/unit_12/ground_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/ground_us.mp3"
     },
@@ -2488,6 +3163,9 @@
       "us_pron": "/kɪl/",
       "part": "v.",
       "definition": "to end a life",
+      "cn_meaning": "杀死",
+      "example": "I felt sad when I killed the insect on my desk.",
+      "cn_example": "我杀死桌上的昆虫时感到难过。",
       "uk_audio": "1000BEW3_audio/unit_12/kill_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/kill_us.mp3"
     },
@@ -2499,6 +3177,9 @@
       "us_pron": "/mɪks/",
       "part": "v.",
       "definition": "to put two or more things together",
+      "cn_meaning": "混合",
+      "example": "I like to mix different kinds of vegetables when I cook.",
+      "cn_example": "我做饭时喜欢把不同种类的蔬菜混合在一起。",
       "uk_audio": "1000BEW3_audio/unit_12/mix_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/mix_us.mp3"
     },
@@ -2510,6 +3191,9 @@
       "us_pron": "/ˈpɑːsəb(ə)l/",
       "part": "adj.",
       "definition": "able to be done",
+      "cn_meaning": "可能的",
+      "example": "Mary said we could not climb to the top, but I knew it was possible.",
+      "cn_example": "玛丽说我们爬不到顶，但我知道这是可能的。",
       "uk_audio": "1000BEW3_audio/unit_12/possible_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/possible_us.mp3"
     },
@@ -2521,6 +3205,9 @@
       "us_pron": "/pɑːt/",
       "part": "n.",
       "definition": "a deep, round container used for cooking",
+      "cn_meaning": "锅",
+      "example": "The corn is cooking in a pot.",
+      "cn_example": "玉米正在锅里煮着。",
       "uk_audio": "1000BEW3_audio/unit_12/pot_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/pot_us.mp3"
     },
@@ -2532,6 +3219,9 @@
       "us_pron": "/praʊd/",
       "part": "adj.",
       "definition": "feeling good about something done",
+      "cn_meaning": "骄傲的",
+      "example": "His parents are proud of him for completing college.",
+      "cn_example": "他的父母为他完成大学学业感到骄傲。",
       "uk_audio": "1000BEW3_audio/unit_12/proud_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/proud_us.mp3"
     },
@@ -2543,6 +3233,9 @@
       "us_pron": "/leɪ/",
       "part": "v.",
       "definition": "to put something down carefully",
+      "cn_meaning": "放置",
+      "example": "Ricky is laying the boards on the floor.",
+      "cn_example": "里基正在把木板放在地板上。",
       "uk_audio": "1000BEW3_audio/unit_12/lay_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/lay_us.mp3"
     },
@@ -2554,6 +3247,9 @@
       "us_pron": "/lɪst/",
       "part": "n.",
       "definition": "a number of items that are needed",
+      "cn_meaning": "清单",
+      "example": "I made a list of things I need to buy at the store.",
+      "cn_example": "我列了一张需要在商店买东西的清单。",
       "uk_audio": "1000BEW3_audio/unit_12/list_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/list_us.mp3"
     },
@@ -2565,6 +3261,9 @@
       "us_pron": "/meɪn/",
       "part": "adj.",
       "definition": "most important",
+      "cn_meaning": "主要的",
+      "example": "We drove through the village on the main road.",
+      "cn_example": "我们开车穿过村庄的主路。",
       "uk_audio": "1000BEW3_audio/unit_12/main_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/main_us.mp3"
     },
@@ -2576,6 +3275,9 @@
       "us_pron": "/mɑːrk/",
       "part": "n.",
       "definition": "a symbol or shape drawn on something",
+      "cn_meaning": "标记",
+      "example": "He made a mark in the box next to his answer.",
+      "cn_example": "他在答案旁边的方框里做了标记。",
       "uk_audio": "1000BEW3_audio/unit_12/mark_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/mark_us.mp3"
     },
@@ -2587,6 +3289,9 @@
       "us_pron": "/mɪˈsteɪk/",
       "part": "n.",
       "definition": "something that is not correct",
+      "cn_meaning": "错误",
+      "example": "Does the teacher know she made a mistake?",
+      "cn_example": "老师知道她犯了一个错误吗？",
       "uk_audio": "1000BEW3_audio/unit_12/mistake_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/mistake_us.mp3"
     },
@@ -2598,6 +3303,9 @@
       "us_pron": "/praɪs/",
       "part": "n.",
       "definition": "the amount that something costs",
+      "cn_meaning": "价格",
+      "example": "The woman is looking at the price of the shirt.",
+      "cn_example": "那个女人正在看衬衫的价格。",
       "uk_audio": "1000BEW3_audio/unit_12/price_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/price_us.mp3"
     },
@@ -2609,6 +3317,9 @@
       "us_pron": "/ˈsevrəl/",
       "part": "adj.",
       "definition": "more than two but not many",
+      "cn_meaning": "几个",
+      "example": "There are several goats near the tree.",
+      "cn_example": "树附近有几只山羊。",
       "uk_audio": "1000BEW3_audio/unit_12/several_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/several_us.mp3"
     },
@@ -2620,6 +3331,9 @@
       "us_pron": "/ʃer/",
       "part": "v.",
       "definition": "to allow someone to use or enjoy something of yours",
+      "cn_meaning": "分享",
+      "example": "Marcus shares the tent with his sister.",
+      "cn_example": "马库斯和妹妹分享帐篷。",
       "uk_audio": "1000BEW3_audio/unit_12/share_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/share_us.mp3"
     },
@@ -2631,6 +3345,9 @@
       "us_pron": "/sɔɪl/",
       "part": "n.",
       "definition": "dirt",
+      "cn_meaning": "土壤",
+      "example": "Carrots and other vegetables grow in the soil.",
+      "cn_example": "胡萝卜和其他蔬菜在土壤中生长。",
       "uk_audio": "1000BEW3_audio/unit_12/soil_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/soil_us.mp3"
     },
@@ -2642,6 +3359,9 @@
       "us_pron": "/teɪst/",
       "part": "v.",
       "definition": "to get the flavor of food in the mouth",
+      "cn_meaning": "品尝",
+      "example": "The cook tastes the food a final time before it is served.",
+      "cn_example": "厨师在上菜前最后品尝了一次食物。",
       "uk_audio": "1000BEW3_audio/unit_12/taste_uk.mp3",
       "us_audio": "1000BEW3_audio/unit_12/taste_us.mp3"
     }
