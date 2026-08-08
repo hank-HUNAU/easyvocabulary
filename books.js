@@ -3,10 +3,10 @@
 
 const BOOKS = [
   // 词汇1000
-  {id:'1000BEW1', series:'词汇1000', title:'Book 1', dataFile:'data/1000BEW1.json', audioDir:'1000BEW1_audio', available:false},
-  {id:'1000BEW2', series:'词汇1000', title:'Book 2', dataFile:'data/1000BEW2.json', audioDir:'1000BEW2_audio', available:false},
-  {id:'1000BEW3', series:'词汇1000', title:'Book 3', dataFile:'data/1000BEW3.json', audioDir:'1000BEW3_audio', available:false},
-  {id:'1000BEW4', series:'词汇1000', title:'Book 4', dataFile:'data/1000BEW4.json', audioDir:'1000BEW4_audio', available:false},
+  {id:'1000BEW1', series:'词汇1000', title:'Book 1', dataFile:'data/1000BEW1.json', audioDir:'1000BEW1_audio', available:true},
+  {id:'1000BEW2', series:'词汇1000', title:'Book 2', dataFile:'data/1000BEW2.json', audioDir:'1000BEW2_audio', available:true},
+  {id:'1000BEW3', series:'词汇1000', title:'Book 3', dataFile:'data/1000BEW3.json', audioDir:'1000BEW3_audio', available:true},
+  {id:'1000BEW4', series:'词汇1000', title:'Book 4', dataFile:'data/1000BEW4.json', audioDir:'1000BEW4_audio', available:true},
   // 词汇2000
   {id:'2000CEW1', series:'词汇2000', title:'Book 1', dataFile:'data/2000CEW1.json', audioDir:'2000CEW1_audio', available:false},
   {id:'2000CEW2', series:'词汇2000', title:'Book 2', dataFile:'data/2000CEW2.json', audioDir:'2000CEW2_audio', available:false},
