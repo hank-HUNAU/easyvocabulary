@@ -401,6 +401,31 @@ body{
 }
 .audio-error-toast.show{transform:translateX(-50%) translateY(0)}
 
+/* ===== Bookshelf Screen ===== */
+#bookshelf-screen{padding:0 16px;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:100px}
+.bookshelf-header{text-align:center;padding:24px 0 20px}
+.bookshelf-logo{font-size:24px;font-weight:700;color:var(--text);margin-bottom:4px}
+.bookshelf-sub{font-size:13px;color:var(--text2)}
+.series-group{margin-bottom:20px}
+.series-title{font-size:17px;font-weight:700;color:var(--text);margin-bottom:10px;padding:0 4px;display:flex;align-items:center;gap:8px}
+.series-title .series-count{font-size:12px;color:var(--text2);font-weight:400}
+.book-card{
+  background:var(--bg2);border-radius:var(--radius-lg);padding:16px;margin-bottom:10px;
+  cursor:pointer;transition:opacity .15s;position:relative;overflow:hidden;
+}
+.book-card:active{opacity:.7}
+.book-card.locked{opacity:.45;cursor:not-allowed}
+.book-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.book-card-title{font-size:17px;font-weight:600;color:var(--text)}
+.book-card-badge{font-size:11px;color:var(--text2);background:var(--bg3);padding:2px 8px;border-radius:8px}
+.book-card-stats{display:flex;gap:16px;font-size:13px;color:var(--text2)}
+.book-card-stats .stat{display:flex;align-items:center;gap:4px}
+.book-card-stats .stat-num{font-weight:600;color:var(--text)}
+.book-card-progress{margin-top:10px;height:4px;background:var(--bg3);border-radius:2px;overflow:hidden}
+.book-card-progress .fill{height:100%;background:var(--primary);border-radius:2px;transition:width .4s ease}
+.book-card-meta{margin-top:6px;font-size:12px;color:var(--text3)}
+.book-card.locked .book-card-progress{display:none}
+
 /* ===== Responsive ===== */
 @media(min-width:768px){
   #home-screen,#stats-screen{max-width:600px;margin:0 auto;width:100%}
@@ -417,14 +442,32 @@ body{
 </head>
 <body>
 
-<!-- ===== Home Screen ===== -->
-<div id="home-screen" class="screen active">
-  <div class="home-header">
-    <div class="home-logo">4000 EEW Book 1</div>
-    <div class="home-sub">Anki Flashcards · 576 words · 28 units</div>
+<!-- ===== Bookshelf Screen ===== -->
+<div id="bookshelf-screen" class="screen active">
+  <div class="bookshelf-header">
+    <div class="bookshelf-logo">英语词汇学习</div>
+    <div class="bookshelf-sub">间隔重复记忆卡片 · 词汇1000/2000/4000</div>
     <div class="theme-toggle-wrap">
       <span class="toggle-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
       <div class="ios-toggle theme-toggle" id="theme-toggle"></div>
+      <span class="toggle-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+    </div>
+  </div>
+  <div id="bookshelf-content"></div>
+</div>
+
+<!-- ===== Home Screen ===== -->
+<div id="home-screen" class="screen">
+  <div class="home-header">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <button class="topbar-btn" id="home-back-bookshelf" style="width:34px;height:34px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div class="home-logo" id="home-book-title">词汇4000 Book 1</div>
+      <div style="width:34px"></div>
+    </div>
+    <div class="home-sub" id="home-book-sub">Anki Flashcards · 576 words · 28 units</div>
+    <div class="theme-toggle-wrap">
+      <span class="toggle-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
+      <div class="ios-toggle theme-toggle" id="theme-toggle-home"></div>
       <span class="toggle-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     </div>
   </div>
@@ -579,6 +622,7 @@ body{
 
 <!-- ===== Bottom Nav ===== -->
 <div class="bottom-nav" id="bottom-nav" style="display:none">
+  <button class="nav-btn" data-screen="bookshelf"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>书架</button>
   <button class="nav-btn active" data-screen="home"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg></span>首页</button>
   <button class="nav-btn" data-screen="study"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>学习</button>
   <button class="nav-btn" data-screen="stats"><span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="11" width="3" height="7" rx="0.5"/><rect x="10.5" y="6" width="3" height="12" rx="0.5"/><rect x="16" y="14" width="3" height="4" rx="0.5"/></svg></span>统计</button>
@@ -587,26 +631,42 @@ body{
 <div class="toast" id="toast"></div>
 <div class="audio-error-toast" id="audio-error-toast"></div>
 
-<script src="data.js"></script>
+<script src="books.js"></script>
 <script>
 'use strict';
 
 // ===== Theme Management =====
+function syncThemeToggles(dark){
+  document.querySelectorAll('.theme-toggle').forEach(el => el.classList.toggle('on', dark));
+}
 function initTheme(){
   const saved = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const isDark = saved ? saved === 'dark' : prefersDark;
   if(isDark) document.documentElement.classList.add('dark');
-  const toggle = document.getElementById('theme-toggle');
-  if(isDark) toggle.classList.add('on');
-  toggle.addEventListener('click', () => {
+  syncThemeToggles(isDark);
+  function doToggle(){
     const dark = document.documentElement.classList.toggle('dark');
-    toggle.classList.toggle('on', dark);
+    syncThemeToggles(dark);
     localStorage.setItem('theme', dark ? 'dark' : 'light');
     const meta = document.querySelector('meta[name="theme-color"]');
     meta.setAttribute('content', dark ? '#000000' : '#F2F2F7');
-  });
+    if(App.currentBookId) saveGlobalSettings();
+  }
+  const t1 = document.getElementById('theme-toggle');
+  const t2 = document.getElementById('theme-toggle-home');
+  if(t1) t1.addEventListener('click', doToggle);
+  if(t2) t2.addEventListener('click', doToggle);
 }
+
+// ===== App (multi-book) =====
+const App = {
+  currentBookId: null,
+  vocab: [],
+  units: [],
+  bookCache: {},
+  currentBookInfo: null
+};
 
 // ===== State =====
 const SPEAKER_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
@@ -627,7 +687,10 @@ const State = {
   isFlipped: false,
   todayStats: {new:0,review:0,again:0},
   sessionStats: {new:0,review:0,again:0,total:0},
-  studyDate: ''
+  studyDate: '',
+  streak: 0,
+  lastStudyDate: '',
+  reviewHistory: {}
 };
 
 const FIELD_LABELS = {
@@ -638,10 +701,13 @@ const FIELD_LABELS = {
   definition:{label:'英文释义',display:v=>v,cls:'card-def'}
 };
 
-const STORAGE_KEY = 'anki_eew1_state';
+function storageKey(){ return 'anki_' + App.currentBookId + '_state'; }
+const OLD_STORAGE_KEY = 'anki_eew1_state';
+const GLOBAL_SETTINGS_KEY = 'anki_global_settings';
 
 // ===== Persistence =====
 function saveState(){
+  if(!App.currentBookId) return;
   const data = {
     settings: State.settings,
     cards: State.cards,
@@ -654,15 +720,32 @@ function saveState(){
     studyIndex: State.studyIndex,
     sessionStats: State.sessionStats
   };
-  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); }catch(e){}
+  try{ localStorage.setItem(storageKey(), JSON.stringify(data)); }catch(e){}
 }
 
 function loadState(){
+  if(!App.currentBookId) return;
+  let raw = localStorage.getItem(storageKey());
+  // Migration from old single-book key
+  if(!raw && App.currentBookId === '4000EEW1'){
+    raw = localStorage.getItem(OLD_STORAGE_KEY);
+    if(raw){
+      try{
+        localStorage.setItem(storageKey(), raw);
+        localStorage.removeItem(OLD_STORAGE_KEY);
+      }catch(e){}
+    }
+  }
+  if(!raw) return;
   try{
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if(!raw) return;
     const data = JSON.parse(raw);
-    Object.assign(State.settings, data.settings||{});
+    // Only load per-book settings (mode/dailyCount/selectedUnits)
+    // Global settings (fields/audioDisplay/autoPlay) handled by loadGlobalSettings()
+    if(data.settings){
+      State.settings.mode = data.settings.mode || 'count';
+      State.settings.dailyCount = data.settings.dailyCount || 20;
+      State.settings.selectedUnits = data.settings.selectedUnits || [];
+    }
     State.cards = data.cards||{};
     State.studyDate = data.studyDate||'';
     State.todayStats = data.todayStats||{new:0,review:0,again:0};
@@ -672,6 +755,29 @@ function loadState(){
     State.studyQueue = data.studyQueue||[];
     State.studyIndex = data.studyIndex||0;
     State.sessionStats = data.sessionStats||{new:0,review:0,again:0,total:0};
+  }catch(e){}
+}
+
+function saveGlobalSettings(){
+  const global = {
+    theme: localStorage.getItem('theme')||'',
+    frontFields: State.settings.frontFields,
+    backFields: State.settings.backFields,
+    audioDisplay: State.settings.audioDisplay,
+    autoPlay: State.settings.autoPlay
+  };
+  try{ localStorage.setItem(GLOBAL_SETTINGS_KEY, JSON.stringify(global)); }catch(e){}
+}
+
+function loadGlobalSettings(){
+  try{
+    const raw = localStorage.getItem(GLOBAL_SETTINGS_KEY);
+    if(!raw) return;
+    const g = JSON.parse(raw);
+    if(g.frontFields) State.settings.frontFields = g.frontFields;
+    if(g.backFields) State.settings.backFields = g.backFields;
+    if(g.audioDisplay) State.settings.audioDisplay = g.audioDisplay;
+    if(g.autoPlay !== undefined) State.settings.autoPlay = g.autoPlay;
   }catch(e){}
 }
 
@@ -782,7 +888,7 @@ function rateCard(wordId, rating){
 function getDueCards(){
   const now = Date.now();
   const due = [];
-  for(const w of VOCAB_DATA){
+  for(const w of App.vocab){
     const card = State.cards[w.id];
     if(card && card.state !== 'new' && card.due <= now) due.push(w.id);
   }
@@ -791,7 +897,7 @@ function getDueCards(){
 
 function getNewCards(limit){
   const newCards = [];
-  for(const w of VOCAB_DATA){
+  for(const w of App.vocab){
     const card = State.cards[w.id];
     if(!card || card.state === 'new'){
       newCards.push(w.id);
@@ -834,7 +940,7 @@ function buildStudyQueue(){
     newLimit = settings.dailyCount - State.todayStats.new;
     if(newLimit < 0) newLimit = 0;
   } else if(settings.mode === 'unit'){
-    const selectedWords = VOCAB_DATA.filter(w => settings.selectedUnits.includes(w.unit));
+    const selectedWords = App.vocab.filter(w => settings.selectedUnits.includes(w.unit));
     for(const w of selectedWords){
       const card = State.cards[w.id];
       if(!card || card.state === 'new') queue.push({id: w.id, type:'new'});
@@ -892,6 +998,7 @@ function initFieldConfig(){
         State.settings.frontFields.push('word');
       }
       saveState();
+      saveGlobalSettings();
       initFieldConfig();
     });
   });
@@ -900,7 +1007,7 @@ function initFieldConfig(){
 function initUnitGrid(){
   const grid = document.getElementById('unit-grid');
   grid.innerHTML = '';
-  UNIT_INFO.forEach(u => {
+  App.units.forEach(u => {
     const chip = document.createElement('div');
     chip.className = 'unit-chip';
     if(State.settings.selectedUnits.includes(u.unit)) chip.classList.add('active');
@@ -968,6 +1075,7 @@ function initHomeScreen(){
     State.settings.autoPlay = !State.settings.autoPlay;
     autoToggle.classList.toggle('on');
     saveState();
+    saveGlobalSettings();
   });
 
   document.querySelectorAll('#audio-display-control .seg-btn').forEach(btn => {
@@ -978,6 +1086,7 @@ function initHomeScreen(){
       btn.classList.add('active');
       State.settings.audioDisplay = btn.dataset.display;
       saveState();
+      saveGlobalSettings();
     });
   });
 
@@ -994,7 +1103,7 @@ function initHomeScreen(){
 function updateHomeStats(){
   let learned = 0, due = 0;
   const now = Date.now();
-  for(const w of VOCAB_DATA){
+  for(const w of App.vocab){
     const card = State.cards[w.id];
     if(card){
       if(card.state !== 'new') learned++;
@@ -1049,7 +1158,7 @@ function renderCard(){
   }
 
   const item = State.studyQueue[State.studyIndex];
-  const word = VOCAB_DATA[item.id];
+  const word = App.vocab[item.id];
   if(!word){
     State.studyIndex++;
     renderCard();
@@ -1171,7 +1280,7 @@ function flipCard(){
 
   if(State.settings.autoPlay){
     const item = State.studyQueue[State.studyIndex];
-    const word = VOCAB_DATA[item.id];
+    const word = App.vocab[item.id];
     if(word) setTimeout(() => { const a = State.settings.audioDisplay === 'us' ? 'us' : 'uk'; playAudio(word, a); }, 400);
   }
 }
@@ -1295,11 +1404,11 @@ function showAudioError(msg){
 
 // ===== UI: Stats Screen =====
 function renderStats(){
-  let learned=0, due=0, mastered=0, total=VOCAB_DATA.length;
+  let learned=0, due=0, mastered=0, total=App.vocab.length;
   const now = Date.now();
   const states = {new:0, learning:0, review:0, relearning:0};
 
-  for(const w of VOCAB_DATA){
+  for(const w of App.vocab){
     const card = State.cards[w.id];
     if(!card){ states.new++; continue; }
     states[card.state] = (states[card.state]||0)+1;
@@ -1362,8 +1471,159 @@ function renderStats(){
 function showScreen(name){
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(name + '-screen').classList.add('active');
+  if(name === 'bookshelf') renderBookshelf();
   if(name === 'stats') renderStats();
   if(name === 'home') updateHomeStats();
+}
+
+// ===== Bookshelf =====
+function getBookProgress(bookId){
+  const key = 'anki_' + bookId + '_state';
+  try{
+    const raw = localStorage.getItem(key);
+    if(!raw) return null;
+    const data = JSON.parse(raw);
+    const cards = data.cards||{};
+    let learned = 0, due = 0, total = 0;
+    // Try cached vocab length, fallback to stored count
+    const bookInfo = BOOKS.find(b => b.id === bookId);
+    if(App.bookCache[bookId]){
+      total = App.bookCache[bookId].vocab.length;
+      const now = Date.now();
+      for(const w of App.bookCache[bookId].vocab){
+        const c = cards[w.id];
+        if(c && c.state !== 'new') learned++;
+        if(c && c.state !== 'new' && c.due <= now) due++;
+      }
+    } else {
+      // Estimate from cards count
+      learned = Object.keys(cards).filter(k => cards[k].state !== 'new').length;
+      due = Object.keys(cards).filter(k => cards[k].state !== 'new' && cards[k].due <= Date.now()).length;
+      total = bookInfo ? 0 : 0;
+    }
+    return {learned, due, total, streak: data.streak||0, lastStudyDate: data.lastStudyDate||''};
+  }catch(e){ return null; }
+}
+
+function renderBookshelf(){
+  const container = document.getElementById('bookshelf-content');
+  container.innerHTML = '';
+
+  SERIES_ORDER.forEach(seriesName => {
+    const seriesBooks = BOOKS.filter(b => b.series === seriesName);
+    const group = document.createElement('div');
+    group.className = 'series-group';
+
+    const availableCount = seriesBooks.filter(b => b.available).length;
+    group.innerHTML = `<div class="series-title">${seriesName}<span class="series-count">${availableCount}/${seriesBooks.length} 本可用</span></div>`;
+
+    seriesBooks.forEach(book => {
+      const card = document.createElement('div');
+      card.className = 'book-card' + (book.available ? '' : ' locked');
+
+      const progress = getBookProgress(book.id);
+      let progressHTML = '';
+      let statsHTML = '';
+      if(progress && progress.total > 0){
+        const pct = progress.total > 0 ? Math.round(progress.learned / progress.total * 100) : 0;
+        statsHTML = `<div class="book-card-stats">
+          <div class="stat"><span class="stat-num">${progress.learned}</span>/${progress.total} 已学</div>
+          <div class="stat"><span class="stat-num" style="color:var(--orange)">${progress.due}</span> 待复习</div>
+        </div>`;
+        progressHTML = `<div class="book-card-progress"><div class="fill" style="width:${pct}%"></div></div>`;
+        if(progress.lastStudyDate){
+          progressHTML += `<div class="book-card-meta">上次学习：${progress.lastStudyDate}</div>`;
+        }
+      } else if(progress && progress.learned > 0){
+        statsHTML = `<div class="book-card-stats"><div class="stat"><span class="stat-num">${progress.learned}</span> 已学</div></div>`;
+      }
+
+      card.innerHTML = `
+        <div class="book-card-top">
+          <div class="book-card-title">${book.title}</div>
+          <div class="book-card-badge">${book.available ? '可用' : '未上线'}</div>
+        </div>
+        ${statsHTML}
+        ${progressHTML}
+      `;
+
+      if(book.available){
+        card.addEventListener('click', () => selectBook(book.id));
+      }
+      group.appendChild(card);
+    });
+    container.appendChild(group);
+  });
+}
+
+async function loadBookData(bookId){
+  if(App.bookCache[bookId]) return App.bookCache[bookId];
+  const bookInfo = BOOKS.find(b => b.id === bookId);
+  if(!bookInfo) return null;
+  try{
+    const resp = await fetch(bookInfo.dataFile);
+    if(!resp.ok) return null;
+    const data = await resp.json();
+    App.bookCache[bookId] = data;
+    return data;
+  }catch(e){ return null; }
+}
+
+async function selectBook(bookId){
+  // Save current state if switching
+  if(App.currentBookId && App.currentBookId !== bookId){
+    saveState();
+    saveGlobalSettings();
+  }
+
+  const bookInfo = BOOKS.find(b => b.id === bookId);
+  if(!bookInfo) return;
+
+  showToast('加载中...');
+
+  // Load book data
+  const data = await loadBookData(bookId);
+  if(!data){
+    showToast('数据加载失败');
+    return;
+  }
+
+  // Set current book
+  App.currentBookId = bookId;
+  App.currentBookInfo = bookInfo;
+  App.vocab = data.vocab;
+  App.units = data.units;
+
+  // Reset state and load
+  State.cards = {};
+  State.studyQueue = [];
+  State.studyIndex = 0;
+  State.sessionStats = {new:0,review:0,again:0,total:0};
+  State.todayStats = {new:0,review:0,again:0};
+  State.studyDate = '';
+  State.streak = 0;
+  State.lastStudyDate = '';
+  State.reviewHistory = {};
+  State.isFlipped = false;
+
+  // Load global settings first (shared across books)
+  loadGlobalSettings();
+  // Then load book-specific state (may override some settings)
+  loadState();
+  checkNewDay();
+
+  // Update home screen title
+  document.getElementById('home-book-title').textContent = bookInfo.series + ' ' + bookInfo.title;
+  document.getElementById('home-book-sub').textContent = `Anki Flashcards · ${data.totalWords} words · ${data.totalUnits} units`;
+
+  // Initialize home screen
+  initHomeScreen();
+
+  // Show home screen with bottom nav
+  showScreen('home');
+  document.getElementById('bottom-nav').style.display = '';
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.nav-btn[data-screen="home"]').classList.add('active');
 }
 
 // ===== Toast =====
@@ -1419,11 +1679,22 @@ function initGestures(){
 
 // ===== Init =====
 function init(){
-  loadState();
-  checkNewDay();
   initTheme();
-  initHomeScreen();
   initGestures();
+
+  // Bookshelf is the entry screen - no bottom nav
+  document.getElementById('bottom-nav').style.display = 'none';
+  renderBookshelf();
+
+  // Home back to bookshelf
+  document.getElementById('home-back-bookshelf').addEventListener('click', () => {
+    if(App.currentBookId){
+      saveState();
+      saveGlobalSettings();
+    }
+    showScreen('bookshelf');
+    document.getElementById('bottom-nav').style.display = 'none';
+  });
 
   document.getElementById('study-back').addEventListener('click', () => { showScreen('home'); updateHomeStats(); });
   document.getElementById('btn-home-back').addEventListener('click', () => {
@@ -1435,9 +1706,9 @@ function init(){
   // Global theme toggle (study & stats screens)
   function toggleGlobalTheme(){
     const dark = document.documentElement.classList.toggle('dark');
-    const homeToggle = document.getElementById('theme-toggle');
-    if(homeToggle) homeToggle.classList.toggle('on', dark);
+    syncThemeToggles(dark);
     localStorage.setItem('theme', dark ? 'dark' : 'light');
+    if(App.currentBookId) saveGlobalSettings();
     const meta = document.querySelector('meta[name="theme-color"]');
     meta.setAttribute('content', dark ? '#000000' : '#F2F2F7');
   }
@@ -1470,7 +1741,7 @@ function init(){
   document.getElementById('stats-back').addEventListener('click', () => showScreen('home'));
 
   document.getElementById('btn-reset').addEventListener('click', () => {
-    if(confirm('确定要重置所有学习进度吗？此操作不可恢复。')){
+    if(confirm('确定要重置当前书本的所有学习进度吗？此操作不可恢复。')){
       State.cards = {};
       State.todayStats = {new:0,review:0,again:0};
       State.streak = 0;
@@ -1486,7 +1757,8 @@ function init(){
 
   document.getElementById('btn-export').addEventListener('click', () => {
     const data = {
-      version: 1,
+      version: 2,
+      bookId: App.currentBookId,
       exportDate: new Date().toISOString(),
       settings: State.settings,
       cards: State.cards,
@@ -1500,7 +1772,7 @@ function init(){
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `anki-backup-${todayStr()}.json`;
+    a.download = `anki-backup-${App.currentBookId}-${todayStr()}.json`;
     a.click();
     URL.revokeObjectURL(url);
     showToast('进度已导出');
@@ -1518,7 +1790,7 @@ function init(){
       try{
         const data = JSON.parse(ev.target.result);
         if(!data.cards || !data.settings) throw new Error('Invalid format');
-        if(!confirm('导入将覆盖当前所有进度，确定吗？')) return;
+        if(!confirm('导入将覆盖当前书本的所有进度，确定吗？')) return;
         Object.assign(State.settings, data.settings||{});
         State.cards = data.cards||{};
         State.studyDate = data.studyDate||'';
@@ -1542,6 +1814,15 @@ function init(){
   document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const screen = btn.dataset.screen;
+      if(screen === 'bookshelf'){
+        if(App.currentBookId){
+          saveState();
+          saveGlobalSettings();
+        }
+        showScreen('bookshelf');
+        document.getElementById('bottom-nav').style.display = 'none';
+        return;
+      }
       document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       if(screen === 'home') showScreen('home');

@@ -1,10 +1,10 @@
 'use strict';
 
-const CACHE_NAME = 'anki-eew1-v1';
+const CACHE_NAME = 'anki-multi-v1';
 const CORE_ASSETS = [
   './',
   './index.html',
-  './data.js',
+  './books.js',
   './manifest.json'
 ];
 
@@ -37,6 +37,23 @@ self.addEventListener('fetch', (e) => {
 
   // Audio files: cache-first (large, immutable)
   if(url.includes('.mp3')){
+    e.respondWith(
+      caches.match(e.request).then(cached => {
+        if(cached) return cached;
+        return fetch(e.request).then(response => {
+          if(response.ok){
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          }
+          return response;
+        }).catch(() => cached);
+      })
+    );
+    return;
+  }
+
+  // Book JSON data: cache-first with network fallback (lazy loaded)
+  if(url.includes('/data/') && url.includes('.json')){
     e.respondWith(
       caches.match(e.request).then(cached => {
         if(cached) return cached;

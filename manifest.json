@@ -1,7 +1,7 @@
 {
-  "name": "4000 EEW Book 1 - Anki Flashcards",
-  "short_name": "4000EEW",
-  "description": "4000 Essential English Words Book 1 间隔重复记忆卡片",
+  "name": "英语词汇学习 - Anki Flashcards",
+  "short_name": "词汇卡片",
+  "description": "词汇1000/2000/4000 间隔重复记忆卡片",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
