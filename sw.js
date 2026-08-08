@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'anki-multi-v1';
+const CACHE_NAME = 'anki-multi-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
