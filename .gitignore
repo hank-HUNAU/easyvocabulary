@@ -1,4 +1,26 @@
-.DS_Store
-Thumbs.db
-*.tmp
-__pycache__/
+# Publish only the application itself. Handoff notes, screenshots, review
+# reports, backups and spreadsheet exports stay local.
+*
+!.gitignore
+!README.md
+!index.html
+!manifest.json
+!sw.js
+
+!assets/
+!assets/*.jpg
+
+!data/
+!data/*.json
+
+!icons/
+!icons/*.png
+!icons/*.svg
+# Preserve the legacy icon files locally, but publish only the new brand set.
+icons/apple-touch-icon.png
+icons/icon-192.png
+icons/icon-512-maskable.png
+icons/icon-512.png
+
+!*_audio/
+!*_audio/**

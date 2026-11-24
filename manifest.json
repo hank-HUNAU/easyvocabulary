@@ -1,15 +1,17 @@
 {
-  "name": "英语词汇学习 - Anki Flashcards",
-  "short_name": "词汇卡片",
-  "description": "词汇1000/2000/4000 间隔重复记忆卡片",
-  "start_url": ".",
-  "scope": ".",
+  "name": "词书架 · 平板 / 笔记本端",
+  "short_name": "词书架",
+  "description": "基于几何间隔重复的词汇学习应用 · Liquid Glass 设计（iPadOS 26 / macOS Tahoe）",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#F2F2F7",
-  "theme_color": "#007AFF",
+  "theme_color": "#F2F2F7",
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    { "src": "icons/vocab-shelf-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/vocab-shelf-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/vocab-shelf-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/apple-touch-icon-180.png", "sizes": "180x180", "type": "image/png" }
   ]
 }
