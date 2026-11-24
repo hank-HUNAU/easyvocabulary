@@ -1149,7 +1149,7 @@ function playWordSlice(bookId, wid, accent, idx, total){
 }
 
 /* ===================== 音形切分器（P0） ===================== */
-const SND_DIGRAPHS = ['eigh','tch','dge','augh','ough','ight','tion','sion','ture','ai','ay','ea','ee','ei','ey','ie','oa','oe','oi','oy','oo','ou','ow','au','aw','eu','ew','ue','ui','ar','er','ir','or','ur','air','are','ear','eer','eir','our','oor','oar','ure','ere','ch','sh','th','ph','wh','ck','ng','qu','gh','dg','kn','wr','mb','ss','ff','ll','zz','pp','tt','dd','bb','gg','mm','nn','rr','cc'].sort((a,b)=>b.length-a.length);
+const SND_DIGRAPHS = ['eigh','tch','dge','ough','ight','tion','sion','ture','ai','ay','ea','ee','ei','ey','ie','oa','oe','oi','oy','oo','ou','ow','au','aw','eu','ew','ue','ui','ar','er','ir','or','ur','air','are','ear','eer','eir','our','oor','oar','ure','ere','ch','sh','th','ph','wh','ck','ng','qu','gh','dg','kn','wr','mb','ss','ff','ll','zz','pp','tt','dd','bb','gg','mm','nn','rr','cc'].sort((a,b)=>b.length-a.length);
 const SND_PHON_DOUBLE = ['juː','uː','iː','ɑː','ɔː','ɜː','eː','oː','ɐː','tʃ','dʒ','aɪ','aʊ','eɪ','eə','ɪə','ʊə','ɔɪ','əʊ','oʊ','ju'].sort((a,b)=>b.length-a.length);
 const SND_VOWELS = new Set(('aeiouəæʌɒɪʊɜɑɔe').split(''));
 const SND_VOWEL_PH = new Set(['aɪ','aʊ','eɪ','eə','ɪə','ʊə','ɔɪ','əʊ','oʊ','ju']);
@@ -1162,6 +1162,13 @@ function stripIpa(ipa){
   s=s.replace(/[()]/g,'');
   s=s.replace(/\s+/g,'');
   return s.trim();
+}
+function ipaLabel(ipa){
+  const s=stripIpa(ipa);
+  return s?'/'+s+'/':'';
+}
+function displayGrapheme(g){
+  return (g||'').replace(/_e$/,'·e');
 }
 function splitGraphemes(word){
   let w=(word||'').toLowerCase().replace(/[^a-z]/g,'');
@@ -1200,7 +1207,9 @@ function phType(ph){
 }
 /* 校对表：册ID:词 → 手工切分（不改动 data/*.json，兜底不规则词） */
 const SND_OVERRIDES = {
-  '1000BEW1:clothes':{g:['cl','o_th','e_s'],p:['k','l','əʊ','ð','z']},
+  '1000BEW1:laugh':{g:['l','au','gh'],p:['l','ɑː','f']},
+  '4000EEW1:laugh':{g:['l','au','gh'],p:['l','ɑː','f']},
+  '1000BEW2:clothes':{g:['cl','o_th','e_s'],p:['k','l','əʊ','ð','z']},
 };
 function soundSplit(bookId, word, ipa){
   const ov=SND_OVERRIDES[bookId+':'+(word||'').toLowerCase()];
@@ -1999,7 +2008,7 @@ function renderSound(){
   const ipa=v.uk_pron||v.us_pron||'';
   const ss=soundSplit(item.bookId||st.bookId, v.word, ipa);
   sndPairs=ss.pairs; sndTarget=-1;
-  $('sndWord').textContent=v.word+'  /'+ipa+'/';
+  $('sndWord').textContent=v.word+(ipa?'  '+ipaLabel(ipa):'');
   const rows=$('sndRows'); rows.innerHTML='';
   const check=$('sndCheck');
   if(ss.mode==='1:1'&&ss.pairs&&ss.pairs.length>1){
@@ -2007,7 +2016,7 @@ function renderSound(){
     const grow=document.createElement('div'); grow.className='snd-grow';
     ss.pairs.forEach((pair,i)=>{
       const d=document.createElement('div'); d.className='snd-g'; d.dataset.i=i;
-      d.innerHTML='<div class="g-letters">'+esc(pair.g.replace(/_e$/,''))+'</div>'+
+      d.innerHTML='<div class="g-letters">'+esc(displayGrapheme(pair.g))+'</div>'+
         '<div class="g-meta">'+(pair.type==='vow'?'元音':'辅音')+'</div><div class="g-phons"></div>';
       d.onclick=()=>{ if(sndPairs[i].locked) return; sndTarget=i; renderSndSel(); playWordAudio(st.bookId,item.vid,'us'); };
       grow.appendChild(d);
@@ -2132,7 +2141,7 @@ function renderTrans(){
   const target=normSpell(v.word);
   st.trWord=target;
   $('trCn').textContent=v.cn_example||v.cn_meaning||'（无中文句，请翻译词义）';
-  $('trTarget').innerHTML='<span>请译成英文，须包含</span><b class="t-word">'+esc(v.word)+'</b><span class="t-ph">/'+esc(v.uk_pron||v.us_pron||'')+'/</span>';
+  $('trTarget').innerHTML='<span>请译成英文，须包含</span><b class="t-word">'+esc(v.word)+'</b><span class="t-ph">'+esc(ipaLabel(v.uk_pron||v.us_pron||''))+'</span>';
   const inp=$('trInput'); inp.value='';
   $('trFeed').textContent=''; $('trFeed').className='tr-feed';
   const ref=$('trRef'); ref.classList.remove('show'); ref.innerHTML='';

@@ -1,6 +1,6 @@
-/* 词书架 · 平板 / 笔记本端 · Service Worker v23 */
-const VERSION = 'v23';
-const CACHE = 'vocab-v23-' + VERSION;
+/* 词书架 · 平板 / 笔记本端 · Service Worker v24 */
+const VERSION = 'v24';
+const CACHE = 'vocab-v24-' + VERSION;
 
 const PRECACHE = [
   './',
