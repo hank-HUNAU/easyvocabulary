@@ -463,6 +463,19 @@ button{font-family:var(--sans)}
 .snd-box .snd-g.done .g-ph{background:rgba(52,199,89,.16);color:#1F9E45}
 .snd-box .snd-g.wrong{animation:shakeX .4s ease}
 .snd-box .snd-g.target{border-color:var(--orange);box-shadow:0 0 0 2px rgba(255,149,0,.35)}
+.snd-box .snd-magic-wrap{position:relative;width:100%;padding-bottom:34px}
+.snd-box .snd-spell{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;align-items:stretch}
+.snd-box .snd-spell .snd-g{min-width:38px;padding:8px 7px}
+.snd-box .snd-spell .g-letters{font-size:clamp(24px,4.2vw,38px)}
+.snd-box .snd-spell .snd-g.magic-vowel,
+.snd-box .snd-spell .snd-g.magic-e{border-style:solid;border-color:#AF52DE;background:rgba(175,82,222,.08)}
+.snd-box .snd-spell .snd-g.magic-e .g-letters{color:#9B3FCB}
+.snd-box .snd-spell .snd-g.magic-vowel.target,
+.snd-box .snd-spell .snd-g.magic-e.target{border-color:#AF52DE;box-shadow:0 0 0 3px rgba(175,82,222,.2)}
+.snd-box .snd-magic-arrow{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.snd-box .snd-magic-arc{fill:none;stroke:#AF52DE;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:7 5;animation:magicFlow 1.1s linear infinite;filter:drop-shadow(0 2px 3px rgba(175,82,222,.22))}
+.snd-box .snd-magic-dot{fill:#AF52DE}
+@keyframes magicFlow{to{stroke-dashoffset:-24}}
 .snd-box .snd-tray{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;min-height:56px}
 .snd-box .snd-p{font-family:var(--mono);font-size:var(--snd-phone);font-weight:700;padding:10px 16px;border-radius:12px;cursor:pointer;user-select:none;transition:transform .12s,box-shadow .12s;box-shadow:0 2px 6px rgba(0,0,0,.1)}
 .snd-box .snd-p.vow{background:rgba(255,69,58,.13);color:#DC2626;border:1.5px solid rgba(255,69,58,.35)}
@@ -1169,6 +1182,42 @@ function ipaLabel(ipa){
 }
 function displayGrapheme(g){
   return (g||'').replace(/_e$/,'·e');
+}
+function magicSpell(word,g){
+  const chars=(word||'').toLowerCase().replace(/[^a-z]/g,'');
+  if(chars.length<3 || !g.some(x=>/_e$/.test(x))) return null;
+  const out=[];
+  let magicPair=-1;
+  g.forEach((group,i)=>{
+    const magic=/_e$/.test(group);
+    const raw=group.replace(/_e$/,'').replace(/_/g,'');
+    for(const ch of raw){
+      out.push({ch,pair:i,anchor:ch===raw[raw.length-1],role:magic?'magic-vowel':'letter'});
+    }
+    if(magic) magicPair=i;
+  });
+  if(magicPair<0 || out.length!==chars.length-1) return null;
+  out.push({ch:'e',pair:magicPair,anchor:false,role:'magic-e'});
+  return out.map(x=>x.ch).join('')===chars?out:null;
+}
+function drawMagicArrow(wrap){
+  const vowel=wrap.querySelector('.magic-vowel');
+  const magicE=wrap.querySelector('.magic-e');
+  const svg=wrap.querySelector('.snd-magic-arrow');
+  if(!vowel||!magicE||!svg) return;
+  const wr=wrap.getBoundingClientRect(), vr=vowel.getBoundingClientRect(), er=magicE.getBoundingClientRect();
+  if(!wr.width) return;
+  const sx=er.left-wr.left+er.width/2;
+  const ex=vr.left-wr.left+vr.width/2;
+  const sy=er.bottom-wr.top+5;
+  const endY=vr.bottom-wr.top+5;
+  const arcY=Math.max(sy,endY)+20;
+  const h=arcY+16;
+  svg.setAttribute('viewBox','0 0 '+wr.width+' '+h);
+  svg.style.height=h+'px';
+  svg.innerHTML='<defs><marker id="magicArrowHead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8Z" fill="#AF52DE"/></marker></defs>'+
+    '<path class="snd-magic-arc" d="M'+sx+' '+sy+' C'+sx+' '+arcY+' '+(ex+22)+' '+arcY+' '+(ex+10)+' '+endY+'" marker-end="url(#magicArrowHead)"/>'+
+    '<circle class="snd-magic-dot" cx="'+sx+'" cy="'+sy+'" r="3"/>';
 }
 function splitGraphemes(word){
   let w=(word||'').toLowerCase().replace(/[^a-z]/g,'');
@@ -2007,30 +2056,63 @@ function renderSound(){
   const v=cache[item.bookId||st.bookId].vocab[item.vid];
   const ipa=v.uk_pron||v.us_pron||'';
   const ss=soundSplit(item.bookId||st.bookId, v.word, ipa);
+  const magic=magicSpell(v.word,ss.g);
   sndPairs=ss.pairs; sndTarget=-1;
   $('sndWord').textContent=v.word+(ipa?'  '+ipaLabel(ipa):'');
   const rows=$('sndRows'); rows.innerHTML='';
   const check=$('sndCheck');
-  if(ss.mode==='1:1'&&ss.pairs&&ss.pairs.length>1){
-    check.style.display='none';
-    const grow=document.createElement('div'); grow.className='snd-grow';
-    ss.pairs.forEach((pair,i)=>{
-      const d=document.createElement('div'); d.className='snd-g'; d.dataset.i=i;
-      d.innerHTML='<div class="g-letters">'+esc(displayGrapheme(pair.g))+'</div>'+
-        '<div class="g-meta">'+(pair.type==='vow'?'元音':'辅音')+'</div><div class="g-phons"></div>';
-      d.onclick=()=>{ if(sndPairs[i].locked) return; sndTarget=i; renderSndSel(); playWordAudio(st.bookId,item.vid,'us'); };
+  const appendMagic=(interactive)=>{
+    const wrap=document.createElement('div'); wrap.className='snd-magic-wrap';
+    const grow=document.createElement('div'); grow.className='snd-spell';
+    magic.forEach(letter=>{
+      const d=document.createElement('div');
+      d.className='snd-g '+letter.role;
+      if(interactive){
+        d.dataset.i=letter.pair;
+        d.dataset.anchor=letter.anchor?'1':'0';
+      }
+      d.innerHTML='<div class="g-letters">'+esc(letter.ch)+'</div><div class="g-phons"></div>';
+      d.onclick=()=>{
+        if(!interactive){ playWordAudio(st.bookId,item.vid,'us'); return; }
+        const pair=sndPairs[letter.pair];
+        if(!pair||pair.locked) return;
+        sndTarget=letter.pair; renderSndSel(); playWordAudio(st.bookId,item.vid,'us');
+      };
       grow.appendChild(d);
     });
-    rows.appendChild(grow);
+    wrap.appendChild(grow);
+    wrap.insertAdjacentHTML('beforeend','<svg class="snd-magic-arrow" aria-label="魔法 e 越过中间辅音，作用于前面的元音" role="img"></svg>');
+    rows.appendChild(wrap);
+    requestAnimationFrame(()=>drawMagicArrow(wrap));
+  };
+  if(ss.mode==='1:1'&&ss.pairs&&ss.pairs.length>1){
+    check.style.display='none';
+    if(magic){
+      appendMagic(true);
+    }else{
+      const grow=document.createElement('div'); grow.className='snd-grow';
+      ss.pairs.forEach((pair,i)=>{
+        const d=document.createElement('div'); d.className='snd-g'; d.dataset.i=i; d.dataset.anchor='1';
+        d.innerHTML='<div class="g-letters">'+esc(displayGrapheme(pair.g))+'</div>'+
+          '<div class="g-meta">'+(pair.type==='vow'?'元音':'辅音')+'</div><div class="g-phons"></div>';
+        d.onclick=()=>{ if(sndPairs[i].locked) return; sndTarget=i; renderSndSel(); playWordAudio(st.bookId,item.vid,'us'); };
+        grow.appendChild(d);
+      });
+      rows.appendChild(grow);
+    }
   }else{
     // fallback：切分不等长 → 展示整词 + 音素，点“继续”完成
     check.style.display='';
-    rows.innerHTML='<div class="snd-hint">该词切分特殊，听发音熟悉字母组即可</div>';
-    const grow=document.createElement('div'); grow.className='snd-grow';
-    const d=document.createElement('div'); d.className='snd-g';
-    d.innerHTML='<div class="g-letters">'+esc(v.word)+'</div><div class="g-meta">整体</div><div class="g-phons"></div>';
-    grow.appendChild(d);
-    rows.appendChild(grow);
+    rows.innerHTML='<div class="snd-hint">'+(magic?'魔法 e 拼读特殊，听发音熟悉拼写关系即可':'该词切分特殊，听发音熟悉字母组即可')+'</div>';
+    if(magic){
+      appendMagic(false);
+    }else{
+      const grow=document.createElement('div'); grow.className='snd-grow';
+      const d=document.createElement('div'); d.className='snd-g';
+      d.innerHTML='<div class="g-letters">'+esc(v.word)+'</div><div class="g-meta">整体</div><div class="g-phons"></div>';
+      grow.appendChild(d);
+      rows.appendChild(grow);
+    }
   }
   const tray=$('sndTray'); tray.innerHTML='';
   const ps=ss.p&&ss.p.length? ss.p.slice() : splitPhonemes(ipa);
@@ -2042,7 +2124,7 @@ function renderSound(){
     tray.appendChild(b);
   });
   $('sndFeed').textContent=''; $('sndFeed').className='snd-feed';
-  $('sndHint').textContent=ss.mode==='1:1'?'点字母组选中（自动发音）→ 再从下方选对应音素':'听发音，熟悉后点「继续」';
+  $('sndHint').textContent=magic?(ss.mode==='1:1'?'魔法 e 越过中间辅音，让前面的元音发长音。点元音或 e，再选对应音素':'魔法 e 越过中间辅音，让前面的元音发长音。熟悉箭头关系后点「继续」'):ss.mode==='1:1'?'点字母组选中（自动发音）→ 再从下方选对应音素':'听发音，熟悉后点「继续」';
   setTimeout(()=>playWordAudio(st.bookId,item.vid,'us'),150);
 }
 function renderSndSel(){
@@ -2062,11 +2144,12 @@ function matchSnd(ph){
   if(pair.locked) return;
   if(ph===pair.p){
     pair.locked=true;
-    const el=document.querySelector('#sndRows .snd-g[data-i="'+sndTarget+'"]');
-    if(el){
-      el.classList.add('done');
-      el.querySelector('.g-phons').innerHTML='<span class="g-ph '+pair.type+'">'+esc(pair.p)+'</span>';
-    }
+    const els=[...document.querySelectorAll('#sndRows .snd-g[data-i="'+sndTarget+'"]')];
+    els.forEach(el=>el.classList.add('done'));
+    const anchor=els.find(el=>el.dataset.anchor==='1')||els[els.length-1];
+    if(anchor) anchor.querySelector('.g-phons').innerHTML='<span class="g-ph '+pair.type+'">'+esc(pair.p)+'</span>';
+    const magicWrap=document.querySelector('.snd-magic-wrap');
+    if(magicWrap) requestAnimationFrame(()=>drawMagicArrow(magicWrap));
     for(const b of [...$('sndTray').children]){ if(b.textContent===ph){ b.remove(); break; } }
     $('sndFeed').className='snd-feed ok'; $('sndFeed').textContent='正确 ✓';
     sndTarget=-1;
@@ -2083,8 +2166,8 @@ function matchSnd(ph){
       else setTimeout(()=>{ $('sndFeed').textContent=''; $('sndFeed').className='snd-feed'; },600);
     }
   }else{
-    const el=document.querySelector('#sndRows .snd-g[data-i="'+sndTarget+'"]');
-    if(el){ el.classList.remove('wrong'); void el.offsetWidth; el.classList.add('wrong'); }
+    const els=[...document.querySelectorAll('#sndRows .snd-g[data-i="'+sndTarget+'"]')];
+    els.forEach(el=>{ el.classList.remove('wrong'); void el.offsetWidth; el.classList.add('wrong'); });
     $('sndFeed').className='snd-feed no';
     $('sndFeed').textContent='不对，再听一遍发音';
   }
