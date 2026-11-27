@@ -1209,14 +1209,14 @@ function drawMagicArrow(wrap){
   if(!wr.width) return;
   const sx=er.left-wr.left+er.width/2;
   const ex=vr.left-wr.left+vr.width/2;
-  const sy=er.bottom-wr.top+5;
-  const endY=vr.bottom-wr.top+5;
-  const arcY=Math.max(sy,endY)+20;
+  const sy=Math.max(er.bottom,vr.bottom)-wr.top+9;
+  const arcY=sy+22;
+  const mid=(sx+ex)/2;
   const h=arcY+16;
   svg.setAttribute('viewBox','0 0 '+wr.width+' '+h);
   svg.style.height=h+'px';
   svg.innerHTML='<defs><marker id="magicArrowHead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8Z" fill="#AF52DE"/></marker></defs>'+
-    '<path class="snd-magic-arc" d="M'+sx+' '+sy+' C'+sx+' '+arcY+' '+(ex+22)+' '+arcY+' '+(ex+10)+' '+endY+'" marker-end="url(#magicArrowHead)"/>'+
+    '<path class="snd-magic-arc" d="M'+sx+' '+sy+' Q'+mid+' '+arcY+' '+ex+' '+sy+'" marker-end="url(#magicArrowHead)"/>'+
     '<circle class="snd-magic-dot" cx="'+sx+'" cy="'+sy+'" r="3"/>';
 }
 function splitGraphemes(word){
