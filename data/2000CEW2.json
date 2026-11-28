@@ -17,7 +17,9 @@
       "example": "The hotel is situated two miles north of downtown.",
       "cn_example": "酒店在市中心以北两英里处。",
       "uk_audio": "2000CEW2_audio/unit_01/downtown_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/downtown_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/downtown_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 1,
@@ -31,7 +33,9 @@
       "example": "a guidebook to Montreal",
       "cn_example": "蒙特利尔旅游指南",
       "uk_audio": "2000CEW2_audio/unit_01/guidebook_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/guidebook_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/guidebook_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 2,
@@ -45,7 +49,9 @@
       "example": "Ships last a lot longer when they go to sea than when they stay in the harbor.",
       "cn_example": "出海的船舶寿命要比留在港口里的船舶寿命长得多。",
       "uk_audio": "2000CEW2_audio/unit_01/harbor_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/harbor_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/harbor_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 3,
@@ -59,7 +65,9 @@
       "example": "Things tend to get lost when you move.",
       "cn_example": "搬家时东西常常会不知去向。",
       "uk_audio": "2000CEW2_audio/unit_01/lost_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/lost_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/lost_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 4,
@@ -73,7 +81,9 @@
       "example": "Many refugees have arrived at the border without passports.",
       "cn_example": "许多难民到达边境时身上没有护照。",
       "uk_audio": "2000CEW2_audio/unit_01/passport_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/passport_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/passport_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 5,
@@ -87,7 +97,9 @@
       "example": "The poet's treatment of the subject lifts it to a mystical plane.",
       "cn_example": "诗人对该题材的处理使它上升到了一个玄妙的高度。",
       "uk_audio": "2000CEW2_audio/unit_01/plane_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/plane_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/plane_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 6,
@@ -101,7 +113,9 @@
       "example": "An elderly lady stood up and said she had a question for the platform.",
       "cn_example": "一个年老的女士站起来说，有一个问题要问讲台上的人。",
       "uk_audio": "2000CEW2_audio/unit_01/platform_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/platform_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/platform_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 7,
@@ -115,7 +129,9 @@
       "example": "a railroad station/timetable/siding",
       "cn_example": "火车站／列车时刻表／铁路专用线等",
       "uk_audio": "2000CEW2_audio/unit_01/railroad_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/railroad_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/railroad_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 8,
@@ -129,7 +145,9 @@
       "example": "A half-way house for many people is a scooter or motorbike.",
       "cn_example": "小型摩托车或者摩托车是许多人的折中之选。",
       "uk_audio": "2000CEW2_audio/unit_01/scooter_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/scooter_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/scooter_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 9,
@@ -143,7 +161,9 @@
       "example": "Keep on the sidewalk, Rosie, there's a good girl.",
       "cn_example": "沿着人行道走，罗茜，乖孩子。",
       "uk_audio": "2000CEW2_audio/unit_01/sidewalk_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/sidewalk_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/sidewalk_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 10,
@@ -157,7 +177,9 @@
       "example": "We did some sightseeing in Paris.",
       "cn_example": "我们在巴黎小小游览了一番。",
       "uk_audio": "2000CEW2_audio/unit_01/sightseeing_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/sightseeing_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/sightseeing_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 11,
@@ -171,7 +193,9 @@
       "example": "We took the subway uptown to Yankee Stadium.",
       "cn_example": "我们乘地铁到城外的扬基体育场去。",
       "uk_audio": "2000CEW2_audio/unit_01/subway_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/subway_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/subway_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 12,
@@ -185,7 +209,9 @@
       "example": "Have you packed/unpacked your suitcase yet?",
       "cn_example": "你把衣物都放进手提箱了吗／从手提箱里拿出来了吗?",
       "uk_audio": "2000CEW2_audio/unit_01/suitcase_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/suitcase_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/suitcase_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 13,
@@ -199,7 +225,9 @@
       "example": "I took a taxi from the station to the hotel.",
       "cn_example": "我从车站乘出租车去了旅馆。",
       "uk_audio": "2000CEW2_audio/unit_01/taxi_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/taxi_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/taxi_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 14,
@@ -213,7 +241,9 @@
       "example": "She has terminal cancer.",
       "cn_example": "她患有晚期癌症。",
       "uk_audio": "2000CEW2_audio/unit_01/terminal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/terminal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/terminal_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 15,
@@ -227,7 +257,9 @@
       "example": "a price ticket",
       "cn_example": "价格标签",
       "uk_audio": "2000CEW2_audio/unit_01/ticket_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/ticket_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/ticket_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 16,
@@ -241,7 +273,9 @@
       "example": "We went on a guided tour of the cathedral/museum/factory.",
       "cn_example": "我们在导游的带领下参观了大教堂／博物馆／工厂。",
       "uk_audio": "2000CEW2_audio/unit_01/tour_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/tour_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/tour_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 17,
@@ -255,7 +289,9 @@
       "example": "Millions of tourists visit Rome every year.",
       "cn_example": "每年有数百万游客来到罗马。",
       "uk_audio": "2000CEW2_audio/unit_01/tourist_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/tourist_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/tourist_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 18,
@@ -269,7 +305,9 @@
       "example": "It is possible to make an insurance claim for any goods lost or damaged in transit.",
       "cn_example": "为在运输中丢失或受损的货物索要保险赔偿是有可能的。",
       "uk_audio": "2000CEW2_audio/unit_01/transit_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/transit_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/transit_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 19,
@@ -283,7 +321,9 @@
       "example": "What did they give to the traveler?",
       "cn_example": "他们给了旅客什么呢？",
       "uk_audio": "2000CEW2_audio/unit_01/traveler_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/traveler_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/traveler_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 20,
@@ -297,7 +337,9 @@
       "example": "His landlord doubled the rent.",
       "cn_example": "他的房东把房租提高了一倍。",
       "uk_audio": "2000CEW2_audio/unit_01/rent_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/rent_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/rent_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 21,
@@ -311,7 +353,9 @@
       "example": "The meal was amazingly cheap.",
       "cn_example": "这餐饭便宜得出奇。",
       "uk_audio": "2000CEW2_audio/unit_01/cheap_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/cheap_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/cheap_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 22,
@@ -325,7 +369,9 @@
       "example": "He served up a delicious meal.",
       "cn_example": "他端上一顿可口的饭菜。",
       "uk_audio": "2000CEW2_audio/unit_01/delicious_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/delicious_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/delicious_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 23,
@@ -339,7 +385,9 @@
       "example": "The beach was fringed by coconut palms.",
       "cn_example": "沿海岸边长着椰子树。",
       "uk_audio": "2000CEW2_audio/unit_01/coconut_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/coconut_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/coconut_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 24,
@@ -353,7 +401,9 @@
       "example": "We are living in a consumer culture.",
       "cn_example": "我们生活在一种消费文化之中。",
       "uk_audio": "2000CEW2_audio/unit_01/culture_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_01/culture_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_01/culture_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 25,
@@ -367,7 +417,9 @@
       "example": "He set off in quest of adventure.",
       "cn_example": "他出行探险去了。",
       "uk_audio": "2000CEW2_audio/unit_02/adventure_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/adventure_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/adventure_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 26,
@@ -381,7 +433,9 @@
       "example": "What time will your train arrive?",
       "cn_example": "你坐的火车什么时候到？",
       "uk_audio": "2000CEW2_audio/unit_02/arrive_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/arrive_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/arrive_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 27,
@@ -395,7 +449,9 @@
       "example": "Ms Watson is away on holiday until the end of the week.",
       "cn_example": "沃森女士度假去了，要到周末才能回来。",
       "uk_audio": "2000CEW2_audio/unit_02/away_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/away_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/away_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 28,
@@ -409,7 +465,9 @@
       "example": "We used to go camping in Spain when I was a child.",
       "cn_example": "我小的时候我们常去西班牙野营。",
       "uk_audio": "2000CEW2_audio/unit_02/camping_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/camping_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/camping_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 29,
@@ -423,7 +481,9 @@
       "example": "You go around corners too fast when you're driving!",
       "cn_example": "你转弯时开得太快！",
       "uk_audio": "2000CEW2_audio/unit_02/corner_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/corner_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/corner_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 30,
@@ -437,7 +497,9 @@
       "example": "The plane departs at 6 a.m.",
       "cn_example": "那架飞机早晨6点钟起飞。",
       "uk_audio": "2000CEW2_audio/unit_02/depart_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/depart_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/depart_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 31,
@@ -451,7 +513,9 @@
       "example": "a bus/lorry/truck/taxi driver",
       "cn_example": "公共汽车／卡车／出租车司机",
       "uk_audio": "2000CEW2_audio/unit_02/driver_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/driver_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/driver_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 32,
@@ -465,7 +529,9 @@
       "example": "The injured were ferried to hospital by helicopter.",
       "cn_example": "伤者被用直升机送往了医院。",
       "uk_audio": "2000CEW2_audio/unit_02/helicopter_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/helicopter_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/helicopter_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 33,
@@ -479,7 +545,9 @@
       "example": "a coastal/interstate highway",
       "cn_example": "滨海／州际公路",
       "uk_audio": "2000CEW2_audio/unit_02/highway_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/highway_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/highway_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 34,
@@ -493,7 +561,9 @@
       "example": "They made their getaway on a stolen motorcycle.",
       "cn_example": "他们骑上一辆偷来的摩托车逃掉了。",
       "uk_audio": "2000CEW2_audio/unit_02/motorcycle_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/motorcycle_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/motorcycle_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 35,
@@ -507,7 +577,9 @@
       "example": "The points of the compass are north, south, east, and west.",
       "cn_example": "罗盘上的方位点分别为北、南、东和西。",
       "uk_audio": "2000CEW2_audio/unit_02/north_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/north_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/north_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 36,
@@ -521,7 +593,9 @@
       "example": "a parking place/space",
       "cn_example": "停车位",
       "uk_audio": "2000CEW2_audio/unit_02/parking_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/parking_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/parking_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 37,
@@ -535,7 +609,9 @@
       "example": "airline/rail/train/car passengers",
       "cn_example": "飞机／火车／汽车乘客",
       "uk_audio": "2000CEW2_audio/unit_02/passenger_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/passenger_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/passenger_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 38,
@@ -549,7 +625,9 @@
       "example": "South Africa",
       "cn_example": "南非",
       "uk_audio": "2000CEW2_audio/unit_02/south_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/south_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/south_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 39,
@@ -563,7 +641,9 @@
       "example": "I stayed in Montreal for two weeks then flew home.",
       "cn_example": "我在蒙特利尔停留了两周，然后乘飞机回家。",
       "uk_audio": "2000CEW2_audio/unit_02/stay_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/stay_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/stay_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 40,
@@ -577,7 +657,9 @@
       "example": "She's been leading throughout the race, but it now looks as if she's tiring.",
       "cn_example": "她在整个赛跑中一路领先，但现在看上去似乎累了。",
       "uk_audio": "2000CEW2_audio/unit_02/tire_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/tire_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/tire_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 41,
@@ -591,7 +673,9 @@
       "example": "She stood up and walked towards him.",
       "cn_example": "她站起身来，向他走去。",
       "uk_audio": "2000CEW2_audio/unit_02/toward_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/toward_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/toward_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 42,
@@ -605,7 +689,9 @@
       "example": "There was heavy/a lot of traffic on the roads this morning.",
       "cn_example": "今天早晨道路上车流量很大。",
       "uk_audio": "2000CEW2_audio/unit_02/traffic_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/traffic_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/traffic_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 43,
@@ -619,7 +705,9 @@
       "example": "We're taking a vacation in June.",
       "cn_example": "我们6月份要去度假。",
       "uk_audio": "2000CEW2_audio/unit_02/vacation_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/vacation_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/vacation_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 44,
@@ -633,7 +721,9 @@
       "example": "You have some visitors to see you.",
       "cn_example": "有人来看你了。",
       "uk_audio": "2000CEW2_audio/unit_02/visitor_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/visitor_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/visitor_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 45,
@@ -647,7 +737,9 @@
       "example": "Her whole bearing was alert.",
       "cn_example": "她整个人保持着戒备状态。",
       "uk_audio": "2000CEW2_audio/unit_02/whole_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/whole_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/whole_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 46,
@@ -661,7 +753,9 @@
       "example": "The man is armed and dangerous.",
       "cn_example": "这个男子有枪，是个危险分子。",
       "uk_audio": "2000CEW2_audio/unit_02/dangerous_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/dangerous_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/dangerous_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 47,
@@ -675,7 +769,9 @@
       "example": "We didn't leave early enough.",
       "cn_example": "我们离开得不够早。",
       "uk_audio": "2000CEW2_audio/unit_02/early_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/early_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/early_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 48,
@@ -689,7 +785,9 @@
       "example": "We didn't leave early enough.",
       "cn_example": "我们离开得不够早。",
       "uk_audio": "2000CEW2_audio/unit_02/leave_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/leave_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/leave_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 49,
@@ -703,7 +801,9 @@
       "example": "What are you doing at lunchtime?",
       "cn_example": "吃午饭的时候你在干什么？",
       "uk_audio": "2000CEW2_audio/unit_02/lunchtime_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_02/lunchtime_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_02/lunchtime_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 50,
@@ -717,7 +817,9 @@
       "example": "He is one of the top chefs in Britain.",
       "cn_example": "他是英国的顶级厨师之一。",
       "uk_audio": "2000CEW2_audio/unit_03/chef_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/chef_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/chef_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 51,
@@ -731,7 +833,9 @@
       "example": "I only put in one tiny chili.",
       "cn_example": "我只放了一条小小的辣椒。",
       "uk_audio": "2000CEW2_audio/unit_03/chili_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/chili_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/chili_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 52,
@@ -745,7 +849,9 @@
       "example": "My mother always hated cooking.",
       "cn_example": "我妈妈总是很讨厌做饭。",
       "uk_audio": "2000CEW2_audio/unit_03/cooking_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/cooking_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/cooking_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 53,
@@ -759,7 +865,9 @@
       "example": "Who wants to pull a cracker with me?",
       "cn_example": "谁想跟我一起拉彩炮？",
       "uk_audio": "2000CEW2_audio/unit_03/cracker_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/cracker_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/cracker_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 54,
@@ -773,7 +881,9 @@
       "example": "a fried egg",
       "cn_example": "煎蛋",
       "uk_audio": "2000CEW2_audio/unit_03/fried_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/fried_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/fried_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 55,
@@ -787,7 +897,9 @@
       "example": "For this recipe you need four cloves (= single pieces) of garlic, crushed.",
       "cn_example": "按照这个烹饪法，你需备4瓣儿大蒜，并捣碎。",
       "uk_audio": "2000CEW2_audio/unit_03/garlic_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/garlic_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/garlic_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 56,
@@ -801,7 +913,9 @@
       "example": "ground (= powdered) ginger",
       "cn_example": "姜粉",
       "uk_audio": "2000CEW2_audio/unit_03/ginger_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/ginger_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/ginger_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 57,
@@ -815,7 +929,9 @@
       "example": "They had some dreadful old ham in the main part.",
       "cn_example": "他们起用了一些极为蹩脚的老演员担纲主角。",
       "uk_audio": "2000CEW2_audio/unit_03/ham_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/ham_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/ham_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 58,
@@ -829,7 +945,9 @@
       "example": "a jar of coffee/pickled onions",
       "cn_example": "一罐咖啡／腌洋葱",
       "uk_audio": "2000CEW2_audio/unit_03/jar_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/jar_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/jar_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 59,
@@ -843,7 +961,9 @@
       "example": "The prisoners are made to dig holes and fill them up again.",
       "cn_example": "囚犯们被强迫挖洞，然后再把它们填上。",
       "uk_audio": "2000CEW2_audio/unit_03/make_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/make_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/make_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 60,
@@ -857,7 +977,9 @@
       "example": "The waiter brought the menu and the wine list.",
       "cn_example": "服务员拿来了菜单和酒单。",
       "uk_audio": "2000CEW2_audio/unit_03/menu_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/menu_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/menu_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 61,
@@ -871,7 +993,9 @@
       "example": "egg/rice noodles",
       "cn_example": "鸡蛋面／米粉",
       "uk_audio": "2000CEW2_audio/unit_03/noodle_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/noodle_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/noodle_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 62,
@@ -885,7 +1009,9 @@
       "example": "olive/corn/vegetable/sunflower oil",
       "cn_example": "橄榄／玉米／植物／葵花籽油",
       "uk_audio": "2000CEW2_audio/unit_03/oil_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/oil_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/oil_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 63,
@@ -899,7 +1025,9 @@
       "example": "a slice of pizza",
       "cn_example": "一块比萨饼",
       "uk_audio": "2000CEW2_audio/unit_03/pizza_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/pizza_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/pizza_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 64,
@@ -913,7 +1041,9 @@
       "example": "a tuna/ham sandwich",
       "cn_example": "金枪鱼／火腿三明治",
       "uk_audio": "2000CEW2_audio/unit_03/sandwich_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/sandwich_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/sandwich_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 65,
@@ -927,7 +1057,9 @@
       "example": "Come and smell these flowers!",
       "cn_example": "过来闻闻这些花！",
       "uk_audio": "2000CEW2_audio/unit_03/smell_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/smell_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/smell_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 66,
@@ -941,7 +1073,9 @@
       "example": "T-bone/sirloin steaks",
       "cn_example": "Ｔ骨／里脊牛排",
       "uk_audio": "2000CEW2_audio/unit_03/steak_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/steak_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/steak_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 67,
@@ -955,7 +1089,9 @@
       "example": "I love the taste of garlic.",
       "cn_example": "我喜欢蒜味。",
       "uk_audio": "2000CEW2_audio/unit_03/taste_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/taste_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/taste_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 68,
@@ -969,7 +1105,9 @@
       "example": "a slice of toast",
       "cn_example": "一块烤面包片",
       "uk_audio": "2000CEW2_audio/unit_03/toast_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/toast_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/toast_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 69,
@@ -983,7 +1121,9 @@
       "example": "natural/plain yogurt",
       "cn_example": "天然／纯酸奶",
       "uk_audio": "2000CEW2_audio/unit_03/yogurt_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/yogurt_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/yogurt_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 70,
@@ -997,7 +1137,9 @@
       "example": "It was the plain unvarnished truth.",
       "cn_example": "这是简单确凿的事实。",
       "uk_audio": "2000CEW2_audio/unit_03/plain_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/plain_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/plain_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 71,
@@ -1011,7 +1153,9 @@
       "example": "He has a healthy appetite.",
       "cn_example": "他有健康的胃口。",
       "uk_audio": "2000CEW2_audio/unit_03/healthy_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/healthy_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/healthy_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 72,
@@ -1025,7 +1169,9 @@
       "example": "I'm very interested in history.",
       "cn_example": "我很喜欢历史。",
       "uk_audio": "2000CEW2_audio/unit_03/history_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/history_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/history_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 73,
@@ -1039,7 +1185,9 @@
       "example": "I'll grill the lobster.",
       "cn_example": "我来烤龙虾。",
       "uk_audio": "2000CEW2_audio/unit_03/grill_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/grill_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/grill_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 74,
@@ -1053,7 +1201,9 @@
       "example": "And he said unto him, \"Who is my neighbor?\"",
       "cn_example": "同时他对他说：“我的邻居是谁？”",
       "uk_audio": "2000CEW2_audio/unit_03/neighbor_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_03/neighbor_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_03/neighbor_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 75,
@@ -1067,7 +1217,9 @@
       "example": "baking-powder biscuits",
       "cn_example": "焙粉松饼干",
       "uk_audio": "2000CEW2_audio/unit_04/biscuit_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/biscuit_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/biscuit_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 76,
@@ -1081,7 +1233,9 @@
       "example": "breakfast cereals",
       "cn_example": "早餐麦片",
       "uk_audio": "2000CEW2_audio/unit_04/cereal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/cereal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/cereal_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 77,
@@ -1095,7 +1249,9 @@
       "example": "These chopsticks are beautiful!",
       "cn_example": "这些筷子真漂亮！",
       "uk_audio": "2000CEW2_audio/unit_04/chopsticks_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/chopsticks_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/chopsticks_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 78,
@@ -1109,7 +1265,9 @@
       "example": "chocolate/peppermint creams",
       "cn_example": "巧克力／薄荷奶油夹心糖",
       "uk_audio": "2000CEW2_audio/unit_04/cream_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/cream_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/cream_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 79,
@@ -1123,7 +1281,9 @@
       "example": "a dessert fork/spoon",
       "cn_example": "甜食叉／勺",
       "uk_audio": "2000CEW2_audio/unit_04/dessert_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/dessert_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/dessert_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 80,
@@ -1137,7 +1297,9 @@
       "example": "He drank three glasses of water.",
       "cn_example": "他喝了3杯水。",
       "uk_audio": "2000CEW2_audio/unit_04/drink_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/drink_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/drink_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 81,
@@ -1151,7 +1313,9 @@
       "example": "Flour is sold by the kilogram.",
       "cn_example": "面粉按公斤出售。",
       "uk_audio": "2000CEW2_audio/unit_04/flour_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/flour_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/flour_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 82,
@@ -1165,7 +1329,9 @@
       "example": "a peanut butter and jelly sandwich",
       "cn_example": "花生酱和果酱三明治",
       "uk_audio": "2000CEW2_audio/unit_04/jelly_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/jelly_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/jelly_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 83,
@@ -1179,7 +1345,9 @@
       "example": "Lettuce was grown by the ancient Romans.",
       "cn_example": "莴苣是由古罗马人种植的。",
       "uk_audio": "2000CEW2_audio/unit_04/lettuce_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/lettuce_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/lettuce_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 84,
@@ -1193,7 +1361,9 @@
       "example": "I'll have a vodka and lime.",
       "cn_example": "我要喝一杯酸橙伏特加。",
       "uk_audio": "2000CEW2_audio/unit_04/lime_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/lime_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/lime_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 85,
@@ -1207,7 +1377,9 @@
       "example": "What are you doing at lunchtime?",
       "cn_example": "吃午饭的时候你在干什么？",
       "uk_audio": "2000CEW2_audio/unit_04/lunchtime_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/lunchtime_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/lunchtime_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 86,
@@ -1221,7 +1393,9 @@
       "example": "I made myself a large mug of cocoa (= enough to fill a mug) and went to bed.",
       "cn_example": "我为自己冲了一大杯可可饮料，然后钻进了被窝。",
       "uk_audio": "2000CEW2_audio/unit_04/mug_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/mug_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/mug_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 87,
@@ -1235,7 +1409,9 @@
       "example": "a Brazil/cashew nut",
       "cn_example": "巴西坚果／腰果",
       "uk_audio": "2000CEW2_audio/unit_04/nut_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/nut_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/nut_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 88,
@@ -1249,7 +1425,9 @@
       "example": "a cheese/mushroom omelette",
       "cn_example": "奶酪／蘑菇煎蛋饼",
       "uk_audio": "2000CEW2_audio/unit_04/omelet_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/omelet_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/omelet_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 89,
@@ -1263,7 +1441,9 @@
       "example": "paper/plastic/china plates",
       "cn_example": "纸／塑料／瓷盘子",
       "uk_audio": "2000CEW2_audio/unit_04/plate_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/plate_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/plate_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 90,
@@ -1277,7 +1457,9 @@
       "example": "a cake/fish slice",
       "cn_example": "蛋糕刀／煎鱼铲",
       "uk_audio": "2000CEW2_audio/unit_04/slice_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/slice_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/slice_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 91,
@@ -1291,7 +1473,9 @@
       "example": "Why don't you drink your milk through a straw?",
       "cn_example": "你为什么不用吸管喝牛奶？",
       "uk_audio": "2000CEW2_audio/unit_04/straw_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/straw_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/straw_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 92,
@@ -1305,7 +1489,9 @@
       "example": "fresh strawberries",
       "cn_example": "新鲜草莓",
       "uk_audio": "2000CEW2_audio/unit_04/strawberry_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/strawberry_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/strawberry_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 93,
@@ -1319,7 +1505,9 @@
       "example": "I brought you some takeout.",
       "cn_example": "我给你带来些外卖。",
       "uk_audio": "2000CEW2_audio/unit_04/takeout_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/takeout_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/takeout_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 94,
@@ -1333,7 +1521,9 @@
       "example": "Watermelon contains vitamins and also potassium.",
       "cn_example": "西瓜含有维生素也有钾。",
       "uk_audio": "2000CEW2_audio/unit_04/watermelon_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/watermelon_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/watermelon_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 95,
@@ -1347,7 +1537,9 @@
       "example": "She achieved celebrity status overnight.",
       "cn_example": "她一夜之间成为名流。",
       "uk_audio": "2000CEW2_audio/unit_04/celebrity_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/celebrity_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/celebrity_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 96,
@@ -1361,7 +1553,9 @@
       "example": "She served him a bowl of beef stew.",
       "cn_example": "她给他端了一碗炖牛肉。",
       "uk_audio": "2000CEW2_audio/unit_04/bowl_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/bowl_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/bowl_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 97,
@@ -1375,7 +1569,9 @@
       "example": "He's a giant of a man.",
       "cn_example": "他是个巨人。",
       "uk_audio": "2000CEW2_audio/unit_04/giant_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/giant_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/giant_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 98,
@@ -1389,7 +1585,9 @@
       "example": "The task poses no special problems.",
       "cn_example": "这项任务不会造成特别的问题。",
       "uk_audio": "2000CEW2_audio/unit_04/special_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/special_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/special_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 99,
@@ -1403,7 +1601,9 @@
       "example": "Bill was stimulated by the challenge.",
       "cn_example": "比尔受到该挑战的激励。",
       "uk_audio": "2000CEW2_audio/unit_04/challenge_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_04/challenge_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_04/challenge_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 100,
@@ -1417,7 +1617,9 @@
       "example": "My head/tooth/back aches.",
       "cn_example": "我的头／牙／背疼。",
       "uk_audio": "2000CEW2_audio/unit_05/ache_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/ache_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/ache_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 101,
@@ -1431,7 +1633,9 @@
       "example": "She's alive and well and living in New Zealand.",
       "cn_example": "她活得好好的，现住在新西兰。",
       "uk_audio": "2000CEW2_audio/unit_05/alive_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/alive_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/alive_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 102,
@@ -1445,7 +1649,9 @@
       "example": "Your arm is bleeding.",
       "cn_example": "你的胳膊在流血。",
       "uk_audio": "2000CEW2_audio/unit_05/bleed_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/bleed_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/bleed_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 103,
@@ -1459,7 +1665,9 @@
       "example": "She's been blind since birth.",
       "cn_example": "她天生失明。",
       "uk_audio": "2000CEW2_audio/unit_05/blind_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/blind_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/blind_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 104,
@@ -1473,7 +1681,9 @@
       "example": "Her breath smelled of garlic.",
       "cn_example": "她的嘴里有大蒜味。",
       "uk_audio": "2000CEW2_audio/unit_05/breath_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/breath_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/breath_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 105,
@@ -1487,7 +1697,9 @@
       "example": "Mum's still got our pram - it's very old, but it's in perfect condition.",
       "cn_example": "妈妈还留着我们的婴儿车——虽然很旧了，但仍然完好。",
       "uk_audio": "2000CEW2_audio/unit_05/condition_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/condition_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/condition_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 106,
@@ -1501,7 +1713,9 @@
       "example": "At one time doctors couldn't cure TB/cure people of TB.",
       "cn_example": "医生曾经无法治愈肺结核／肺结核病人。",
       "uk_audio": "2000CEW2_audio/unit_05/cure_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/cure_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/cure_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 107,
@@ -1515,7 +1729,9 @@
       "example": "The accident left him severely disabled.",
       "cn_example": "那次事故致使他严重残疾。",
       "uk_audio": "2000CEW2_audio/unit_05/disabled_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/disabled_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/disabled_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 108,
@@ -1529,7 +1745,9 @@
       "example": "The real disease affecting the country is inflation.",
       "cn_example": "影响该国的真正恶疾是通货膨胀。",
       "uk_audio": "2000CEW2_audio/unit_05/disease_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/disease_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/disease_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 109,
@@ -1543,7 +1761,9 @@
       "example": "I'm trying to improve my fitness by cycling to work.",
       "cn_example": "我每天骑车上班，想以此来改善健康状况。",
       "uk_audio": "2000CEW2_audio/unit_05/fitness_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/fitness_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/fitness_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 110,
@@ -1557,7 +1777,9 @@
       "example": "I always buy the same brand of toothpaste out of (= because of) habit.",
       "cn_example": "我出于习惯总是买同一个牌子的牙膏。",
       "uk_audio": "2000CEW2_audio/unit_05/habit_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/habit_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/habit_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 111,
@@ -1571,7 +1793,9 @@
       "example": "Both deny conspiring to cause actual bodily harm.",
       "cn_example": "两人都否认蓄意造成人身伤害。",
       "uk_audio": "2000CEW2_audio/unit_05/harm_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/harm_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/harm_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 112,
@@ -1585,7 +1809,9 @@
       "example": "The wounds were gradually healing (up).",
       "cn_example": "伤口在逐渐愈合。",
       "uk_audio": "2000CEW2_audio/unit_05/heal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/heal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/heal_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 113,
@@ -1599,7 +1825,9 @@
       "example": "This exercise is designed to trim your hips and stomach.",
       "cn_example": "这套运动是为了使你的臀部和腹部变得苗条而设计的。",
       "uk_audio": "2000CEW2_audio/unit_05/hip_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/hip_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/hip_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 114,
@@ -1613,7 +1841,9 @@
       "example": "a needle and thread",
       "cn_example": "针线",
       "uk_audio": "2000CEW2_audio/unit_05/needle_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/needle_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/needle_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 115,
@@ -1627,7 +1857,9 @@
       "example": "I often see him in the garden.",
       "cn_example": "我常见他在花园里。",
       "uk_audio": "2000CEW2_audio/unit_05/often_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/often_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/often_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 116,
@@ -1641,7 +1873,9 @@
       "example": "The old photograph brought back painful memories.",
       "cn_example": "这张老照片唤起了痛苦的回忆。",
       "uk_audio": "2000CEW2_audio/unit_05/painful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/painful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/painful_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 117,
@@ -1655,7 +1889,9 @@
       "example": "The results of the opinion poll showed that most women supported this action.",
       "cn_example": "民意调查结果显示，大多数女性支持这一行动。",
       "uk_audio": "2000CEW2_audio/unit_05/result_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/result_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/result_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 118,
@@ -1669,7 +1905,9 @@
       "example": "a sleeping tablet",
       "cn_example": "一片安眠药",
       "uk_audio": "2000CEW2_audio/unit_05/tablet_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/tablet_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/tablet_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 119,
@@ -1683,7 +1921,9 @@
       "example": "free dental treatment",
       "cn_example": "免费的牙科治疗",
       "uk_audio": "2000CEW2_audio/unit_05/treatment_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/treatment_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/treatment_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 120,
@@ -1697,7 +1937,9 @@
       "example": "Many teachers have an intuitive sense that different students have different learning styles. Some are verbal and some are visual; some are linear, and some are holistic.",
       "cn_example": "许多老师都有一种直觉，不同的学生有不同的学习风格。有些是语言的，有些是视觉的；有些是线性的，有些是整体的。",
       "uk_audio": "2000CEW2_audio/unit_05/holistic_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/holistic_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/holistic_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 121,
@@ -1711,7 +1953,9 @@
       "example": "He prefers to focus on the positive.",
       "cn_example": "他更愿意关注积极面。",
       "uk_audio": "2000CEW2_audio/unit_05/focus_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/focus_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/focus_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 122,
@@ -1725,7 +1969,9 @@
       "example": "How fast would the disease develop?",
       "cn_example": "这种疾病发展有多快？",
       "uk_audio": "2000CEW2_audio/unit_05/develop_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/develop_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/develop_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 123,
@@ -1739,7 +1985,9 @@
       "example": "I had acupuncture in my lower back.",
       "cn_example": "我在后腰上做了针灸。",
       "uk_audio": "2000CEW2_audio/unit_05/acupuncture_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/acupuncture_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/acupuncture_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 124,
@@ -1753,7 +2001,9 @@
       "example": "The liquid is then diluted.",
       "cn_example": "然后液体就变稀了。",
       "uk_audio": "2000CEW2_audio/unit_05/liquid_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_05/liquid_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_05/liquid_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 125,
@@ -1767,7 +2017,9 @@
       "example": "I'm surprised to see you awake - ten minutes ago you were fast/sound (= completely) asleep.",
       "cn_example": "真奇怪，你怎么醒了——10分钟前你还睡得很香呢。",
       "uk_audio": "2000CEW2_audio/unit_06/asleep_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/asleep_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/asleep_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 126,
@@ -1781,7 +2033,9 @@
       "example": "The belly of the aircraft was painted red.",
       "cn_example": "飞机底部漆成红色。",
       "uk_audio": "2000CEW2_audio/unit_06/belly_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/belly_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/belly_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 127,
@@ -1795,7 +2049,9 @@
       "example": "After the final performance the director threw a party for the cast.",
       "cn_example": "最后一场演出过后，导演为全体演员举办了一场聚会。",
       "uk_audio": "2000CEW2_audio/unit_06/cast_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/cast_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/cast_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 128,
@@ -1809,7 +2065,9 @@
       "example": "chubby legs",
       "cn_example": "胖乎乎的腿",
       "uk_audio": "2000CEW2_audio/unit_06/chubby_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/chubby_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/chubby_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 129,
@@ -1823,7 +2081,9 @@
       "example": "Bring your baby to the clinic and we'll take a look at her.",
       "cn_example": "把你的宝宝带到诊所来，我们给她检查一下。",
       "uk_audio": "2000CEW2_audio/unit_06/clinic_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/clinic_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/clinic_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 130,
@@ -1837,7 +2097,9 @@
       "example": "The smoke made me cough.",
       "cn_example": "烟呛得我直咳嗽。",
       "uk_audio": "2000CEW2_audio/unit_06/cough_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/cough_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/cough_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 131,
@@ -1851,7 +2113,9 @@
       "example": "Many of the TV programmes are broadcast with subtitles for the deaf.",
       "cn_example": "许多电视节目播出时都打上给失聪人士看的字幕。",
       "uk_audio": "2000CEW2_audio/unit_06/deaf_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/deaf_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/deaf_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 132,
@@ -1865,7 +2129,9 @@
       "example": "anti-cancer/fertility/pain-killing drugs",
       "cn_example": "抗癌／治疗不育症／止疼药",
       "uk_audio": "2000CEW2_audio/unit_06/drug_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/drug_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/drug_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 133,
@@ -1879,7 +2145,9 @@
       "example": "How would disabled people escape in an emergency?",
       "cn_example": "如果发生紧急情况，伤残人士如何逃离？",
       "uk_audio": "2000CEW2_audio/unit_06/emergency_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/emergency_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/emergency_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 134,
@@ -1893,7 +2161,9 @@
       "example": "He's got a headache and a slight fever.",
       "cn_example": "他头疼，还有点发烧。",
       "uk_audio": "2000CEW2_audio/unit_06/fever_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/fever_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/fever_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 135,
@@ -1907,7 +2177,9 @@
       "example": "She's got a high forehead.",
       "cn_example": "她额头很高。",
       "uk_audio": "2000CEW2_audio/unit_06/forehead_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/forehead_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/forehead_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 136,
@@ -1921,7 +2193,9 @@
       "example": "I can't believe that that enormous meal wasn't enough to satisfy your hunger.",
       "cn_example": "我无法相信那么一顿丰盛的饭菜都无法填饱你的肚子。",
       "uk_audio": "2000CEW2_audio/unit_06/hunger_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/hunger_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/hunger_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 137,
@@ -1935,7 +2209,9 @@
       "example": "He died at home after a long illness.",
       "cn_example": "久病之后他在家里死去。",
       "uk_audio": "2000CEW2_audio/unit_06/illness_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/illness_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/illness_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 138,
@@ -1949,7 +2225,9 @@
       "example": "neck/back/leg/stomach muscles",
       "cn_example": "颈／背／腿／胃部肌肉",
       "uk_audio": "2000CEW2_audio/unit_06/muscle_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/muscle_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/muscle_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 139,
@@ -1963,7 +2241,9 @@
       "example": "Grandpa usually has/takes a nap after lunch.",
       "cn_example": "爷爷通常在午饭后小睡片刻。",
       "uk_audio": "2000CEW2_audio/unit_06/nap_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/nap_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/nap_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 140,
@@ -1977,7 +2257,9 @@
       "example": "a normal working day",
       "cn_example": "正常工作日",
       "uk_audio": "2000CEW2_audio/unit_06/normal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/normal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/normal_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 141,
@@ -1991,7 +2273,9 @@
       "example": "a major/minor/routine operation",
       "cn_example": "大／小／常规手术",
       "uk_audio": "2000CEW2_audio/unit_06/operation_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/operation_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/operation_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 142,
@@ -2005,7 +2289,9 @@
       "example": "It took a long time for the economy to recover after the slump.",
       "cn_example": "萧条期过后，经济花了很长时间才恢复元气。",
       "uk_audio": "2000CEW2_audio/unit_06/recover_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/recover_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/recover_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 143,
@@ -2019,7 +2305,9 @@
       "example": "the chickenpox/flu/herpes/mumps virus",
       "cn_example": "水痘／流行性感冒／疱疹／流行性腮腺炎病毒",
       "uk_audio": "2000CEW2_audio/unit_06/virus_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/virus_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/virus_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 144,
@@ -2033,7 +2321,9 @@
       "example": "What weight can this lorry safely carry?",
       "cn_example": "这辆卡车的安全载重量是多少？",
       "uk_audio": "2000CEW2_audio/unit_06/weight_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/weight_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/weight_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 145,
@@ -2047,7 +2337,9 @@
       "example": "Symptoms include a sore throat.",
       "cn_example": "症状包括嗓子疼。",
       "uk_audio": "2000CEW2_audio/unit_06/sore_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/sore_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/sore_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 146,
@@ -2061,7 +2353,9 @@
       "example": "Check (off) each item on the list as you complete it.",
       "cn_example": "每完成一项就在清单上把该项勾去。",
       "uk_audio": "2000CEW2_audio/unit_06/check_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/check_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/check_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 147,
@@ -2075,7 +2369,9 @@
       "example": "Her heartbeat steadied.",
       "cn_example": "她的心跳平稳下来。",
       "uk_audio": "2000CEW2_audio/unit_06/heartbeat_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/heartbeat_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/heartbeat_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 148,
@@ -2089,7 +2385,9 @@
       "example": "I suggest we let the matter drop.",
       "cn_example": "我建议咱们别再提及此事。",
       "uk_audio": "2000CEW2_audio/unit_06/suggest_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/suggest_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/suggest_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 149,
@@ -2103,7 +2401,9 @@
       "example": "I've been to far worse places.",
       "cn_example": "我到过糟糕得多的地方。",
       "uk_audio": "2000CEW2_audio/unit_06/worse_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_06/worse_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_06/worse_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 150,
@@ -2117,7 +2417,9 @@
       "example": "an advertising/employment/estate/travel agency",
       "cn_example": "广告（代理）公司／职业介绍所／房地产中介／旅行社",
       "uk_audio": "2000CEW2_audio/unit_07/agency_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/agency_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/agency_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 151,
@@ -2131,7 +2433,9 @@
       "example": "Mr. Baker would take command of the campaign.",
       "cn_example": "贝克先生将负责这次运动。",
       "uk_audio": "2000CEW2_audio/unit_07/baker_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/baker_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/baker_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 152,
@@ -2145,7 +2449,9 @@
       "example": "The coach careered down a slope and collided with a bank.",
       "cn_example": "长途汽车冲下山坡，撞到了土埂上。",
       "uk_audio": "2000CEW2_audio/unit_07/career_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/career_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/career_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 153,
@@ -2159,7 +2465,9 @@
       "example": "He works for a software company/a company that makes software.",
       "cn_example": "他在一家软件公司工作。",
       "uk_audio": "2000CEW2_audio/unit_07/company_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/company_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/company_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 154,
@@ -2173,7 +2481,9 @@
       "example": "the chemistry department/the department of chemistry",
       "cn_example": "化学系",
       "uk_audio": "2000CEW2_audio/unit_07/department_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/department_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/department_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 155,
@@ -2187,7 +2497,9 @@
       "example": "a fashion/software/theatrical designer",
       "cn_example": "时装／软件／舞台设计师",
       "uk_audio": "2000CEW2_audio/unit_07/designer_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/designer_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/designer_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 156,
@@ -2201,7 +2513,9 @@
       "example": "We need a reference from your former employer.",
       "cn_example": "我们需要你前任雇主的推荐信。",
       "uk_audio": "2000CEW2_audio/unit_07/employer_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/employer_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/employer_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 157,
@@ -2215,7 +2529,9 @@
       "example": "the gas/electricity industry",
       "cn_example": "燃气业／电力工业",
       "uk_audio": "2000CEW2_audio/unit_07/industry_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/industry_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/industry_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 158,
@@ -2229,7 +2545,9 @@
       "example": "A librarian works in a library.",
       "cn_example": "图书馆管理员在图书馆里工作。",
       "uk_audio": "2000CEW2_audio/unit_07/librarian_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/librarian_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/librarian_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 159,
@@ -2243,7 +2561,9 @@
       "example": "a bank manager",
       "cn_example": "银行经理",
       "uk_audio": "2000CEW2_audio/unit_07/manager_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/manager_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/manager_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 160,
@@ -2257,7 +2577,9 @@
       "example": "employment/job opportunities",
       "cn_example": "就业机会",
       "uk_audio": "2000CEW2_audio/unit_07/opportunity_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/opportunity_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/opportunity_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 161,
@@ -2271,7 +2593,9 @@
       "example": "the World Health Organization",
       "cn_example": "世界卫生组织",
       "uk_audio": "2000CEW2_audio/unit_07/organization_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/organization_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/organization_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 162,
@@ -2285,7 +2609,9 @@
       "example": "Chris, you're a nurse, so can I ask your professional opinion on bandaging ankles?",
       "cn_example": "克丽丝，你是个护士，能否征求一下你对踝部包扎的意见？",
       "uk_audio": "2000CEW2_audio/unit_07/professional_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/professional_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/professional_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 163,
@@ -2299,7 +2625,9 @@
       "example": "Professor Stephen Hawking",
       "cn_example": "斯蒂芬•霍金教授",
       "uk_audio": "2000CEW2_audio/unit_07/professor_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/professor_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/professor_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 164,
@@ -2313,7 +2641,9 @@
       "example": "an annual salary of £40,000",
       "cn_example": "40000英镑的年薪",
       "uk_audio": "2000CEW2_audio/unit_07/salary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/salary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/salary_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 165,
@@ -2327,7 +2657,9 @@
       "example": "the Secretary of Health and Human Services",
       "cn_example": "卫生和福利部部长",
       "uk_audio": "2000CEW2_audio/unit_07/secretary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/secretary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/secretary_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 166,
@@ -2341,7 +2673,9 @@
       "example": "There is a good relationship between staff and pupils at the school.",
       "cn_example": "学校里教职员工和学生的关系很融洽。",
       "uk_audio": "2000CEW2_audio/unit_07/staff_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/staff_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/staff_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 167,
@@ -2355,7 +2689,9 @@
       "example": "For centuries, Native Americans traded with European settlers.",
       "cn_example": "美洲印第安人和欧洲殖民者做了几百年的生意。",
       "uk_audio": "2000CEW2_audio/unit_07/trade_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/trade_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/trade_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 168,
@@ -2369,7 +2705,9 @@
       "example": "a training course",
       "cn_example": "培训课程",
       "uk_audio": "2000CEW2_audio/unit_07/training_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/training_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/training_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 169,
@@ -2383,7 +2721,9 @@
       "example": "a travel/sports/fiction/crime writer",
       "cn_example": "游记／体育专栏／小说／犯罪小说作家",
       "uk_audio": "2000CEW2_audio/unit_07/writer_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/writer_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/writer_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 170,
@@ -2397,7 +2737,9 @@
       "example": "There are no plans to build new offices.",
       "cn_example": "现在没有建新办公楼的计划。",
       "uk_audio": "2000CEW2_audio/unit_07/build_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/build_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/build_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 171,
@@ -2411,7 +2753,9 @@
       "example": "Regular exercise helps prevent weight gain.",
       "cn_example": "经常锻炼有助于防止体重增加。",
       "uk_audio": "2000CEW2_audio/unit_07/gain_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/gain_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/gain_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 172,
@@ -2425,7 +2769,9 @@
       "example": "Carpentry is a highly skilled trade.",
       "cn_example": "木工是需要纯熟技巧的职业。",
       "uk_audio": "2000CEW2_audio/unit_07/carpentry_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/carpentry_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/carpentry_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 173,
@@ -2439,7 +2785,9 @@
       "example": "They had ensured the plumbing was overhauled a year ago.",
       "cn_example": "他们确保管道设备一年前已被彻底检修过。",
       "uk_audio": "2000CEW2_audio/unit_07/plumbing_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/plumbing_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/plumbing_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 174,
@@ -2453,7 +2801,9 @@
       "example": "The court is now in session.",
       "cn_example": "法庭现在正在开庭。",
       "uk_audio": "2000CEW2_audio/unit_07/session_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_07/session_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_07/session_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 175,
@@ -2467,7 +2817,9 @@
       "example": "We advertised our car in the local newspaper.",
       "cn_example": "我们在当地报纸上登了广告出售我们的轿车。",
       "uk_audio": "2000CEW2_audio/unit_08/advertise_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/advertise_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/advertise_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 176,
@@ -2481,7 +2833,9 @@
       "example": "He became a professional athlete at the age of 16.",
       "cn_example": "16岁时他成了一名职业运动员。",
       "uk_audio": "2000CEW2_audio/unit_08/athlete_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/athlete_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/athlete_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 177,
@@ -2495,7 +2849,9 @@
       "example": "The discovery of oil brought many benefits to the town.",
       "cn_example": "石油的发现给该镇带来很多利益。",
       "uk_audio": "2000CEW2_audio/unit_08/benefit_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/benefit_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/benefit_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 178,
@@ -2509,7 +2865,9 @@
       "example": "The two brothers established/set up/started up a clothes retailing business.",
       "cn_example": "兄弟俩开了家服装零售商店。",
       "uk_audio": "2000CEW2_audio/unit_08/business_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/business_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/business_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 179,
@@ -2523,7 +2881,9 @@
       "example": "a business deal",
       "cn_example": "商业交易",
       "uk_audio": "2000CEW2_audio/unit_08/deal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/deal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/deal_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 180,
@@ -2537,7 +2897,9 @@
       "example": "a private detective",
       "cn_example": "私家侦探",
       "uk_audio": "2000CEW2_audio/unit_08/detective_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/detective_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/detective_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 181,
@@ -2551,7 +2913,9 @@
       "example": "a famous film/movie director",
       "cn_example": "著名电影导演",
       "uk_audio": "2000CEW2_audio/unit_08/director_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/director_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/director_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 182,
@@ -2565,7 +2929,9 @@
       "example": "There's a high duty on alcohol.",
       "cn_example": "酒类的关税很高。",
       "uk_audio": "2000CEW2_audio/unit_08/duty_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/duty_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/duty_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 183,
@@ -2579,7 +2945,9 @@
       "example": "These risks are incidental to the work of a firefighter.",
       "cn_example": "这些风险是担任消防员不可避免的。",
       "uk_audio": "2000CEW2_audio/unit_08/firefighter_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/firefighter_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/firefighter_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 184,
@@ -2593,7 +2961,9 @@
       "example": "a freelance political journalist",
       "cn_example": "政论文章自由撰稿人",
       "uk_audio": "2000CEW2_audio/unit_08/journalist_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/journalist_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/journalist_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 185,
@@ -2607,7 +2977,9 @@
       "example": "I want to see my lawyer before I say anything.",
       "cn_example": "我开口前要见律师。",
       "uk_audio": "2000CEW2_audio/unit_08/lawyer_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/lawyer_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/lawyer_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 186,
@@ -2621,7 +2993,9 @@
       "example": "The mayor kicked off the party.",
       "cn_example": "市长揭开了宴会的序幕。",
       "uk_audio": "2000CEW2_audio/unit_08/mayor_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/mayor_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/mayor_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 187,
@@ -2635,7 +3009,9 @@
       "example": "a car/garage/bike mechanic",
       "cn_example": "汽车/自行车修理工",
       "uk_audio": "2000CEW2_audio/unit_08/mechanic_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/mechanic_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/mechanic_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 188,
@@ -2649,7 +3025,9 @@
       "example": "The concert features dancers and musicians of all nationalities.",
       "cn_example": "这场音乐会云集了各国的舞蹈家和音乐家。",
       "uk_audio": "2000CEW2_audio/unit_08/musician_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/musician_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/musician_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 189,
@@ -2663,7 +3041,9 @@
       "example": "a fighter/helicopter/bomber/airline pilot",
       "cn_example": "战斗机／直升机／轰炸机／客机驾驶员",
       "uk_audio": "2000CEW2_audio/unit_08/pilot_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/pilot_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/pilot_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 190,
@@ -2677,7 +3057,9 @@
       "example": "software pirates",
       "cn_example": "软件侵权者",
       "uk_audio": "2000CEW2_audio/unit_08/pirate_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/pirate_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/pirate_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 191,
@@ -2691,7 +3073,9 @@
       "example": "He is a 24-year-old trainee reporter.",
       "cn_example": "他是一个24岁的实习记者。",
       "uk_audio": "2000CEW2_audio/unit_08/reporter_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/reporter_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/reporter_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 192,
@@ -2705,7 +3089,9 @@
       "example": "a car salesman",
       "cn_example": "汽车销售员",
       "uk_audio": "2000CEW2_audio/unit_08/salesman_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/salesman_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/salesman_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 193,
@@ -2719,7 +3105,9 @@
       "example": "senior management",
       "cn_example": "高级管理层",
       "uk_audio": "2000CEW2_audio/unit_08/senior_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/senior_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/senior_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 194,
@@ -2733,7 +3121,9 @@
       "example": "In extreme cases, you may need the help of your veterinarian.",
       "cn_example": "在一些特殊情况下，你也许需要向你的兽医求助。",
       "uk_audio": "2000CEW2_audio/unit_08/veterinarian_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/veterinarian_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/veterinarian_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 195,
@@ -2747,7 +3137,9 @@
       "example": "I am continuing to apply for jobs.",
       "cn_example": "我在继续申请工作。",
       "uk_audio": "2000CEW2_audio/unit_08/apply_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/apply_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/apply_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 196,
@@ -2761,7 +3153,9 @@
       "example": "They had important matters to discuss.",
       "cn_example": "他们有些重要的问题要讨论。",
       "uk_audio": "2000CEW2_audio/unit_08/discuss_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/discuss_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/discuss_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 197,
@@ -2775,7 +3169,9 @@
       "example": "Mentally, she is not very stable.",
       "cn_example": "她的心理状态不十分稳定。",
       "uk_audio": "2000CEW2_audio/unit_08/stable_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/stable_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/stable_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 198,
@@ -2789,7 +3185,9 @@
       "example": "They were both politically active.",
       "cn_example": "他们两人在政治上都很积极。",
       "uk_audio": "2000CEW2_audio/unit_08/active_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/active_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/active_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 199,
@@ -2803,7 +3201,9 @@
       "example": "They provided food and shelter for the poor.",
       "cn_example": "他们为贫困者提供食物和住所。",
       "uk_audio": "2000CEW2_audio/unit_08/shelter_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_08/shelter_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_08/shelter_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 200,
@@ -2817,7 +3217,9 @@
       "example": "The accident was clearly the lorry driver's fault.",
       "cn_example": "这起事故显然是卡车司机的过错。",
       "uk_audio": "2000CEW2_audio/unit_09/clearly_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/clearly_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/clearly_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 201,
@@ -2831,7 +3233,9 @@
       "example": "I don't want any comments on/about my new haircut, thank you!",
       "cn_example": "我不想听到谁对我新剪的头发说三道四，谢谢各位了！",
       "uk_audio": "2000CEW2_audio/unit_09/comment_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/comment_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/comment_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 202,
@@ -2845,7 +3249,9 @@
       "example": "In this exercise, a word is blanked out and you have to guess what it is by looking at the context.",
       "cn_example": "在这个练习中，有一个单词被抽去了，你必须根据上下文猜测这个单词是什么。",
       "uk_audio": "2000CEW2_audio/unit_09/context_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/context_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/context_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 203,
@@ -2859,7 +3265,9 @@
       "example": "She had a strange conversation with the man who moved in upstairs.",
       "cn_example": "她跟搬到楼上的那个家伙进行了一次奇怪的交谈。",
       "uk_audio": "2000CEW2_audio/unit_09/conversation_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/conversation_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/conversation_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 204,
@@ -2873,7 +3281,9 @@
       "example": "She insisted on telling me every single detail of what they did to her in hospital.",
       "cn_example": "她坚持要告诉我她在医院遭遇的一切。",
       "uk_audio": "2000CEW2_audio/unit_09/detail_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/detail_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/detail_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 205,
@@ -2887,7 +3297,9 @@
       "example": "While in hiding, Anne Frank kept a diary.",
       "cn_example": "安妮‧弗兰克在躲匿期间坚持写日记。",
       "uk_audio": "2000CEW2_audio/unit_09/diary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/diary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/diary_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 206,
@@ -2901,7 +3313,9 @@
       "example": "I'll send you the document by email.",
       "cn_example": "我会用电子邮件把文件发给你。",
       "uk_audio": "2000CEW2_audio/unit_09/document_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/document_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/document_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 207,
@@ -2915,7 +3329,9 @@
       "example": "Could you give me a quick explanation of how it works?",
       "cn_example": "你能给我简要说明一下它的工作原理吗？",
       "uk_audio": "2000CEW2_audio/unit_09/explanation_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/explanation_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/explanation_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 208,
@@ -2929,7 +3345,9 @@
       "example": "I looked it up on the Internet.",
       "cn_example": "我在互联网上查过此事。",
       "uk_audio": "2000CEW2_audio/unit_09/internet_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/internet_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/internet_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 209,
@@ -2943,7 +3361,9 @@
       "example": "a shopping list",
       "cn_example": "购物单",
       "uk_audio": "2000CEW2_audio/unit_09/list_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/list_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/list_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 210,
@@ -2957,7 +3377,9 @@
       "example": "The word \"flight\" has two different meanings: a plane journey, and the act of running away.",
       "cn_example": "flight 一词有两个不同的意思：航程和逃跑。",
       "uk_audio": "2000CEW2_audio/unit_09/meaning_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/meaning_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/meaning_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 211,
@@ -2971,7 +3393,9 @@
       "example": "I was devastated when the doctor broke the news to me.",
       "cn_example": "当医生告诉我这个消息时，我简直要崩溃了。",
       "uk_audio": "2000CEW2_audio/unit_09/news_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/news_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/news_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 212,
@@ -2985,7 +3409,9 @@
       "example": "He left a note to say he would be home late.",
       "cn_example": "他留下字条说他会晚点回家。",
       "uk_audio": "2000CEW2_audio/unit_09/note_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/note_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/note_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 213,
@@ -2999,7 +3425,9 @@
       "example": "She was jotting things down in a little notebook.",
       "cn_example": "她在一个小笔记本上匆匆记了些东西。",
       "uk_audio": "2000CEW2_audio/unit_09/notebook_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/notebook_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/notebook_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 214,
@@ -3013,7 +3441,9 @@
       "example": "We were given ten problems to solve.",
       "cn_example": "我们有10道题要做。",
       "uk_audio": "2000CEW2_audio/unit_09/problem_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/problem_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/problem_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 215,
@@ -3027,7 +3457,9 @@
       "example": "Would you mind repeating what you just said?",
       "cn_example": "您能重复一遍刚才您讲的话吗？",
       "uk_audio": "2000CEW2_audio/unit_09/repeat_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/repeat_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/repeat_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 216,
@@ -3041,7 +3473,9 @@
       "example": "Her speech was interrupted by angry shouts from the audience.",
       "cn_example": "她的演讲被听众愤怒的喊叫声所打断。",
       "uk_audio": "2000CEW2_audio/unit_09/shout_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/shout_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/shout_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 217,
@@ -3055,7 +3489,9 @@
       "example": "Could you show Dr Sanchez into the living room?",
       "cn_example": "你能领桑切斯博士去起居室吗?",
       "uk_audio": "2000CEW2_audio/unit_09/show_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/show_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/show_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 218,
@@ -3069,7 +3505,9 @@
       "example": "She was silent, but her eyes spoke her real feelings for him.",
       "cn_example": "她没有说话，不过她的眼神流露出了对他的真实感情。",
       "uk_audio": "2000CEW2_audio/unit_09/speak_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/speak_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/speak_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 219,
@@ -3083,7 +3521,9 @@
       "example": "When you fill in the form, please write clearly/legibly in black ink.",
       "cn_example": "填表时，请用黑色墨水书写清楚。",
       "uk_audio": "2000CEW2_audio/unit_09/write_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/write_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/write_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 220,
@@ -3097,7 +3537,9 @@
       "example": "There is just one method that might work.",
       "cn_example": "只有一个方法可能起作用。",
       "uk_audio": "2000CEW2_audio/unit_09/method_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/method_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/method_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 221,
@@ -3111,7 +3553,9 @@
       "example": "Let me give you an example.",
       "cn_example": "让我来举一个例子吧。",
       "uk_audio": "2000CEW2_audio/unit_09/example_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/example_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/example_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 222,
@@ -3125,7 +3569,9 @@
       "example": "We bought a Danish phrase book.",
       "cn_example": "我买了一本丹麦常用语手册。",
       "uk_audio": "2000CEW2_audio/unit_09/phrase_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/phrase_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/phrase_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 223,
@@ -3139,7 +3585,9 @@
       "example": "Symptoms include a sore throat.",
       "cn_example": "症状包括嗓子疼。",
       "uk_audio": "2000CEW2_audio/unit_09/include_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/include_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/include_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 224,
@@ -3153,7 +3601,9 @@
       "example": "I just called in for a chat.",
       "cn_example": "我只是来聊聊天。",
       "uk_audio": "2000CEW2_audio/unit_09/chat_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_09/chat_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_09/chat_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 225,
@@ -3167,7 +3617,9 @@
       "example": "They bowed to the Queen.",
       "cn_example": "他们向女王鞠躬。",
       "uk_audio": "2000CEW2_audio/unit_10/bow_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/bow_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/bow_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 226,
@@ -3181,7 +3633,9 @@
       "example": "Why do you sit there looking like an envelope without any address on it?",
       "cn_example": "为什么你坐在那儿，看上去像是一个没写地址的信封？",
       "uk_audio": "2000CEW2_audio/unit_10/envelope_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/envelope_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/envelope_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 227,
@@ -3195,7 +3649,9 @@
       "example": "Don't forget to lock the door.",
       "cn_example": "别忘了锁门。",
       "uk_audio": "2000CEW2_audio/unit_10/forget_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/forget_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/forget_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 228,
@@ -3209,7 +3665,9 @@
       "example": "Have you fully recovered from your illness?",
       "cn_example": "你完全康复了吗？",
       "uk_audio": "2000CEW2_audio/unit_10/fully_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/fully_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/fully_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 229,
@@ -3223,7 +3681,9 @@
       "example": "He greeted me at the door.",
       "cn_example": "他在门口迎接我。",
       "uk_audio": "2000CEW2_audio/unit_10/greet_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/greet_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/greet_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 230,
@@ -3237,7 +3697,9 @@
       "example": "His handwriting is illegible.",
       "cn_example": "他的笔迹很难认。",
       "uk_audio": "2000CEW2_audio/unit_10/handwriting_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/handwriting_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/handwriting_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 231,
@@ -3251,7 +3713,9 @@
       "example": "a bottle of ink",
       "cn_example": "一瓶墨水",
       "uk_audio": "2000CEW2_audio/unit_10/ink_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/ink_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/ink_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 232,
@@ -3265,7 +3729,9 @@
       "example": "We're invited to Lola's party.",
       "cn_example": "我们受邀参加洛拉的晚会。",
       "uk_audio": "2000CEW2_audio/unit_10/invite_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/invite_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/invite_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 233,
@@ -3279,7 +3745,9 @@
       "example": "Did I tell you the joke about the chicken crossing the road?",
       "cn_example": "我跟你讲过小鸡过马路的笑话吗？",
       "uk_audio": "2000CEW2_audio/unit_10/joke_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/joke_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/joke_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 234,
@@ -3293,7 +3761,9 @@
       "example": "Maybe they'll come tomorrow.",
       "cn_example": "或许他们明天会来。",
       "uk_audio": "2000CEW2_audio/unit_10/maybe_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/maybe_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/maybe_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 235,
@@ -3307,7 +3777,9 @@
       "example": "The meeting wants to look at the proposal again.",
       "cn_example": "与会者想再次讨论这一提案。",
       "uk_audio": "2000CEW2_audio/unit_10/meeting_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/meeting_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/meeting_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 236,
@@ -3321,7 +3793,9 @@
       "example": "If I'm not there when you call, leave a message.",
       "cn_example": "如果你打电话时我不在，就留个口信。",
       "uk_audio": "2000CEW2_audio/unit_10/message_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/message_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/message_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 237,
@@ -3335,7 +3809,9 @@
       "example": "In the sentence, 'I sent her a postcard', the word 'her' is in the dative.",
       "cn_example": "在I sent her a postcard一句中，her一词处于与格。",
       "uk_audio": "2000CEW2_audio/unit_10/postcard_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/postcard_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/postcard_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 238,
@@ -3349,7 +3825,9 @@
       "example": "The leaflets will be printed on recycled paper.",
       "cn_example": "这些传单将用再生纸来印刷。",
       "uk_audio": "2000CEW2_audio/unit_10/print_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/print_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/print_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 239,
@@ -3363,7 +3841,9 @@
       "example": "\"That's my foot you're stepping on.\" \"Sorry!\"",
       "cn_example": "“你踩了我的脚。”“对不起！”",
       "uk_audio": "2000CEW2_audio/unit_10/sorry_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/sorry_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/sorry_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 240,
@@ -3377,7 +3857,9 @@
       "example": "vehicle licence stamps",
       "cn_example": "机动车牌照印花税票",
       "uk_audio": "2000CEW2_audio/unit_10/stamp_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/stamp_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/stamp_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 241,
@@ -3391,7 +3873,9 @@
       "example": "He said that he wasn't completely sure of his facts.",
       "cn_example": "他说他还不能完全肯定自己掌握的情况是否属实。",
       "uk_audio": "2000CEW2_audio/unit_10/sure_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/sure_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/sure_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 242,
@@ -3405,7 +3889,9 @@
       "example": "We were just talking about Gareth's new girlfriend.",
       "cn_example": "我们刚才在谈论加雷斯的新女友。",
       "uk_audio": "2000CEW2_audio/unit_10/talk_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/talk_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/talk_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 243,
@@ -3419,7 +3905,9 @@
       "example": "At the fair, there was a lady who told your fortune.",
       "cn_example": "集市上有一个算命的女人。",
       "uk_audio": "2000CEW2_audio/unit_10/tell_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/tell_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/tell_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 244,
@@ -3433,7 +3921,9 @@
       "example": "The visitors were warmly welcomed by the head of the department.",
       "cn_example": "来访人士受到系主任的热烈欢迎。",
       "uk_audio": "2000CEW2_audio/unit_10/welcome_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/welcome_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/welcome_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 245,
@@ -3447,7 +3937,9 @@
       "example": "Can you guess where I've been?",
       "cn_example": "你能猜出我去什么地方了吗？",
       "uk_audio": "2000CEW2_audio/unit_10/guess_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/guess_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/guess_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 246,
@@ -3461,7 +3953,9 @@
       "example": "John had been through a messy divorce himself.",
       "cn_example": "约翰自己经历过一次棘手的离婚。",
       "uk_audio": "2000CEW2_audio/unit_10/messy_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/messy_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/messy_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 247,
@@ -3475,7 +3969,9 @@
       "example": "Her hobbies include hiking and photography.",
       "cn_example": "她的业余爱好包括徒步旅行和摄影。",
       "uk_audio": "2000CEW2_audio/unit_10/hiking_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/hiking_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/hiking_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 248,
@@ -3489,7 +3985,9 @@
       "example": "I could see she was lonely.",
       "cn_example": "我能看出她很寂寞。",
       "uk_audio": "2000CEW2_audio/unit_10/lonely_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/lonely_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/lonely_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 249,
@@ -3503,7 +4001,9 @@
       "example": "She flicked him a nervous glance.",
       "cn_example": "她紧张不安地瞟了他一眼。",
       "uk_audio": "2000CEW2_audio/unit_10/nervous_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_10/nervous_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_10/nervous_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 250,
@@ -3517,7 +4017,9 @@
       "example": "a military/police academy",
       "cn_example": "军事／警察学院",
       "uk_audio": "2000CEW2_audio/unit_11/academy_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/academy_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/academy_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 251,
@@ -3531,7 +4033,9 @@
       "example": "There's accommodation for about five hundred students on campus.",
       "cn_example": "校区内可供约500名学生住宿。",
       "uk_audio": "2000CEW2_audio/unit_11/campus_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/campus_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/campus_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 252,
@@ -3545,7 +4049,9 @@
       "example": "She had an unhappy childhood.",
       "cn_example": "她的童年很不幸。",
       "uk_audio": "2000CEW2_audio/unit_11/childhood_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/childhood_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/childhood_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 253,
@@ -3559,7 +4065,9 @@
       "example": "They're going away on a training course next week.",
       "cn_example": "下星期他们要出去上实习课。",
       "uk_audio": "2000CEW2_audio/unit_11/course_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/course_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/course_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 254,
@@ -3573,7 +4081,9 @@
       "example": "wax crayons",
       "cn_example": "蜡笔",
       "uk_audio": "2000CEW2_audio/unit_11/crayon_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/crayon_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/crayon_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 255,
@@ -3587,7 +4097,9 @@
       "example": "We finished the job, but only with great difficulty.",
       "cn_example": "我们非常艰难地完成了工作。",
       "uk_audio": "2000CEW2_audio/unit_11/difficulty_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/difficulty_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/difficulty_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 256,
@@ -3601,7 +4113,9 @@
       "example": "If you draw or write in pencil you can always rub out your mistakes with an eraser.",
       "cn_example": "如果你用铅笔写字画画，无论出了什么错都可以用橡皮擦掉。",
       "uk_audio": "2000CEW2_audio/unit_11/eraser_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/eraser_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/eraser_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 257,
@@ -3615,7 +4129,9 @@
       "example": "We played basketball in the gym.",
       "cn_example": "我们在健身房打了篮球。",
       "uk_audio": "2000CEW2_audio/unit_11/gym_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/gym_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/gym_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 258,
@@ -3629,7 +4145,9 @@
       "example": "She's in kindergarten now.",
       "cn_example": "她现在在上幼儿园。",
       "uk_audio": "2000CEW2_audio/unit_11/kindergarten_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/kindergarten_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/kindergarten_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 259,
@@ -3643,7 +4161,9 @@
       "example": "They learn Russian at school.",
       "cn_example": "他们在学校学俄语。",
       "uk_audio": "2000CEW2_audio/unit_11/learn_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/learn_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/learn_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 260,
@@ -3657,7 +4177,9 @@
       "example": "For ten years she lectured in law.",
       "cn_example": "她教了10年的法律课。",
       "uk_audio": "2000CEW2_audio/unit_11/lecture_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/lecture_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/lecture_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 261,
@@ -3671,7 +4193,9 @@
       "example": "I've put in some markers where I planted the seeds.",
       "cn_example": "我在播种的地方放了些标志物。",
       "uk_audio": "2000CEW2_audio/unit_11/marker_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/marker_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/marker_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 262,
@@ -3685,7 +4209,9 @@
       "example": "The purpose of the research is to try to find out more about the causes of the disease.",
       "cn_example": "研究的目的是试图进一步探寻引起这种疾病的原因。",
       "uk_audio": "2000CEW2_audio/unit_11/purpose_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/purpose_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/purpose_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 263,
@@ -3699,7 +4225,9 @@
       "example": "He's in the front/first rank of (= one of the best) international tennis players.",
       "cn_example": "他是世界一流的网球运动员。",
       "uk_audio": "2000CEW2_audio/unit_11/rank_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/rank_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/rank_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 264,
@@ -3713,7 +4241,9 @@
       "example": "Teachers use a variety of materials to inspire their students.",
       "cn_example": "教师用各种材料来激发学生的学习热情。",
       "uk_audio": "2000CEW2_audio/unit_11/student_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/student_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/student_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 265,
@@ -3727,7 +4257,9 @@
       "example": "We moved to a small town where my mother taught school and my father worked in real estate.",
       "cn_example": "我们搬去了一个小镇，妈妈在学校教书，爸爸在一家地产公司工作。",
       "uk_audio": "2000CEW2_audio/unit_11/teach_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/teach_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/teach_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 266,
@@ -3741,7 +4273,9 @@
       "example": "We still don't fully understand how the brain works.",
       "cn_example": "我们还未完全弄懂大脑是如何工作的。",
       "uk_audio": "2000CEW2_audio/unit_11/understand_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/understand_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/understand_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 267,
@@ -3755,7 +4289,9 @@
       "example": "Which university did you go to/were you at (= did you study at)?",
       "cn_example": "你曾就读于哪所大学？",
       "uk_audio": "2000CEW2_audio/unit_11/university_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/university_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/university_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 268,
@@ -3769,7 +4305,9 @@
       "example": "Every week our Spanish teacher gives us a list of vocabulary (= words) to learn.",
       "cn_example": "每周我们的西班牙语老师都会让我们学一大堆词汇。",
       "uk_audio": "2000CEW2_audio/unit_11/vocabulary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/vocabulary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/vocabulary_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 269,
@@ -3783,7 +4321,9 @@
       "example": "an interactive whiteboard",
       "cn_example": "互动式白板",
       "uk_audio": "2000CEW2_audio/unit_11/whiteboard_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/whiteboard_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/whiteboard_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 270,
@@ -3797,7 +4337,9 @@
       "example": "This entrance is in constant use.",
       "cn_example": "此入口经常使用。",
       "uk_audio": "2000CEW2_audio/unit_11/entrance_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/entrance_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/entrance_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 271,
@@ -3811,7 +4353,9 @@
       "example": "You alone should determine what is right for you.",
       "cn_example": "只有你应该决定什么对你是合适的。",
       "uk_audio": "2000CEW2_audio/unit_11/determine_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/determine_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/determine_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 272,
@@ -3825,7 +4369,9 @@
       "example": "The future is not without hope.",
       "cn_example": "未来并非没有希望。",
       "uk_audio": "2000CEW2_audio/unit_11/future_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/future_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/future_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 273,
@@ -3839,7 +4385,9 @@
       "example": "I had no time to prepare.",
       "cn_example": "我当时没时间准备。",
       "uk_audio": "2000CEW2_audio/unit_11/prepare_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/prepare_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/prepare_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 274,
@@ -3853,7 +4401,9 @@
       "example": "It's vital to zap stress fast.",
       "cn_example": "快速消除压力非常重要。",
       "uk_audio": "2000CEW2_audio/unit_11/stress_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_11/stress_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_11/stress_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 275,
@@ -3867,7 +4417,9 @@
       "example": "The menu was on a blackboard.",
       "cn_example": "菜单在黑板上。",
       "uk_audio": "2000CEW2_audio/unit_12/blackboard_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/blackboard_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/blackboard_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 276,
@@ -3881,7 +4433,9 @@
       "example": "Does the college cafeteria provide a healthful diet?",
       "cn_example": "此大学餐厅是否供应有益健康的膳食？",
       "uk_audio": "2000CEW2_audio/unit_12/cafeteria_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/cafeteria_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/cafeteria_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 277,
@@ -3895,7 +4449,9 @@
       "example": "He picked up a piece of chalk and wrote the answer on the blackboard.",
       "cn_example": "他拿起一支粉笔，在黑板上写下了答案。",
       "uk_audio": "2000CEW2_audio/unit_12/chalk_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/chalk_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/chalk_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 278,
@@ -3909,7 +4465,9 @@
       "example": "Check (off) each item on the list as you complete it.",
       "cn_example": "每完成一项就在清单上把该项勾去。",
       "uk_audio": "2000CEW2_audio/unit_12/check_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/check_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/check_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 279,
@@ -3923,7 +4481,9 @@
       "example": "She felt like a fifth-grader who had snitched on a classmate.",
       "cn_example": "她觉得自己就像个打同学小报告的小学五年级学生。",
       "uk_audio": "2000CEW2_audio/unit_12/classmate_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/classmate_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/classmate_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 280,
@@ -3937,7 +4497,9 @@
       "example": "I've just joined the local golf/squash/tennis club.",
       "cn_example": "我刚参加了当地的高尔夫球／壁球／网球俱乐部。",
       "uk_audio": "2000CEW2_audio/unit_12/club_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/club_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/club_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 281,
@@ -3951,7 +4513,9 @@
       "example": "a biographical/science dictionary",
       "cn_example": "人名／科技词典",
       "uk_audio": "2000CEW2_audio/unit_12/dictionary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/dictionary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/dictionary_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 282,
@@ -3965,7 +4529,9 @@
       "example": "You can't watch TV until you've done your homework.",
       "cn_example": "做完家庭作业之后你才能看电视。",
       "uk_audio": "2000CEW2_audio/unit_12/homework_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/homework_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/homework_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 283,
@@ -3979,7 +4545,9 @@
       "example": "My brother is five years my junior.",
       "cn_example": "我弟弟比我小5岁。",
       "uk_audio": "2000CEW2_audio/unit_12/junior_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/junior_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/junior_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 284,
@@ -3993,7 +4561,9 @@
       "example": "a straight line",
       "cn_example": "直线",
       "uk_audio": "2000CEW2_audio/unit_12/line_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/line_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/line_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 285,
@@ -4007,7 +4577,9 @@
       "example": "I'm not blaming you - we all make mistakes.",
       "cn_example": "我不是在责备你——我们都会犯错。",
       "uk_audio": "2000CEW2_audio/unit_12/mistake_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/mistake_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/mistake_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 286,
@@ -4021,7 +4593,9 @@
       "example": "PE is my favorite class.",
       "cn_example": "体育课是我最喜爱的课程。",
       "uk_audio": "2000CEW2_audio/unit_12/PE_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/PE_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/PE_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 287,
@@ -4035,7 +4609,9 @@
       "example": "I need to get some more practice before I take my driving test.",
       "cn_example": "考驾照前我还得再练练。",
       "uk_audio": "2000CEW2_audio/unit_12/practice_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/practice_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/practice_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 288,
@@ -4049,7 +4625,9 @@
       "example": "Iraq's principal export is oil.",
       "cn_example": "伊拉克最重要的出口商品是石油。",
       "uk_audio": "2000CEW2_audio/unit_12/principal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/principal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/principal_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 289,
@@ -4063,7 +4641,9 @@
       "example": "She spent an hour being quizzed by journalists.",
       "cn_example": "她花了1小时时间回答记者的提问。",
       "uk_audio": "2000CEW2_audio/unit_12/quiz_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/quiz_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/quiz_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 290,
@@ -4077,7 +4657,9 @@
       "example": "\"Where did you park the car?\" \"I can't remember.\"",
       "cn_example": "“你把车停在哪儿了？”“我不记得了。”",
       "uk_audio": "2000CEW2_audio/unit_12/remember_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/remember_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/remember_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 291,
@@ -4091,7 +4673,9 @@
       "example": "a pair of scissors",
       "cn_example": "一把剪刀",
       "uk_audio": "2000CEW2_audio/unit_12/scissors_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/scissors_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/scissors_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 292,
@@ -4105,7 +4689,9 @@
       "example": "to study biology/chemistry",
       "cn_example": "攻读生物学／化学",
       "uk_audio": "2000CEW2_audio/unit_12/study_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/study_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/study_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 293,
@@ -4119,7 +4705,9 @@
       "example": "I need some tape and scissors to wrap the present.",
       "cn_example": "我需要一些胶带和一把剪刀包礼物。",
       "uk_audio": "2000CEW2_audio/unit_12/tape_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/tape_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/tape_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 294,
@@ -4133,7 +4721,9 @@
       "example": "a science textbook",
       "cn_example": "自然科学教科书",
       "uk_audio": "2000CEW2_audio/unit_12/textbook_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/textbook_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/textbook_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 295,
@@ -4147,7 +4737,9 @@
       "example": "I miss thee, beloved father.",
       "cn_example": "亲爱的父亲，我想念您。",
       "uk_audio": "2000CEW2_audio/unit_12/miss_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/miss_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/miss_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 296,
@@ -4161,7 +4753,9 @@
       "example": "At twenty he translated Euler's standard work on algebra into English.",
       "cn_example": "20岁时，他把尤勒的权威代数著作译成了英语。",
       "uk_audio": "2000CEW2_audio/unit_12/algebra_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/algebra_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/algebra_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 297,
@@ -4175,7 +4769,9 @@
       "example": "He won't allow himself to fail.",
       "cn_example": "他不容许自己失败。",
       "uk_audio": "2000CEW2_audio/unit_12/fail_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/fail_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/fail_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 298,
@@ -4189,7 +4785,9 @@
       "example": "You looked pretty upset just now.",
       "cn_example": "你刚才看上去很沮丧。",
       "uk_audio": "2000CEW2_audio/unit_12/upset_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/upset_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/upset_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 299,
@@ -4203,7 +4801,9 @@
       "example": "Her yell sent nearby grouse running for cover.",
       "cn_example": "她的喊声让附近的松鸡奔跑着四处躲藏。",
       "uk_audio": "2000CEW2_audio/unit_12/yell_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_12/yell_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_12/yell_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 300,
@@ -4217,7 +4817,9 @@
       "example": "You've got nothing to be ashamed of.",
       "cn_example": "你没有什么可感到内疚的。",
       "uk_audio": "2000CEW2_audio/unit_13/ashamed_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/ashamed_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/ashamed_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 301,
@@ -4231,7 +4833,9 @@
       "example": "I was astonished by how much she'd grown.",
       "cn_example": "她竟然长那么高了，这让我很惊讶。",
       "uk_audio": "2000CEW2_audio/unit_13/astonish_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/astonish_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/astonish_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 302,
@@ -4245,7 +4849,9 @@
       "example": "My son's teacher says that his work is often rather careless.",
       "cn_example": "我儿子的老师说他做作业经常粗心大意。",
       "uk_audio": "2000CEW2_audio/unit_13/careless_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/careless_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/careless_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 303,
@@ -4259,7 +4865,9 @@
       "example": "Judy has never been very clever, but she tries hard.",
       "cn_example": "朱迪向来不是很聪明，可是她很用功。",
       "uk_audio": "2000CEW2_audio/unit_13/clever_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/clever_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/clever_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 304,
@@ -4273,7 +4881,9 @@
       "example": "Bochmann lisped his congratulations.",
       "cn_example": "博克曼口齿不清地表示祝贺。",
       "uk_audio": "2000CEW2_audio/unit_13/congratulations_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/congratulations_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/congratulations_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 305,
@@ -4287,7 +4897,9 @@
       "example": "Several leading creatives are involved in the advertising campaign.",
       "cn_example": "好几位顶级创意人员参与策划了这次广告宣传运动。",
       "uk_audio": "2000CEW2_audio/unit_13/creative_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/creative_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/creative_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 306,
@@ -4301,7 +4913,9 @@
       "example": "a child's emotional development",
       "cn_example": "孩子情感方面的发展",
       "uk_audio": "2000CEW2_audio/unit_13/emotional_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/emotional_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/emotional_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 307,
@@ -4315,7 +4929,9 @@
       "example": "You've done some fool things in your time, but this beats everything.",
       "cn_example": "你以前也干过些蠢事，但没有一件比得上这一次。",
       "uk_audio": "2000CEW2_audio/unit_13/fool_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/fool_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/fool_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 308,
@@ -4329,7 +4945,9 @@
       "example": "It was only later in life that she found happiness and peace of mind.",
       "cn_example": "她只是到了晚年才找到幸福和内心的平静。",
       "uk_audio": "2000CEW2_audio/unit_13/happiness_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/happiness_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/happiness_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 309,
@@ -4343,7 +4961,9 @@
       "example": "She's such a pleasant, helpful child!",
       "cn_example": "她可真是个招人喜欢又乐于助人的孩子！",
       "uk_audio": "2000CEW2_audio/unit_13/helpful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/helpful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/helpful_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 310,
@@ -4357,7 +4977,9 @@
       "example": "Managers had complained that the workers were lazy and unreliable.",
       "cn_example": "经理们抱怨工人们懒惰而且不可靠。",
       "uk_audio": "2000CEW2_audio/unit_13/lazy_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/lazy_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/lazy_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 311,
@@ -4371,7 +4993,9 @@
       "example": "She has lovely eyes.",
       "cn_example": "她的眼睛很漂亮。",
       "uk_audio": "2000CEW2_audio/unit_13/lovely_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/lovely_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/lovely_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 312,
@@ -4385,7 +5009,9 @@
       "example": "a pleased expression/smile",
       "cn_example": "开心的表情／微笑",
       "uk_audio": "2000CEW2_audio/unit_13/pleased_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/pleased_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/pleased_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 313,
@@ -4399,7 +5025,9 @@
       "example": "The president is more powerful than the prime minister.",
       "cn_example": "总统比总理权力更大。",
       "uk_audio": "2000CEW2_audio/unit_13/powerful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/powerful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/powerful_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 314,
@@ -4413,7 +5041,9 @@
       "example": "a scary movie/story",
       "cn_example": "恐怖电影／故事",
       "uk_audio": "2000CEW2_audio/unit_13/scary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/scary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/scary_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 315,
@@ -4427,7 +5057,9 @@
       "example": "Please don't laugh - I'm being serious.",
       "cn_example": "请不要笑——我是认真的。",
       "uk_audio": "2000CEW2_audio/unit_13/serious_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/serious_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/serious_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 316,
@@ -4441,7 +5073,9 @@
       "example": "Don't do that, you silly boy!",
       "cn_example": "不要那么干，你这个傻小子！",
       "uk_audio": "2000CEW2_audio/unit_13/silly_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/silly_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/silly_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 317,
@@ -4455,7 +5089,9 @@
       "example": "She was really stupid to quit her job like that.",
       "cn_example": "她就那样辞掉了工作，简直是愚蠢透顶。",
       "uk_audio": "2000CEW2_audio/unit_13/stupid_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/stupid_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/stupid_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 318,
@@ -4469,7 +5105,9 @@
       "example": "We were very surprised at the result.",
       "cn_example": "这个结果让我们觉得很意外。",
       "uk_audio": "2000CEW2_audio/unit_13/surprised_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/surprised_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/surprised_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 319,
@@ -4483,7 +5121,9 @@
       "example": "Her talent for music showed at an early age.",
       "cn_example": "她小时候就表现出了音乐天赋。",
       "uk_audio": "2000CEW2_audio/unit_13/talent_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/talent_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/talent_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 320,
@@ -4497,7 +5137,9 @@
       "example": "Remind me to phone Alan before I go out.",
       "cn_example": "提醒我在出去之前给艾伦打电话。",
       "uk_audio": "2000CEW2_audio/unit_13/remind_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/remind_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/remind_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 321,
@@ -4511,7 +5153,9 @@
       "example": "Their son is a real personality.",
       "cn_example": "他们的儿子真是有个性。",
       "uk_audio": "2000CEW2_audio/unit_13/personality_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/personality_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/personality_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 322,
@@ -4525,7 +5169,9 @@
       "example": "They don't believe in marriage.",
       "cn_example": "他们不相信婚姻。",
       "uk_audio": "2000CEW2_audio/unit_13/believe_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/believe_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/believe_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 323,
@@ -4539,7 +5185,9 @@
       "example": "Yes, that's basically correct.",
       "cn_example": "对，基本正确。",
       "uk_audio": "2000CEW2_audio/unit_13/correct_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/correct_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/correct_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 324,
@@ -4553,7 +5201,9 @@
       "example": "We became great buddies.",
       "cn_example": "我们成了很好的哥们。",
       "uk_audio": "2000CEW2_audio/unit_13/great_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_13/great_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_13/great_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 325,
@@ -4567,7 +5217,9 @@
       "example": "It's often very difficult to change people's attitudes.",
       "cn_example": "人们对事情的看法通常很难改变。",
       "uk_audio": "2000CEW2_audio/unit_14/attitude_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/attitude_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/attitude_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 326,
@@ -4581,7 +5233,9 @@
       "example": "She tried to attract the waiter's attention.",
       "cn_example": "她试图引起服务员的注意。",
       "uk_audio": "2000CEW2_audio/unit_14/attract_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/attract_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/attract_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 327,
@@ -4595,7 +5249,9 @@
       "example": "The school has students from many different ethnic/cultural/religious backgrounds.",
       "cn_example": "这所学校的学生有着不同的种族／文化／宗教背景。",
       "uk_audio": "2000CEW2_audio/unit_14/background_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/background_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/background_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 328,
@@ -4609,7 +5265,9 @@
       "example": "She finds opera boring.",
       "cn_example": "她觉得歌剧很乏味。",
       "uk_audio": "2000CEW2_audio/unit_14/boring_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/boring_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/boring_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 329,
@@ -4623,7 +5281,9 @@
       "example": "Does it bother you that he's out so much of the time?",
       "cn_example": "他出去了那么长时间，你不担心吗？",
       "uk_audio": "2000CEW2_audio/unit_14/bother_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/bother_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/bother_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 330,
@@ -4637,7 +5297,9 @@
       "example": "He tried to calm the screaming baby by rocking it back and forth.",
       "cn_example": "他来回摇晃着嚎哭的婴儿，想让他安静下来。",
       "uk_audio": "2000CEW2_audio/unit_14/calm_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/calm_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/calm_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 331,
@@ -4651,7 +5313,9 @@
       "example": "Be careful with the glasses.",
       "cn_example": "小心玻璃杯。",
       "uk_audio": "2000CEW2_audio/unit_14/careful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/careful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/careful_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 332,
@@ -4665,7 +5329,9 @@
       "example": "He's usually fairly cheerful.",
       "cn_example": "他总是乐呵呵的。",
       "uk_audio": "2000CEW2_audio/unit_14/cheerful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/cheerful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/cheerful_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 333,
@@ -4679,7 +5345,9 @@
       "example": "a very enjoyable game/movie",
       "cn_example": "其乐无穷的游戏／引人入胜的电影",
       "uk_audio": "2000CEW2_audio/unit_14/enjoyable_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/enjoyable_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/enjoyable_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 334,
@@ -4693,7 +5361,9 @@
       "example": "Robin's heart was pounding with excitement.",
       "cn_example": "罗宾的心激动得怦怦直跳。",
       "uk_audio": "2000CEW2_audio/unit_14/excitement_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/excitement_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/excitement_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 335,
@@ -4707,7 +5377,9 @@
       "example": "The feeling of loneliness suddenly overwhelmed him.",
       "cn_example": "一种孤独感突然涌上他的心头。",
       "uk_audio": "2000CEW2_audio/unit_14/feeling_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/feeling_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/feeling_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 336,
@@ -4721,7 +5393,9 @@
       "example": "gentle exercise",
       "cn_example": "舒缓的锻炼",
       "uk_audio": "2000CEW2_audio/unit_14/gentle_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/gentle_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/gentle_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 337,
@@ -4735,7 +5409,9 @@
       "example": "He was happily married with two young children.",
       "cn_example": "他婚姻美满，并育有两个小孩。",
       "uk_audio": "2000CEW2_audio/unit_14/happily_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/happily_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/happily_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 338,
@@ -4749,7 +5425,9 @@
       "example": "He didn't seem very interested in what I was saying.",
       "cn_example": "他好像对我的话不怎么感兴趣。",
       "uk_audio": "2000CEW2_audio/unit_14/interested_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/interested_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/interested_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 339,
@@ -4763,7 +5441,9 @@
       "example": "\"I'm going to Japan.\" \"Lucky you!\"",
       "cn_example": "“我要去日本了。”“你运气真好！”",
       "uk_audio": "2000CEW2_audio/unit_14/lucky_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/lucky_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/lucky_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 340,
@@ -4777,7 +5457,9 @@
       "example": "a noisy crowd of fans",
       "cn_example": "一群喧闹的球迷",
       "uk_audio": "2000CEW2_audio/unit_14/noisy_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/noisy_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/noisy_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 341,
@@ -4791,7 +5473,9 @@
       "example": "a peaceful afternoon/place",
       "cn_example": "安静的下午／地方",
       "uk_audio": "2000CEW2_audio/unit_14/peaceful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/peaceful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/peaceful_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 342,
@@ -4805,7 +5489,9 @@
       "example": "They didn't realize the danger they were in.",
       "cn_example": "他们没有意识到自己身处危险之中。",
       "uk_audio": "2000CEW2_audio/unit_14/realize_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/realize_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/realize_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 343,
@@ -4819,7 +5505,9 @@
       "example": "He's scared of spiders.",
       "cn_example": "他害怕蜘蛛。",
       "uk_audio": "2000CEW2_audio/unit_14/scared_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/scared_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/scared_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 344,
@@ -4833,7 +5521,9 @@
       "example": "As you wish, Sir. It will be done.",
       "cn_example": "只要是您想要这样，先生。我们一定会去做。",
       "uk_audio": "2000CEW2_audio/unit_14/wish_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/wish_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/wish_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 345,
@@ -4847,7 +5537,9 @@
       "example": "Many people thrive on a stressful lifestyle.",
       "cn_example": "许多人喜欢有压力的生活方式。",
       "uk_audio": "2000CEW2_audio/unit_14/stressful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/stressful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/stressful_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 346,
@@ -4861,7 +5553,9 @@
       "example": "She calls me lazy and selfish.",
       "cn_example": "她说我又懒又自私。",
       "uk_audio": "2000CEW2_audio/unit_14/selfish_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/selfish_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/selfish_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 347,
@@ -4875,7 +5569,9 @@
       "example": "The alcohol warmed and relaxed him.",
       "cn_example": "这酒使他浑身发暖轻松起来。",
       "uk_audio": "2000CEW2_audio/unit_14/relaxed_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/relaxed_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/relaxed_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 348,
@@ -4889,7 +5585,9 @@
       "example": "This report corresponds with the existing scientific literature on bedtime and wellness.",
       "cn_example": "这份报告与现有的有关就寝时间和健康的科学文献相一致。",
       "uk_audio": "2000CEW2_audio/unit_14/wellness_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/wellness_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/wellness_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 349,
@@ -4903,7 +5601,9 @@
       "example": "He studied philosophy and psychology at Yale.",
       "cn_example": "他在耶鲁大学学习哲学和心理学。",
       "uk_audio": "2000CEW2_audio/unit_14/psychology_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_14/psychology_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_14/psychology_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 350,
@@ -4917,7 +5617,9 @@
       "example": "The average person on the street is a lot better off than they were 40 years ago.",
       "cn_example": "再普通再一般的人也要比40年前富裕多了。",
       "uk_audio": "2000CEW2_audio/unit_15/average_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/average_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/average_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 351,
@@ -4931,7 +5633,9 @@
       "example": "a beautiful woman",
       "cn_example": "美女",
       "uk_audio": "2000CEW2_audio/unit_15/beautiful_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/beautiful_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/beautiful_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 352,
@@ -4945,7 +5649,9 @@
       "example": "He returned from New York with his lovely new bride.",
       "cn_example": "他和漂亮的新娘一起从纽约回来了。",
       "uk_audio": "2000CEW2_audio/unit_15/bride_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/bride_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/bride_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 353,
@@ -4959,7 +5665,9 @@
       "example": "Do you have any brothers and sisters?",
       "cn_example": "你有兄弟姐妹吗？",
       "uk_audio": "2000CEW2_audio/unit_15/brother_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/brother_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/brother_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 354,
@@ -4973,7 +5681,9 @@
       "example": "\"When I clap my hands, you stand still,\" said the teacher.",
       "cn_example": "老师说：“我拍手时，你们必须站立不动。”",
       "uk_audio": "2000CEW2_audio/unit_15/clap_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/clap_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/clap_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 355,
@@ -4987,7 +5697,9 @@
       "example": "a married couple",
       "cn_example": "一对夫妻",
       "uk_audio": "2000CEW2_audio/unit_15/couple_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/couple_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/couple_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 356,
@@ -5001,7 +5713,9 @@
       "example": "My brother's wife and I both had babies around the same time, so the cousins are very close in age.",
       "cn_example": "我嫂子和我差不多同时生了孩子，因此这对表兄妹年纪相仿。",
       "uk_audio": "2000CEW2_audio/unit_15/cousin_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/cousin_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/cousin_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 357,
@@ -5015,7 +5729,9 @@
       "example": "an elegant woman",
       "cn_example": "举止优雅的女性",
       "uk_audio": "2000CEW2_audio/unit_15/elegant_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/elegant_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/elegant_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 358,
@@ -5029,7 +5745,9 @@
       "example": "They announced their engagement at the party on Saturday.",
       "cn_example": "他们在周六的聚会上宣布了他们订婚的消息。",
       "uk_audio": "2000CEW2_audio/unit_15/engagement_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/engagement_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/engagement_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 359,
@@ -5043,7 +5761,9 @@
       "example": "I like the house but I don't imagine I'll live there forever.",
       "cn_example": "我喜欢那栋房子，但是我想我不会在那里永远住下去。",
       "uk_audio": "2000CEW2_audio/unit_15/forever_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/forever_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/forever_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 360,
@@ -5057,7 +5777,9 @@
       "example": "I've never met his girlfriend.",
       "cn_example": "我从没见过他的女友。",
       "uk_audio": "2000CEW2_audio/unit_15/girlfriend_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/girlfriend_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/girlfriend_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 361,
@@ -5071,7 +5793,9 @@
       "example": "a hospital gown",
       "cn_example": "病号服",
       "uk_audio": "2000CEW2_audio/unit_15/gown_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/gown_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/gown_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 362,
@@ -5085,7 +5809,9 @@
       "example": "There was a young couple on the sofa, kissing passionately.",
       "cn_example": "沙发上一对年轻人正在热烈地接吻。",
       "uk_audio": "2000CEW2_audio/unit_15/kiss_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/kiss_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/kiss_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 363,
@@ -5099,7 +5825,9 @@
       "example": "Men tend to marry later than women.",
       "cn_example": "男性成婚往往晚于女性。",
       "uk_audio": "2000CEW2_audio/unit_15/marry_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/marry_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/marry_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 364,
@@ -5113,7 +5841,9 @@
       "example": "You got a bit merry last night, didn't you Cath?",
       "cn_example": "你昨晚有点醉了，是吧，卡瑟？",
       "uk_audio": "2000CEW2_audio/unit_15/merry_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/merry_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/merry_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 365,
@@ -5127,7 +5857,9 @@
       "example": "He entrusted the task to his nephew.",
       "cn_example": "他把这任务托付给了他的侄儿。",
       "uk_audio": "2000CEW2_audio/unit_15/nephew_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/nephew_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/nephew_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 366,
@@ -5141,7 +5873,9 @@
       "example": "a birthday party",
       "cn_example": "生日聚会",
       "uk_audio": "2000CEW2_audio/unit_15/party_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/party_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/party_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 367,
@@ -5155,7 +5889,9 @@
       "example": "Sophie and Emily are sisters.",
       "cn_example": "索菲和埃米莉是姐妹。",
       "uk_audio": "2000CEW2_audio/unit_15/sister_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/sister_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/sister_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 368,
@@ -5169,7 +5905,9 @@
       "example": "I've suddenly acquired a stepbrother.",
       "cn_example": "我突然有了一个继兄弟。",
       "uk_audio": "2000CEW2_audio/unit_15/stepbrother_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/stepbrother_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/stepbrother_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 369,
@@ -5183,7 +5921,9 @@
       "example": "In some countries it is traditional for a bride to wear white.",
       "cn_example": "在某些国家的传统中，新娘要穿白色礼服。",
       "uk_audio": "2000CEW2_audio/unit_15/white_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/white_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/white_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 370,
@@ -5197,7 +5937,9 @@
       "example": "Most bosses are traditional.",
       "cn_example": "大多数老板都很传统。",
       "uk_audio": "2000CEW2_audio/unit_15/traditional_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/traditional_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/traditional_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 371,
@@ -5211,7 +5953,9 @@
       "example": "Shares soared on the New York stock exchange.",
       "cn_example": "纽约证券交易所股票暴涨。",
       "uk_audio": "2000CEW2_audio/unit_15/exchange_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/exchange_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/exchange_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 372,
@@ -5225,7 +5969,9 @@
       "example": "The meal was amazingly cheap.",
       "cn_example": "这餐饭便宜得出奇。",
       "uk_audio": "2000CEW2_audio/unit_15/meal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/meal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/meal_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 373,
@@ -5239,7 +5985,9 @@
       "example": "Her bracelet was set with emeralds.",
       "cn_example": "她的手镯上镶有绿宝石。",
       "uk_audio": "2000CEW2_audio/unit_15/bracelet_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/bracelet_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/bracelet_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 374,
@@ -5253,7 +6001,9 @@
       "example": "She learned sewing, knitting, and embroidery.",
       "cn_example": "她学过缝纫、编织和刺绣。",
       "uk_audio": "2000CEW2_audio/unit_15/embroidery_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_15/embroidery_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_15/embroidery_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     },
     {
       "id": 375,
@@ -5267,7 +6017,9 @@
       "example": "She has two rather aged aunts.",
       "cn_example": "她有两位年迈的姑姑。",
       "uk_audio": "2000CEW2_audio/unit_16/aged_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/aged_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/aged_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 1
     },
     {
       "id": 376,
@@ -5281,7 +6033,9 @@
       "example": "We always celebrate our wedding anniversary with dinner in an expensive restaurant.",
       "cn_example": "我们总是去豪华饭店就餐来庆祝我们的结婚纪念日。",
       "uk_audio": "2000CEW2_audio/unit_16/anniversary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/anniversary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/anniversary_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 2
     },
     {
       "id": 377,
@@ -5295,7 +6049,9 @@
       "example": "an annual event/visit/holiday",
       "cn_example": "年度大事／每年一次的访问／每年的假期",
       "uk_audio": "2000CEW2_audio/unit_16/annual_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/annual_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/annual_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 3
     },
     {
       "id": 378,
@@ -5309,7 +6065,9 @@
       "example": "The dog has been her constant companion these past ten years.",
       "cn_example": "在过去的这10年里，这条狗一直与她形影不离。",
       "uk_audio": "2000CEW2_audio/unit_16/companion_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/companion_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/companion_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 4
     },
     {
       "id": 379,
@@ -5323,7 +6081,9 @@
       "example": "She's divorcing her husband.",
       "cn_example": "她正在和丈夫闹离婚。",
       "uk_audio": "2000CEW2_audio/unit_16/divorce_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/divorce_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/divorce_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 5
     },
     {
       "id": 380,
@@ -5337,7 +6097,9 @@
       "example": "He told the extraordinary story of his escape.",
       "cn_example": "他讲述了他离奇的逃亡经历。",
       "uk_audio": "2000CEW2_audio/unit_16/extraordinary_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/extraordinary_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/extraordinary_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 6
     },
     {
       "id": 381,
@@ -5351,7 +6113,9 @@
       "example": "He had been deeply affected by the sudden death of his father-in-law.",
       "cn_example": "他深受其岳父突然辞世的影响。",
       "uk_audio": "2000CEW2_audio/unit_16/father-in-law_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/father-in-law_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/father-in-law_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 7
     },
     {
       "id": 382,
@@ -5365,7 +6129,9 @@
       "example": "Latin nouns have case, number and gender.",
       "cn_example": "拉丁语名词有格、数和性。",
       "uk_audio": "2000CEW2_audio/unit_16/gender_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/gender_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/gender_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 8
     },
     {
       "id": 383,
@@ -5379,7 +6145,9 @@
       "example": "Almost every grandparent wants to be with his or her grandchildren and is willing to make sacrifices.",
       "cn_example": "几乎每个祖父母都想和孙辈在一起，并愿意为他们做出牺牲。",
       "uk_audio": "2000CEW2_audio/unit_16/grandparent_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/grandparent_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/grandparent_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 9
     },
     {
       "id": 384,
@@ -5393,7 +6161,9 @@
       "example": "The road hugs the coast for several miles, then turns inland.",
       "cn_example": "那条路有几英里紧靠着海岸，然后转向内陆。",
       "uk_audio": "2000CEW2_audio/unit_16/hug_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/hug_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/hug_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 10
     },
     {
       "id": 385,
@@ -5407,7 +6177,9 @@
       "example": "They had a long and happy marriage.",
       "cn_example": "他们的婚姻长久而幸福。",
       "uk_audio": "2000CEW2_audio/unit_16/marriage_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/marriage_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/marriage_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 11
     },
     {
       "id": 386,
@@ -5421,7 +6193,9 @@
       "example": "Breast-feeding is extremely beneficial to the health of newborn babies.",
       "cn_example": "母乳喂养对新生儿的健康极有益处。",
       "uk_audio": "2000CEW2_audio/unit_16/newborn_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/newborn_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/newborn_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 12
     },
     {
       "id": 387,
@@ -5435,7 +6209,9 @@
       "example": "He looked affectionately at his niece.",
       "cn_example": "他慈爱地看着他的侄女。",
       "uk_audio": "2000CEW2_audio/unit_16/niece_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/niece_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/niece_us.mp3",
+      "unitPart": "A",
+      "unitPartIndex": 13
     },
     {
       "id": 388,
@@ -5449,7 +6225,9 @@
       "example": "a pure cotton shirt",
       "cn_example": "纯棉衬衣",
       "uk_audio": "2000CEW2_audio/unit_16/pure_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/pure_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/pure_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 14
     },
     {
       "id": 389,
@@ -5463,7 +6241,9 @@
       "example": "He asked me to give him another loan, but I refused.",
       "cn_example": "他让我再借给他一笔钱，我拒绝了。",
       "uk_audio": "2000CEW2_audio/unit_16/refuse_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/refuse_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/refuse_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 15
     },
     {
       "id": 390,
@@ -5477,7 +6257,9 @@
       "example": "He was jailed for revealing secrets to the Russians.",
       "cn_example": "他因为向俄国人泄密而被监禁。",
       "uk_audio": "2000CEW2_audio/unit_16/reveal_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/reveal_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/reveal_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 16
     },
     {
       "id": 391,
@@ -5491,7 +6273,9 @@
       "example": "\"Are you actively seeking jobs?\" she asked.",
       "cn_example": "“你在积极地找工作吗？”她问。",
       "uk_audio": "2000CEW2_audio/unit_16/seek_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/seek_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/seek_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 17
     },
     {
       "id": 392,
@@ -5505,7 +6289,9 @@
       "example": "In 60 percent of the households surveyed both spouses went out to work.",
       "cn_example": "在60%的被调查家庭中，夫妻双方都外出工作。",
       "uk_audio": "2000CEW2_audio/unit_16/spouse_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/spouse_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/spouse_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 18
     },
     {
       "id": 393,
@@ -5519,7 +6305,9 @@
       "example": "My sister has twin sons.",
       "cn_example": "我姐姐有对双胞胎的儿子。",
       "uk_audio": "2000CEW2_audio/unit_16/twin_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/twin_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/twin_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 19
     },
     {
       "id": 394,
@@ -5533,7 +6321,9 @@
       "example": "He was widowed at the age of 52.",
       "cn_example": "他52岁时妻子去世。",
       "uk_audio": "2000CEW2_audio/unit_16/widow_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/widow_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/widow_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 20
     },
     {
       "id": 395,
@@ -5547,7 +6337,9 @@
       "example": "We will be exploring different approaches to gathering information.",
       "cn_example": "我们将探索收集信息的不同方法。",
       "uk_audio": "2000CEW2_audio/unit_16/gathering_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/gathering_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/gathering_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 21
     },
     {
       "id": 396,
@@ -5561,7 +6353,9 @@
       "example": "If you bump into somebody, immediately say \"Excuse me\".",
       "cn_example": "若不小心碰撞到别人，立即说“对不起。”",
       "uk_audio": "2000CEW2_audio/unit_16/bump into somebody_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/bump into somebody_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/bump into somebody_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 22
     },
     {
       "id": 397,
@@ -5575,7 +6369,9 @@
       "example": "The exam was quite difficult.",
       "cn_example": "这场考试相当难。",
       "uk_audio": "2000CEW2_audio/unit_16/difficult_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/difficult_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/difficult_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 23
     },
     {
       "id": 398,
@@ -5589,7 +6385,9 @@
       "example": "They had had their pet dog stuffed.",
       "cn_example": "他们请人把他们的宠物狗制成了标本。",
       "uk_audio": "2000CEW2_audio/unit_16/pet_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/pet_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/pet_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 24
     },
     {
       "id": 399,
@@ -5603,73 +6401,236 @@
       "example": "It's not rubbish—it's true!",
       "cn_example": "这不是瞎说—是真的！",
       "uk_audio": "2000CEW2_audio/unit_16/true_uk.mp3",
-      "us_audio": "2000CEW2_audio/unit_16/true_us.mp3"
+      "us_audio": "2000CEW2_audio/unit_16/true_us.mp3",
+      "unitPart": "B",
+      "unitPartIndex": 25
     }
   ],
   "units": [
     {
       "unit": 1,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 2,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 3,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 4,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 5,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 6,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 7,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 8,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 9,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 10,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 11,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 12,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 13,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 14,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 15,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     },
     {
       "unit": 16,
-      "count": 25
+      "count": 25,
+      "parts": [
+        {
+          "part": "A",
+          "count": 13
+        },
+        {
+          "part": "B",
+          "count": 12
+        }
+      ]
     }
-  ]
+  ],
+  "unitPartSplit": "ordered-balanced"
 }
